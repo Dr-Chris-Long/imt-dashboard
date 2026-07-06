@@ -2,9 +2,14 @@ name: update-imt-data
 on:
   schedule:
     - cron: '0 14 * * *'   # 1400 UTC = 0800 MDT, after ~0730 MDT IMSR post
-  workflow_dispatch: {}     # the ACTIVATE button (Actions tab > Run workflow)
+  workflow_dispatch: {}     # the ACTIVATE button
 permissions:
   contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -13,8 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install pdfplumber requests
-      - name: Parse IMSR + ledger
-        run: python parser/update_data.py   # exits non-zero on anomaly -> no commit -> last-good preserved
+      - name: Parse IMSR + ledger (halts on anomaly -> no commit -> last-good preserved)
+        run: python parser/update_data.py
       - name: Commit data
         run: |
           git config user.name 'imt-bot'
@@ -22,3 +27,20 @@ jobs:
           git add data/data.json
           git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+  deploy:
+    needs: update   # bot commits don't trigger sibling workflows; deploy must be chained
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}   # pick up the data commit from the update job
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4
