@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CIMT Operational Dashboard</title>
+<style>
+:root{--bg:#0f1216;--panel:#171b21;--line:#2a313b;--line2:#333c48;--ink:#e6e9ee;--dim:#98a2b0;--faint:#6b7482;--ember:#e8843a;--ember2:#f0a866;--g:#4ec77d;--a:#e0b341;--r:#e0655a;--b:#57b6d6;--mono:ui-monospace,Menlo,Consolas,monospace;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.45}
+.wrap{max-width:1220px;margin:0 auto;padding:24px 18px 80px}a{color:var(--ember2)}
+header{border:1px solid var(--line);border-radius:10px;background:linear-gradient(180deg,#1a1f27,#141820);padding:16px 20px;position:relative;overflow:hidden}
+header::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:repeating-linear-gradient(45deg,var(--ember) 0 10px,#12151a 10px 20px)}
+h1{margin:0 0 3px 18px;font-size:18px}.sub{margin-left:18px;color:var(--dim);font-size:12px}
+#agebar{margin:12px 0;padding:9px 14px;border-radius:8px;font-family:var(--mono);font-size:11.5px;display:none}
+.age-ok{display:block!important;background:#12301f;border:1px solid #1c4c30;color:var(--g)}
+.age-warn{display:block!important;background:#332811;border:1px solid #4a3a14;color:var(--a)}
+.age-bad{display:block!important;background:#2a1414;border:1px solid #4a1c1c;color:var(--r)}
+section{margin:22px 0}.shd{display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--line);padding-bottom:6px;margin-bottom:10px}
+.shd .idx{font-family:var(--mono);font-size:11px;color:var(--ember)}.shd h2{margin:0;font-size:14.5px}.shd .src{margin-left:auto;font-size:10px;color:var(--faint);font-family:var(--mono)}
+.chartbox{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:12px 10px 6px}
+svg{display:block;width:100%;height:auto;font-family:var(--mono)}
+.axislbl{fill:var(--faint);font-size:9px}.gridln{stroke:#232a33}.todayln{stroke:var(--ember);stroke-width:1.5;stroke-dasharray:3 3}
+.rowlbl{fill:var(--ink);font-size:11px}.rowsub{fill:var(--faint);font-size:9px}.barbase{fill:#212832}
+.note{font-size:11.5px;color:var(--faint);margin:8px 2px}.callout{border-left:3px solid var(--ember);background:#1c1710;padding:8px 12px;border-radius:0 7px 7px 0;font-size:12.5px;margin:10px 0}.callout b{color:var(--ember2)}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 10px}.fb{font-family:var(--mono);font-size:11px;border:1px solid var(--line);background:var(--panel);color:var(--dim);padding:5px 10px;border-radius:999px;cursor:pointer}.fb[aria-pressed="true"]{border-color:var(--ember);color:var(--ink);background:#241a12}
+table{width:100%;border-collapse:collapse;font-size:12px}th{text-align:left;font-family:var(--mono);font-size:9.5px;color:var(--faint);padding:5px 8px;border-bottom:1px solid var(--line2)}td{padding:6px 8px;border-bottom:1px solid #212832}tr:hover td{background:#141922}
+.team{font-family:var(--mono);font-weight:700;color:var(--ember2)}
+.st{font-family:var(--mono);font-size:9px;font-weight:700;padding:2px 6px;border-radius:5px;white-space:nowrap}
+.st-dep{color:var(--g);background:#12301f;border:1px solid #1c4c30}.st-mob{color:var(--b);background:#0f2a34;border:1px solid #164754}.st-pre{color:var(--ember2);background:#2a1f12;border:1px solid #4a3418}
+.relcard{border:1px solid var(--line);border-radius:9px;background:var(--panel);padding:11px 13px;margin-top:8px}
+.conf{display:flex;align-items:center;gap:8px;margin:4px 0}.conf .lab{font-family:var(--mono);font-size:9px;color:var(--faint);flex:0 0 145px}.conf .track{flex:1;height:11px;background:#212832;border-radius:3px;position:relative;overflow:hidden}.conf .fill{position:absolute;inset:0 auto 0 0;border-radius:3px}.conf .pct{font-family:var(--mono);font-size:10px;flex:0 0 34px;text-align:right;font-weight:700}
+#tt{position:fixed;pointer-events:none;z-index:50;background:#0b0e12;border:1px solid var(--line2);border-radius:7px;padding:8px 10px;font-family:var(--mono);font-size:11px;max-width:260px;opacity:0;transition:opacity .08s}#tt b{color:var(--ember2)}#tt .k{color:var(--faint)}
+footer{margin-top:32px;border-top:1px solid var(--line);padding-top:12px;color:var(--faint);font-size:11px}footer ul{margin:0;padding-left:18px}footer li{margin:3px 0}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:10.5px;color:var(--dim);margin:8px 2px 0;font-family:var(--mono)}.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body><div class="wrap">
+<header><h1>CIMT Operational Dashboard</h1><div class="sub">Auto-generated daily from the NICC IMSR + CIMT Assignments ledger &middot; <span id="hdmeta" style="font-family:var(--mono)"></span></div></header>
+<div id="agebar"></div>
+
+<section><div class="shd"><span class="idx">P</span><h2>Preparedness levels</h2><span class="src" id="src-p"></span></div>
+<div class="callout" id="natpl"></div>
+<div class="chartbox"><svg id="plchart"></svg></div></section>
+
+<section><div class="shd"><span class="idx">D</span><h2>Deployed &amp; pre-positioned CIMT</h2></div>
+<table id="t-dep"><thead><tr><th>TEAM</th><th>INCIDENT</th><th>ACRES</th><th>%CTN</th><th>EST CTN</th><th>STATUS</th></tr></thead><tbody></tbody></table>
+<div class="note" id="depnote"></div></section>
+
+<section><div class="shd"><span class="idx">W</span><h2>Team-less large fires — order/transition watch</h2></div>
+<table id="t-watch"><thead><tr><th>INCIDENT</th><th>UNIT</th><th>ACRES</th><th>%CTN</th><th>EST</th><th>OWN</th></tr></thead><tbody></tbody></table>
+<div class="note">Large + low-containment + no CIMT in the IMSR line = an order waiting to happen. State (ST) fires transfer to a CIMT before the federal IMSR shows it.</div></section>
+
+<section><div class="shd"><span class="idx">G</span><h2>Deployment glide paths</h2><span class="src">demob = min(est ctn, mob+14d)</span></div>
+<div class="chartbox"><svg id="gantt"></svg></div>
+<div class="legend"><span><i class="sw" style="background:var(--r)"></i>&lt;34%</span><span><i class="sw" style="background:var(--a)"></i>34–66%</span><span><i class="sw" style="background:var(--g)"></i>&ge;67%</span><span><i class="sw" style="background:var(--b)"></i>mobilizing/prepo</span><span>&#9670; est ctn beyond 14-day wall</span></div></section>
+
+<section><div class="shd"><span class="idx">R</span><h2>Predicted reliefs (rules-derived)</h2><span class="src">NISRM Ch.20 heuristics &middot; NMAC-overridable</span></div>
+<div id="relcards"></div></section>
+
+<section><div class="shd"><span class="idx">B</span><h2>Season load by GA &amp; team</h2><span class="src" id="src-b"></span></div>
+<div class="filters" id="gafilters"></div>
+<table id="t-load"><thead><tr><th>TEAM</th><th>ASSIGNS</th><th>DAYS</th><th>ELIGIBILITY</th></tr></thead><tbody></tbody></table>
+<div class="note">2-assignment cap: ineligible for national-rotation orders until every CIMT reaches 2 (in-GA still allowed at GA discretion). Prepo &ge;4 days counts as an assignment.</div></section>
+
+<section><div class="shd"><span class="idx">F</span><h2>All large fires — containment</h2></div>
+<div class="filters" id="firefilters"></div>
+<div class="chartbox"><svg id="firechart"></svg></div></section>
+
+<section><div class="shd"><span class="idx">T</span><h2>Weather / threat driver (IMSR Predictive Services)</h2></div>
+<div class="callout" id="wx"></div></section>
+
+<footer><ul>
+<li><b>Pipeline:</b> GitHub Actions cron daily 0800 MDT + manual Run workflow (Actions tab). Parser halts on anomaly; a failed run preserves last-good data and this page shows the age banner.</li>
+<li><b>Provenance:</b> every figure traces to the IMSR edition and ledger date in the header. Glide paths and reliefs are derived (labeled); rotation position updates Thursdays in NICC's published rotation.</li>
+<li><b>Known limits:</b> NW in-area rotation order and pre-position detail are FireNet-only; Type 3 status has no public feed; IMSR 0730 figures lag same-day media.</li>
+</ul></footer>
+</div>
+<div id="tt"></div>
+<script>
+var NS="http://www.w3.org/2000/svg";function mk(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+var tt=document.getElementById('tt');function ttS(h,e){tt.innerHTML=h;tt.style.opacity=1;var x=e.clientX+14,y=e.clientY+14;if(x+270>innerWidth)x=e.clientX-270;tt.style.left=x+'px';tt.style.top=y+'px'}function ttH(){tt.style.opacity=0}
+function cC(p){return p>=67?'var(--g)':p>=34?'var(--a)':'var(--r)'}
+function plC(pl){return['#7fb0c9','#7fb0c9','var(--g)','var(--a)','var(--ember2)','var(--r)'][pl]}
+function D(s,yr){var p=s.split('/');return new Date(yr,+p[0]-1,+p[1])}
+function fmt(d){return (d.getMonth()+1)+'/'+d.getDate()}
+function days(a,b){return Math.round((b-a)/864e5)}
+
+fetch('data/data.json').then(function(r){return r.json()}).then(function(d){
+  var gen=new Date(d.generated_at),now=new Date(),ageH=(now-gen)/36e5;
+  var yr=+d.imsr_edition.slice(0,4);var TODAY=new Date(d.imsr_edition+'T12:00:00');
+  document.getElementById('hdmeta').textContent='IMSR '+d.imsr_edition+' \u00b7 ledger '+(d.ledger.as_of||'?')+' \u00b7 generated '+gen.toISOString().slice(0,16)+'Z';
+  var ab=document.getElementById('agebar');
+  if(ageH<30){ab.className='age-ok';ab.textContent='DATA CURRENT \u2014 '+ageH.toFixed(0)+'h old'+(d.stable_url_lagged?' \u00b7 note: stable sitreprt.pdf lagged; dated archive used':'');}
+  else if(ageH<54){ab.className='age-warn';ab.textContent='DATA AGING \u2014 '+ageH.toFixed(0)+'h old. Check Actions run status.';}
+  else{ab.className='age-bad';ab.textContent='STALE \u2014 '+ageH.toFixed(0)+'h old. Pipeline likely halted on anomaly; run workflow manually and inspect logs.';}
+
+  // P
+  var nat=d.imsr.national_pl;document.getElementById('natpl').innerHTML='<b>National Preparedness Level '+nat+'</b> \u00b7 CIMTs committed: '+d.imsr.cimts_committed;
+  (function(){var svg=document.getElementById('plchart');var rows=d.imsr.gacc_pl.slice().sort(function(a,b){return b.pl-a.pl||b.acres-a.acres});
+   var W=1180,padL=170,padR=170,rowH=24,H=8+rows.length*rowH+8;svg.setAttribute('viewBox','0 0 '+W+' '+H);
+   var maxAc=Math.max.apply(null,rows.map(function(r){return r.acres}))||1,plotW=W-padL-padR,y=8;
+   rows.forEach(function(r){var col=plC(r.pl);
+    var l=mk('text',{x:8,y:y+15,class:'rowlbl'});l.textContent=r.gacc;svg.appendChild(l);
+    var p=mk('text',{x:56,y:y+15,class:'rowlbl',fill:col,'font-weight':700});p.textContent='PL'+r.pl;svg.appendChild(p);
+    svg.appendChild(mk('rect',{x:padL,y:y+4,width:plotW,height:14,rx:3,class:'barbase'}));
+    svg.appendChild(mk('rect',{x:padL,y:y+4,width:Math.max(2,r.acres/maxAc*plotW),height:14,rx:3,fill:col}));
+    var m=mk('text',{x:padL+plotW+8,y:y+15,class:'rowsub'});m.textContent=r.acres.toLocaleString()+' ac \u00b7 '+r.personnel.toLocaleString()+' ppl';svg.appendChild(m);
+    var hit=mk('rect',{x:0,y:y,width:W,height:rowH,fill:'transparent'});hit.addEventListener('mousemove',function(e){ttS('<b>'+r.gacc+'</b> PL'+r.pl+'<br><span class=k>acres</span> '+r.acres.toLocaleString()+'<br><span class=k>personnel</span> '+r.personnel.toLocaleString()+'<br><span class=k>incidents</span> '+r.incidents,e)});hit.addEventListener('mouseleave',ttH);svg.appendChild(hit);y+=rowH});})();
+
+  // join teams->fires
+  var fires=d.imsr.fires;function fireOf(inc){var n=(inc||'').toLowerCase();return fires.filter(function(f){return n.indexOf(f.name.toLowerCase())>-1||f.name.toLowerCase().indexOf(n.slice(0,8))>-1})[0]}
+  // mob dates from ledger log
+  function mobOf(team){var rows=d.ledger.log.filter(function(l){return l.team===team&&!l.released});return rows.length?rows[rows.length-1].mob:null}
+
+  // D
+  (function(){var tb=document.querySelector('#t-dep tbody');var nw=0;
+   d.imsr.teams.forEach(function(t){var f=fireOf(t.incident)||{};if(t.team.indexOf('NW')===0)nw++;
+    var stm={committed:'<span class="st st-dep">ON FIRE</span>',mobilizing:'<span class="st st-mob">MOBILIZING</span>',preposition:'<span class="st st-pre">PRE-POSITION</span>'};
+    var tr=document.createElement('tr');tr.innerHTML='<td class=team>'+t.team+'</td><td>'+t.incident+(t.note?' \u2020':'')+'</td><td>'+(f.acres?f.acres.toLocaleString():'\u2014')+'</td><td>'+(f.ctn!=null?f.ctn+'%':'\u2014')+'</td><td>'+(f.est||'\u2014')+'</td><td>'+(stm[t.status]||t.status)+'</td>';
+    if(t.note){tr.title=t.note;}tb.appendChild(tr)});
+   var noted=d.imsr.teams.filter(function(t){return t.note})[0];
+   document.getElementById('depnote').textContent=(noted?'\u2020 '+noted.note:'');})();
+
+  // W teamless watch
+  (function(){var tb=document.querySelector('#t-watch tbody');
+   fires.filter(function(f){return !f.team&&f.ctn<50&&f.acres>=500}).forEach(function(f){
+    var tr=document.createElement('tr');tr.innerHTML='<td><b>\u25c7 '+f.name+'</b></td><td class=rowsub style="color:var(--faint)">'+f.unit+'</td><td>'+f.acres.toLocaleString()+'</td><td>'+f.ctn+'%</td><td>'+f.est+'</td><td>'+f.own+'</td>';tb.appendChild(tr)});})();
+
+  // G gantt
+  (function(){var svg=document.getElementById('gantt');
+   var rows=d.imsr.teams.map(function(t){var f=fireOf(t.incident)||{};var mob=mobOf(t.team);
+     return {team:t.team,inc:t.incident,st:t.status,ctn:f.ctn||0,est:f.est,mob:mob};})
+    .filter(function(r){return r.mob&&r.est});
+   rows.forEach(function(r){r.mobD=D(r.mob,yr);r.estD=D(r.est,yr);if(r.estD<r.mobD)r.estD.setFullYear(yr+ (r.estD.getMonth()<r.mobD.getMonth()?1:0));
+     var w=new Date(r.mobD);w.setDate(w.getDate()+14);r.wall=w;r.trans=r.estD>w;r.demob=r.trans?w:r.estD;r.day=days(r.mobD,TODAY)});
+   rows.sort(function(a,b){return a.demob-b.demob});
+   var W=1180,padL=200,padR=30,padT=24,rowH=30,H=padT+rows.length*rowH+36;svg.setAttribute('viewBox','0 0 '+W+' '+H);
+   var min=new Date(TODAY);min.setDate(min.getDate()-16);var max=new Date(TODAY);max.setDate(max.getDate()+22);var plotW=W-padL-padR;
+   function X(dd){return padL+(dd-min)/(max-min)*plotW}
+   for(var dd=new Date(min);dd<=max;dd.setDate(dd.getDate()+7)){var x=X(new Date(dd));svg.appendChild(mk('line',{x1:x,y1:padT-6,x2:x,y2:H-26,class:'gridln'}));var tl=mk('text',{x:x,y:H-12,class:'axislbl','text-anchor':'middle'});tl.textContent=fmt(new Date(dd));svg.appendChild(tl)}
+   var tx=X(TODAY);svg.appendChild(mk('line',{x1:tx,y1:padT-8,x2:tx,y2:H-26,class:'todayln'}));var tl2=mk('text',{x:tx,y:padT-11,class:'axislbl',fill:'var(--ember)','text-anchor':'middle'});tl2.textContent='EDITION '+fmt(TODAY);svg.appendChild(tl2);
+   var y=padT;
+   rows.forEach(function(r){var col=r.st==='committed'?cC(r.ctn):'var(--b)';
+    var l1=mk('text',{x:8,y:y+12,class:'rowlbl'});l1.textContent=r.team+' \u00b7 '+r.inc;svg.appendChild(l1);
+    var l2=mk('text',{x:8,y:y+23,class:'rowsub'});l2.textContent=r.ctn+'% \u00b7 mob '+r.mob+' \u00b7 d'+r.day;svg.appendChild(l2);
+    var by=y+5,bh=14,x0=X(r.mobD),xT=X(TODAY),xD=X(r.demob);
+    svg.appendChild(mk('rect',{x:x0,y:by,width:Math.max(2,xD-x0),height:bh,rx:3,class:'barbase'}));
+    svg.appendChild(mk('rect',{x:x0,y:by,width:Math.max(2,Math.min(xT,xD)-x0),height:bh,rx:3,fill:col}));
+    if(xD>xT)svg.appendChild(mk('rect',{x:xT,y:by,width:xD-xT,height:bh,rx:3,fill:col,'fill-opacity':.25,stroke:col,'stroke-dasharray':'2 2'}));
+    if(r.trans){var ex=X(r.estD);if(ex<W-padR+10)svg.appendChild(mk('path',{d:'M'+ex+' '+(by+2)+'L'+(ex+5)+' '+(by+bh/2)+'L'+ex+' '+(by+bh-2)+'L'+(ex-5)+' '+(by+bh/2)+'Z',fill:'none',stroke:'var(--ember2)'}));}
+    var hit=mk('rect',{x:0,y:y,width:W,height:rowH,fill:'transparent'});
+    hit.addEventListener('mousemove',function(e){ttS('<b>'+r.team+'</b> \u2014 '+r.inc+'<br><span class=k>mob</span> '+r.mob+' <span class=k>day</span> '+r.day+'<br><span class=k>ctn</span> '+r.ctn+'% <span class=k>est</span> '+r.est+'<br><span class=k>proj demob</span> '+fmt(r.demob)+(r.trans?' \u2192 <b>TRANSITION</b>':''),e)});
+    hit.addEventListener('mouseleave',ttH);svg.appendChild(hit);y+=rowH});})();
+
+  // R reliefs (heuristic, rules-derived)
+  (function(){var box=document.getElementById('relcards');
+   var byGA={};d.ledger.teams.forEach(function(t){var g=t.team.split(' ')[0];(byGA[g]=byGA[g]||[]).push(t)});
+   function gaAvail(g){return (byGA[g]||[]).filter(function(t){return t.assigns===0}).length}
+   function gaCapped(g){var ts=byGA[g]||[];return ts.length&&ts.every(function(t){return t.assigns>=2})}
+   var deployed={};d.imsr.teams.forEach(function(t){deployed[t.team]=1});
+   d.imsr.teams.filter(function(t){return t.status==='committed'}).forEach(function(t){
+    var f=fireOf(t.incident)||{};var mob=mobOf(t.team);if(!mob)return;var mobD=D(mob,yr);var day=days(mobD,TODAY);
+    var ga=t.team.split(' ')[0];
+    var pNeed=f.ctn<20?90:f.ctn<50?65:f.ctn<80?40:15;
+    var relief,src,pSrc;
+    if(f.acres<6000&&f.ctn<50){relief='Step-down to Type 3 / in-GA';src='complexity release';pSrc=40;}
+    else if(gaCapped(ga)){relief='National rotation (forced \u2014 '+ga+' at 2-cap)';src='forced national';pSrc=80;}
+    else if(gaAvail(ga)>0){relief='In-area ('+gaAvail(ga)+' '+ga+' team(s) at 0 assigns)';src='in-area preferred';pSrc=55;}
+    else{relief='National rotation';src='national';pSrc=60;}
+    function bar(l,v){var c=v>=70?'var(--g)':v>=40?'var(--a)':'var(--r)';return '<div class=conf><span class=lab>'+l+'</span><span class=track><span class=fill style="width:'+v+'%;background:'+c+'"></span></span><span class=pct style="color:'+c+'">'+v+'%</span></div>'}
+    var c=document.createElement('div');c.className='relcard';
+    c.innerHTML='<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class=team>'+t.team+'</span><b>'+t.incident+'</b><span class=rowsub style="color:var(--faint);font-family:var(--mono);font-size:10px">day '+day+' \u00b7 '+f.ctn+'% \u00b7 est '+f.est+'</span><span style="margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--ember2)">\u2192 '+relief+'</span></div>'+bar('P(relief ordered)',pNeed)+bar('P('+src+')',pSrc);
+    box.appendChild(c)});})();
+
+  // B load
+  var gaSel='ALL';
+  (function(){var fb=document.getElementById('gafilters');var gas=['ALL'];d.ledger.teams.forEach(function(t){var g=t.team.split(' ')[0];if(gas.indexOf(g)<0)gas.push(g)});
+   gas.forEach(function(g){var b=document.createElement('button');b.className='fb';b.textContent=g;b.setAttribute('aria-pressed',g==='ALL');b.onclick=function(){gaSel=g;[].forEach.call(fb.children,function(c){c.setAttribute('aria-pressed',c.textContent===g)});loadTbl()};fb.appendChild(b)});})();
+  function loadTbl(){var tb=document.querySelector('#t-load tbody');tb.innerHTML='';
+   d.ledger.teams.filter(function(t){return gaSel==='ALL'||t.team.indexOf(gaSel)===0}).forEach(function(t){
+    var el=t.assigns>=2?'<span class=st style="color:var(--r);background:#2a1414;border:1px solid #4a1c1c">2-CAP</span>':(t.assigns===0?'<span class=st style="color:var(--g);background:#12301f;border:1px solid #1c4c30">FRONT</span>':'mid');
+    var tr=document.createElement('tr');tr.innerHTML='<td class=team>'+t.team+'</td><td>'+t.assigns+'</td><td>'+t.days+'</td><td>'+el+'</td>';tb.appendChild(tr)})}
+  loadTbl();
+
+  // F fires
+  var fSel='ALL';
+  (function(){var fb=document.getElementById('firefilters');var owns=['ALL','teamed','team-less'];
+   owns.forEach(function(o){var b=document.createElement('button');b.className='fb';b.textContent=o;b.setAttribute('aria-pressed',o==='ALL');b.onclick=function(){fSel=o;[].forEach.call(fb.children,function(c){c.setAttribute('aria-pressed',c.textContent===o)});drawF()};fb.appendChild(b)});})();
+  function drawF(){var svg=document.getElementById('firechart');svg.innerHTML='';
+   var data=fires.filter(function(f){return fSel==='ALL'||(fSel==='teamed'?!!f.team:!f.team)}).slice().sort(function(a,b){return b.acres-a.acres});
+   var W=1180,padL=185,padR=160,rowH=20,H=8+data.length*rowH+20;svg.setAttribute('viewBox','0 0 '+W+' '+H);var plotW=W-padL-padR;
+   [0,25,50,75,100].forEach(function(p){var x=padL+p/100*plotW;svg.appendChild(mk('line',{x1:x,y1:8,x2:x,y2:H-14,class:'gridln'}));var t=mk('text',{x:x,y:H-3,class:'axislbl','text-anchor':'middle'});t.textContent=p+'%';svg.appendChild(t)});
+   var y=8;data.forEach(function(f){var l=mk('text',{x:8,y:y+13,class:'rowlbl'});l.textContent=(f.team?'':'\u25c7 ')+f.name;svg.appendChild(l);
+    svg.appendChild(mk('rect',{x:padL,y:y+3,width:plotW,height:13,rx:3,class:'barbase'}));
+    svg.appendChild(mk('rect',{x:padL,y:y+3,width:Math.max(2,f.ctn/100*plotW),height:13,rx:3,fill:cC(f.ctn)}));
+    var m=mk('text',{x:padL+plotW+8,y:y+13,class:'rowsub'});m.textContent=f.acres.toLocaleString()+' ac \u00b7 est '+f.est+(f.team?' \u00b7 '+f.team:'');svg.appendChild(m);
+    var hit=mk('rect',{x:0,y:y,width:W,height:rowH,fill:'transparent'});hit.addEventListener('mousemove',function(e){ttS('<b>'+f.name+'</b> ('+f.unit+')<br><span class=k>ctn</span> '+f.ctn+'% <span class=k>est</span> '+f.est+'<br><span class=k>acres</span> '+f.acres.toLocaleString()+' <span class=k>own</span> '+f.own+'<br><span class=k>team</span> '+(f.team||'none'),e)});hit.addEventListener('mouseleave',ttH);svg.appendChild(hit);y+=rowH})}
+  drawF();
+
+  document.getElementById('wx').textContent=d.imsr.discussion||'(no discussion parsed)';
+  document.getElementById('src-p').textContent='IMSR '+d.imsr_edition;
+  document.getElementById('src-b').textContent='ledger '+(d.ledger.as_of||'');
+}).catch(function(e){var ab=document.getElementById('agebar');ab.className='age-bad';ab.textContent='DATA LOAD FAILURE: '+e;});
+</script>
+</body></html>
