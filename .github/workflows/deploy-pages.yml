@@ -1,28 +1,13 @@
-name: deploy-pages
+# RETIRED (run #1 failed: configure-pages enablement rejected with workflow token).
+# Deployment mechanism is now the gh-pages branch, auto-enabled by user-push branch
+# creation and refreshed by the mirror step in update.yml. Kept as a tombstone so the
+# failure and the pivot are visible in-repo.
+name: deploy-pages-retired
 on:
-  push:
-    branches: [main]
   workflow_dispatch: {}
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: true
 jobs:
-  deploy:
+  noop:
+    if: false
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true   # creates the Pages site via API — no settings click
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - run: 'true'

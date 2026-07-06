@@ -5,42 +5,26 @@ on:
   workflow_dispatch: {}     # the ACTIVATE button
 permissions:
   contents: write
-  pages: write
-  id-token: write
 concurrency:
-  group: pages
+  group: imt-update
   cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install pdfplumber requests
       - name: Parse IMSR + ledger (halts on anomaly -> no commit -> last-good preserved)
         run: python parser/update_data.py
-      - name: Commit data
+      - name: Commit data and mirror to gh-pages
         run: |
           git config user.name 'imt-bot'
           git config user.email 'actions@github.com'
           git add data/data.json
           git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
-  deploy:
-    needs: update   # bot commits don't trigger sibling workflows; deploy must be chained
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with: {ref: main}   # pick up the data commit from the update job
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          git push origin main
+          git push origin main:gh-pages --force   # deployment mirror; Pages serves gh-pages
