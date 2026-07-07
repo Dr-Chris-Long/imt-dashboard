@@ -1,95 +1,832 @@
 {
- "generated_at": "2026-07-06T21:30:00+00:00",
- "imsr_edition": "2026-07-06",
- "imsr_source": "https://www.nifc.gov/sites/default/files/NICC/1-Incident%20Information/IMSR/2026/July/IMSR_CY26_07062026.pdf",
- "stable_url_lagged": true,
- "seed": "manual seed, fact-checked 2026-07-06; first cron run overwrites",
+ "generated_at": "2026-07-07T16:33:11.469438+00:00",
+ "imsr_edition": "2026-07-07",
+ "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
+ "stable_url_lagged": false,
  "imsr": {
   "national_pl": 4,
-  "cimts_committed": 10,
   "gacc_pl": [
-   {"gacc":"GBCC","pl":4,"incidents":17,"acres":365001,"personnel":4277},
-   {"gacc":"RMCC","pl":4,"incidents":11,"acres":173940,"personnel":3224},
-   {"gacc":"SWCC","pl":3,"incidents":12,"acres":57107,"personnel":1967},
-   {"gacc":"NWCC","pl":2,"incidents":12,"acres":43814,"personnel":894},
-   {"gacc":"SACC","pl":1,"incidents":13,"acres":40454,"personnel":301},
-   {"gacc":"AICC","pl":2,"incidents":4,"acres":2495,"personnel":172},
-   {"gacc":"NRCC","pl":1,"incidents":2,"acres":1030,"personnel":70},
-   {"gacc":"ONCC","pl":2,"incidents":1,"acres":699,"personnel":15},
-   {"gacc":"OSCC","pl":2,"incidents":0,"acres":635,"personnel":0},
-   {"gacc":"EACC","pl":1,"incidents":0,"acres":0,"personnel":0}
+   {
+    "gacc": "AICC",
+    "pl": 2,
+    "incidents": 3,
+    "acres": 2466,
+    "personnel": 74
+   },
+   {
+    "gacc": "NWCC",
+    "pl": 2,
+    "incidents": 12,
+    "acres": 45022,
+    "personnel": 952
+   },
+   {
+    "gacc": "ONCC",
+    "pl": 2,
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
+   },
+   {
+    "gacc": "OSCC",
+    "pl": 2,
+    "incidents": 1,
+    "acres": 20,
+    "personnel": 312
+   },
+   {
+    "gacc": "NRCC",
+    "pl": 1,
+    "incidents": 3,
+    "acres": 1335,
+    "personnel": 43
+   },
+   {
+    "gacc": "GBCC",
+    "pl": 4,
+    "incidents": 18,
+    "acres": 388394,
+    "personnel": 4343
+   },
+   {
+    "gacc": "SWCC",
+    "pl": 3,
+    "incidents": 11,
+    "acres": 57411,
+    "personnel": 1972
+   },
+   {
+    "gacc": "RMCC",
+    "pl": 4,
+    "incidents": 11,
+    "acres": 182405,
+    "personnel": 3933
+   },
+   {
+    "gacc": "EACC",
+    "pl": 1,
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
+   },
+   {
+    "gacc": "SACC",
+    "pl": 1,
+    "incidents": 13,
+    "acres": 40454,
+    "personnel": 302
+   }
   ],
+  "cimts_committed": 10,
   "teams": [
-   {"team":"AK 1","incident":"Aspen Acres","status":"committed"},
-   {"team":"RM 3","incident":"Gold Mountain","status":"committed"},
-   {"team":"SW 4","incident":"Willow","status":"committed"},
-   {"team":"CA 7","incident":"Ferris","status":"mobilizing"},
-   {"team":"GB 5","incident":"Cottonwood","status":"committed"},
-   {"team":"GB 4","incident":"Cottonwood","status":"mobilizing"},
-   {"team":"GB 7","incident":"Wild Goose","status":"committed"},
-   {"team":"GB 2","incident":"Babylon","status":"committed"},
-   {"team":"RM 1","incident":"Snyder","status":"committed"},
-   {"team":"CA 6","incident":"Pocket","status":"committed"},
-   {"team":"NW 3","incident":"Chelan Hills","status":"preposition","note":"7/6 ledger: 'NW Preposition' mob 7/4. Command publicly rests with SE WA Type 3 IMT (since 7/4 1800); CIMT ordered per WA DNR; transfer of command UNCONFIRMED in public sources. 7/5 IMSR listed 'NW Team 3 mobilizing'; 7/6 edition dropped the line."}
+   {
+    "team": "AK 1",
+    "incident": "Aspen Acres",
+    "status": "committed"
+   },
+   {
+    "team": "RM 3",
+    "incident": "Gold Mountain",
+    "status": "committed"
+   },
+   {
+    "team": "CA 7",
+    "incident": "Ferris",
+    "status": "committed"
+   },
+   {
+    "team": "SW 4",
+    "incident": "Willow",
+    "status": "committed"
+   },
+   {
+    "team": "GB 5",
+    "incident": "Cottonwood",
+    "status": "committed"
+   },
+   {
+    "team": "GB 4",
+    "incident": "Cottonwood",
+    "status": "committed"
+   },
+   {
+    "team": "GB 7",
+    "incident": "Wild Goose",
+    "status": "committed"
+   },
+   {
+    "team": "GB 2",
+    "incident": "Babylon",
+    "status": "committed"
+   },
+   {
+    "team": "RM 1",
+    "incident": "Snyder",
+    "status": "committed"
+   },
+   {
+    "team": "CA 6",
+    "incident": "Pocket",
+    "status": "committed"
+   }
   ],
   "fires": [
-   {"name":"Cottonwood","unit":"UT-FIF","acres":95807,"ctn":47,"est":"7/24","own":"FS","team":"GB 5"},
-   {"name":"Babylon","unit":"UT-MLF","acres":90445,"ctn":0,"est":"8/1","own":"FS","team":"GB 2"},
-   {"name":"Aspen Acres","unit":"CO-CUX","acres":89054,"ctn":14,"est":"7/29","own":"CNTY","team":"AK 1"},
-   {"name":"Ferris","unit":"CO-SJF","acres":47780,"ctn":21,"est":"8/1","own":"FS","team":"CA 7"},
-   {"name":"Cherry","unit":"UT-WDD","acres":34252,"ctn":93,"est":"7/6","own":"BLM","team":null},
-   {"name":"Snyder","unit":"UT-DRD","acres":30202,"ctn":95,"est":"7/7","own":"BLM","team":"RM 1"},
-   {"name":"Gold Mountain","unit":"CO-GMF","acres":27698,"ctn":3,"est":"10/31","own":"FS","team":"RM 3"},
-   {"name":"Grapevine","unit":"NV-ELD","acres":26464,"ctn":95,"est":"7/30","own":"BLM","team":null},
-   {"name":"Pocket","unit":"AZ-COF","acres":26301,"ctn":38,"est":"7/31","own":"FS","team":"CA 6"},
-   {"name":"Wild Goose","unit":"UT-FIF","acres":12638,"ctn":53,"est":"7/10","own":"FS","team":"GB 7"},
-   {"name":"Chelan Hills","unit":"WA-SES","acres":9735,"ctn":0,"est":"7/10","own":"ST","team":"NW 3*"},
-   {"name":"Sacaton","unit":"NM-GNF","acres":9274,"ctn":0,"est":"8/1","own":"FS","team":null},
-   {"name":"Beehive","unit":"NM-CAF","acres":4728,"ctn":74,"est":"7/18","own":"FS","team":null},
-   {"name":"North Cayuse","unit":"OR-973S","acres":4000,"ctn":9,"est":"7/19","own":"ST","team":null},
-   {"name":"Willow","unit":"CO-PSF","acres":3987,"ctn":1,"est":"9/30","own":"FS","team":"SW 4"},
-   {"name":"Parsnip Peak","unit":"NV-ELD","acres":2264,"ctn":75,"est":"7/10","own":"BLM","team":null},
-   {"name":"Mud","unit":"AK-GAD","acres":1733,"ctn":0,"est":"10/1","own":"BLM","team":null},
-   {"name":"Michigan","unit":"AK-TAD","acres":1446,"ctn":0,"est":"10/1","own":"BLM","team":null},
-   {"name":"Shaw","unit":"AK-DAS","acres":1428,"ctn":0,"est":"9/30","own":"ST","team":null},
-   {"name":"Antelope Creek","unit":"OR-PRD","acres":1261,"ctn":10,"est":"7/6","own":"BLM","team":null},
-   {"name":"Twin Creek","unit":"WY-WBD","acres":1200,"ctn":10,"est":"7/12","own":"BLM","team":null},
-   {"name":"Kinky Creek","unit":"WY-BTF","acres":880,"ctn":87,"est":"7/11","own":"FS","team":null},
-   {"name":"McCauley Springs","unit":"NM-SNF","acres":712,"ctn":82,"est":"7/8","own":"FS","team":null},
-   {"name":"Rose Bay Canal","unit":"NC-NCS","acres":662,"ctn":83,"est":"7/10","own":"ST","team":null},
-   {"name":"Shingle Creek","unit":"ID-CMS","acres":628,"ctn":80,"est":"8/1","own":"ST","team":null},
-   {"name":"Navarre Coulee","unit":"WA-SES","acres":300,"ctn":80,"est":"7/8","own":"ST","team":null}
+   {
+    "name": "Aspen Acres",
+    "unit": "CO-CUX",
+    "acres": 91982,
+    "ctn": 13,
+    "est": "7/29",
+    "own": "CNTY",
+    "team": "AK 1"
+   },
+   {
+    "name": "Gold Mountain",
+    "unit": "CO-GMF",
+    "acres": 29287,
+    "ctn": 2,
+    "est": "10/31",
+    "own": "FS",
+    "team": "RM 3"
+   },
+   {
+    "name": "Ferris",
+    "unit": "CO-SJF",
+    "acres": 51622,
+    "ctn": 22,
+    "est": "8/1",
+    "own": "FS",
+    "team": "CA 7"
+   },
+   {
+    "name": "Willow",
+    "unit": "CO-PSF",
+    "acres": 4150,
+    "ctn": 5,
+    "est": "9/30",
+    "own": "FS",
+    "team": "SW 4"
+   },
+   {
+    "name": "Twin Creek",
+    "unit": "WY-WBD",
+    "acres": 494,
+    "ctn": 60,
+    "est": "7/12",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "West Bridger Creek",
+    "unit": "WY-HOX",
+    "acres": 462,
+    "ctn": 70,
+    "est": "UNK",
+    "own": "CNTY",
+    "team": null
+   },
+   {
+    "name": "Cottonwood",
+    "unit": "UT-FIF",
+    "acres": 95934,
+    "ctn": 56,
+    "est": "7/24",
+    "own": "FS",
+    "team": "GB 5"
+   },
+   {
+    "name": "Wild Goose",
+    "unit": "UT-FIF",
+    "acres": 12647,
+    "ctn": 62,
+    "est": "7/10",
+    "own": "FS",
+    "team": "GB 7"
+   },
+   {
+    "name": "Babylon",
+    "unit": "UT-MLF",
+    "acres": 96564,
+    "ctn": 0,
+    "est": "8/1",
+    "own": "FS",
+    "team": "GB 2"
+   },
+   {
+    "name": "Pvr",
+    "unit": "ID-BOD",
+    "acres": 1000,
+    "ctn": 50,
+    "est": "UNK",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Kinky Creek",
+    "unit": "WY-BTF",
+    "acres": 880,
+    "ctn": 87,
+    "est": "7/11",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Grapevine",
+    "unit": "NV-ELD",
+    "acres": 26464,
+    "ctn": 99,
+    "est": "7/30",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Maze",
+    "unit": "ID-IFD",
+    "acres": 900,
+    "ctn": 0,
+    "est": "7/7",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Parsnip Peak",
+    "unit": "NV-ELD",
+    "acres": 2264,
+    "ctn": 75,
+    "est": "7/10",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Snyder",
+    "unit": "UT-DRD",
+    "acres": 30202,
+    "ctn": 98,
+    "est": "7/7",
+    "own": "BLM",
+    "team": "RM 1"
+   },
+   {
+    "name": "Pocket",
+    "unit": "AZ-COF",
+    "acres": 26697,
+    "ctn": 48,
+    "est": "7/31",
+    "own": "FS",
+    "team": "CA 6"
+   },
+   {
+    "name": "Sacaton",
+    "unit": "NM-GNF",
+    "acres": 9349,
+    "ctn": 11,
+    "est": "8/1",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Beehive",
+    "unit": "NM-CAF",
+    "acres": 4728,
+    "ctn": 88,
+    "est": "7/18",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "McCauley Springs",
+    "unit": "NM-SNF",
+    "acres": 712,
+    "ctn": 88,
+    "est": "7/8",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "North Cayuse",
+    "unit": "OR-973S",
+    "acres": 4663,
+    "ctn": 12,
+    "est": "7/19",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Chelan Hills",
+    "unit": "WA-SES",
+    "acres": 9735,
+    "ctn": 20,
+    "est": "7/10",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Navarre Coulee",
+    "unit": "WA-SES",
+    "acres": 845,
+    "ctn": 80,
+    "est": "7/8",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Antelope Creek",
+    "unit": "OR-PRD",
+    "acres": 1261,
+    "ctn": 10,
+    "est": "UNK",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Siruk",
+    "unit": "AK-TAD",
+    "acres": 589,
+    "ctn": 70,
+    "est": "7/12",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Big",
+    "unit": "AK-TAD",
+    "acres": 257,
+    "ctn": 70,
+    "est": "7/31",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Pogo",
+    "unit": "AK-DAS",
+    "acres": 452,
+    "ctn": 0,
+    "est": "9/30",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Shaw",
+    "unit": "AK-DAS",
+    "acres": 1428,
+    "ctn": 0,
+    "est": "9/30",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Hoholitna",
+    "unit": "AK-SWS",
+    "acres": 457,
+    "ctn": 0,
+    "est": "9/30",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Polly",
+    "unit": "AK-UYD",
+    "acres": 135,
+    "ctn": 0,
+    "est": "10/1",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Michigan",
+    "unit": "AK-TAD",
+    "acres": 1446,
+    "ctn": 0,
+    "est": "10/1",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Mud",
+    "unit": "AK-GAD",
+    "acres": 1733,
+    "ctn": 0,
+    "est": "10/1",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Shingle Creek",
+    "unit": "ID-CMS",
+    "acres": 628,
+    "ctn": 80,
+    "est": "8/1",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Lost Cabin",
+    "unit": "MT-LG10",
+    "acres": 305,
+    "ctn": 60,
+    "est": "7/12",
+    "own": "CNTY",
+    "team": null
+   },
+   {
+    "name": "Deer Hollow",
+    "unit": "MT-LG13",
+    "acres": 402,
+    "ctn": 80,
+    "est": "UNK",
+    "own": "CNTY",
+    "team": null
+   },
+   {
+    "name": "Rose Bay Canal",
+    "unit": "NC-NCS",
+    "acres": 662,
+    "ctn": 83,
+    "est": "7/10",
+    "own": "ST",
+    "team": null
+   }
   ],
-  "discussion": "Isolated to locally scattered mixed wet and dry thunderstorms across the Great Basin and Rockies; minimum RH falling to 7-20% across much of the Intermountain West; several new ignitions likely; outflow wind gusts near 50 mph; above normal temperatures in Alaska with North Slope approaching 80F; cold front northern Plains; Super Typhoon Bavi west of Northern Mariana Islands."
+  "discussion": "Isolated to locally scattered mixed wet and dry thunderstorms will develop across eastern Oregon into the northern and eastern Great Basin and much of the Rockies. With minimum relative humidity falling to 10-25% across much of the Intermountain West, several new ignitions are likely, especially in the northern Great Basin to Greater Four Corners. New and existing fires may also be fanned by outflow wind gusts up to 50 mph. In addition, breezy west to southwest winds in the southern Great Basin and along the east slopes of the Cascades to Sierra Front will create areas of elevated conditions. Isolated mainly wet thunderstorms will develop in the northern Plains, with more widespread showers and thunderstorms from the eastern Dakotas to Upper Michigan. Isolated to scattered showers and thunderstorms will develop in much of the lower Mississippi Valley and Southeast. Above normal temperatures are expected in Alaska, especially for portions of the northern Interior and North Slope which could reach 85\u00b0F. Furthermore, scattered thunderstorms will develop across the western Interior, with isolated thunderstorms for the eastern Interior and North Slope."
  },
  "ledger": {
-  "as_of": "7/6/2026",
-  "total_assigns": 27,
-  "total_days": 167,
   "teams": [
-   {"team":"AK 1","assigns":1,"days":0},{"team":"AK 2","assigns":0,"days":0},
-   {"team":"CA 1","assigns":0,"days":0},{"team":"CA 2","assigns":0,"days":0},{"team":"CA 3","assigns":0,"days":0},{"team":"CA 4","assigns":0,"days":0},{"team":"CA 5","assigns":0,"days":0},{"team":"CA 6","assigns":1,"days":0},{"team":"CA 7","assigns":1,"days":0},{"team":"CA 8","assigns":1,"days":4},
-   {"team":"EA 1","assigns":2,"days":0},
-   {"team":"GB 2","assigns":1,"days":0},{"team":"GB 3","assigns":1,"days":14},{"team":"GB 4","assigns":1,"days":0},{"team":"GB 5","assigns":1,"days":0},{"team":"GB 6","assigns":0,"days":0},{"team":"GB 7","assigns":1,"days":0},
-   {"team":"NR 1","assigns":1,"days":8},{"team":"NR 2","assigns":0,"days":0},{"team":"NR 3","assigns":0,"days":0},{"team":"NR 6","assigns":0,"days":0},
-   {"team":"NW 2","assigns":1,"days":5},{"team":"NW 3","assigns":1,"days":0},{"team":"NW 7","assigns":0,"days":0},{"team":"NW 8","assigns":0,"days":0},{"team":"NW 10","assigns":0,"days":0},{"team":"NW 12","assigns":0,"days":0},{"team":"NW 13","assigns":0,"days":0},
-   {"team":"RM 1","assigns":2,"days":14},{"team":"RM 2","assigns":2,"days":20},{"team":"RM 3","assigns":2,"days":6},
-   {"team":"SA 1","assigns":1,"days":16},{"team":"SA 2","assigns":0,"days":0},{"team":"SA 3","assigns":2,"days":24},
-   {"team":"SW 1","assigns":1,"days":14},{"team":"SW 2","assigns":2,"days":26},{"team":"SW 3","assigns":1,"days":2},{"team":"SW 4","assigns":1,"days":0}
+   {
+    "team": "GB 2",
+    "assigns": 1,
+    "days": 0
+   },
+   {
+    "team": "GB 3",
+    "assigns": 1,
+    "days": 14
+   },
+   {
+    "team": "GB 4",
+    "assigns": 1,
+    "days": 0
+   },
+   {
+    "team": "GB 5",
+    "assigns": 1,
+    "days": 0
+   },
+   {
+    "team": "GB 6",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "GB 7",
+    "assigns": 1,
+    "days": 0
+   },
+   {
+    "team": "NR 1",
+    "assigns": 1,
+    "days": 8
+   },
+   {
+    "team": "NR 2",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "NR 3",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "NR 6",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "NW 2",
+    "assigns": 1,
+    "days": 5
+   },
+   {
+    "team": "NW 3",
+    "assigns": 1,
+    "days": 0
+   },
+   {
+    "team": "NW 7",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "NW 8",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "NW 10",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "NW 12",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "NW 13",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "RM 1",
+    "assigns": 2,
+    "days": 14
+   },
+   {
+    "team": "RM 2",
+    "assigns": 2,
+    "days": 20
+   },
+   {
+    "team": "RM 3",
+    "assigns": 2,
+    "days": 6
+   },
+   {
+    "team": "SA 1",
+    "assigns": 1,
+    "days": 16
+   },
+   {
+    "team": "SA 2",
+    "assigns": 0,
+    "days": 0
+   },
+   {
+    "team": "SA 3",
+    "assigns": 2,
+    "days": 24
+   },
+   {
+    "team": "SW 1",
+    "assigns": 1,
+    "days": 14
+   },
+   {
+    "team": "SW 2",
+    "assigns": 2,
+    "days": 26
+   },
+   {
+    "team": "SW 3",
+    "assigns": 1,
+    "days": 11
+   },
+   {
+    "team": "SW 4",
+    "assigns": 1,
+    "days": 0
+   }
   ],
   "log": [
-   {"mob":"6/23","team":"GB 5","ga":"GB","incident":"Cottonwood (UT-FLF)","released":null,"days":null},
-   {"mob":"6/27","team":"GB 7","ga":"GB","incident":"Wild Goose (UT-FIF)","released":null,"days":null},
-   {"mob":"6/27","team":"RM 1","ga":"GB","incident":"Snyder (UT-DRD)","released":null,"days":null},
-   {"mob":"6/28","team":"RM 3","ga":"RM","incident":"Gold Mountain (CO-GMF)","released":null,"days":null},
-   {"mob":"6/28","team":"GB 2","ga":"GB","incident":"Babylon (UT-MLF)","released":null,"days":null},
-   {"mob":"6/28","team":"SW 4","ga":"RM","incident":"Willow (CO-PSF)","released":null,"days":null},
-   {"mob":"6/28","team":"AK 1","ga":"RM","incident":"Aspen Acres (CO-PBC)","released":null,"days":null},
-   {"mob":"6/28","team":"CA 6","ga":"SW","incident":"Pocket (AZ-COF)","released":null,"days":null},
-   {"mob":"7/4","team":"CA 7","ga":"RM","incident":"Ferris (CO-SJF)","released":null,"days":null},
-   {"mob":"7/4","team":"EA 1","ga":"RM","incident":"RM Preposition","released":null,"days":null},
-   {"mob":"7/4","team":"NW 3","ga":"NW","incident":"NW Preposition","released":null,"days":null},
-   {"mob":"7/5","team":"GB 4","ga":"GB","incident":"Cottonwood (UT-FIF)","released":null,"days":null}
-  ]
+   {
+    "mob": "1/27",
+    "team": "SA 3",
+    "ga": "SA",
+    "incident": "ESF4 January Winter Storm - TN (GA-FE4)",
+    "released": "2/7",
+    "days": 10
+   },
+   {
+    "mob": "1/29",
+    "team": "SW 3",
+    "ga": "SA",
+    "incident": "ESF4 January Winter Storm - TN (GA-FE4)",
+    "released": "2/1",
+    "days": 2
+   },
+   {
+    "mob": "1/29",
+    "team": "SA 1",
+    "ga": "SA",
+    "incident": "ESF4 January Winter Storm - MS (GA-FE4)",
+    "released": "2/3",
+    "days": 3
+   },
+   {
+    "mob": "1/29",
+    "team": "CA 8",
+    "ga": "SA",
+    "incident": "ESF4 January Winter Storm - TN (GA-FE4)",
+    "released": "2/4",
+    "days": 4
+   },
+   {
+    "mob": "3/13",
+    "team": "RM 3",
+    "ga": "RM",
+    "incident": "Road 203 (NE-NBF)",
+    "released": "3/19",
+    "days": 6
+   },
+   {
+    "mob": "3/14",
+    "team": "RM 1",
+    "ga": "RM",
+    "incident": "Morrill (NE-NES)",
+    "released": "3/28",
+    "days": 14
+   },
+   {
+    "mob": "3/27",
+    "team": "RM 2",
+    "ga": "RM",
+    "incident": "Ashby (NE-NES)",
+    "released": "4/6",
+    "days": 9
+   },
+   {
+    "mob": "4/20",
+    "team": "SA 3",
+    "ga": "SA",
+    "incident": "Gun Range (FL-FNF)",
+    "released": "5/4",
+    "days": 14
+   },
+   {
+    "mob": "4/24",
+    "team": "SA 1",
+    "ga": "SA",
+    "incident": "Hwy 82 (GA-GAS)",
+    "released": "5/8",
+    "days": 13
+   },
+   {
+    "mob": "5/15",
+    "team": "SW 1",
+    "ga": "SW",
+    "incident": "Seven Cabins (NM-LNF)",
+    "released": "5/30",
+    "days": 14
+   },
+   {
+    "mob": "5/27",
+    "team": "SW 2",
+    "ga": "SW",
+    "incident": "Seven Cabins (NM-LNF)",
+    "released": "6/10",
+    "days": 12
+   },
+   {
+    "mob": "6/10",
+    "team": "RM 2",
+    "ga": "RM",
+    "incident": "South Fork (NE-NES)",
+    "released": "6/22",
+    "days": 11
+   },
+   {
+    "mob": "6/15",
+    "team": "NW 2",
+    "ga": "NW",
+    "incident": "Thule (WA-YAA)",
+    "released": "6/22",
+    "days": 5
+   },
+   {
+    "mob": "6/20",
+    "team": "SW 2",
+    "ga": "SW",
+    "incident": "Pocket (AZ-COF)",
+    "released": "7/4",
+    "days": 14
+   },
+   {
+    "mob": "6/21",
+    "team": "GB 3",
+    "ga": "GB",
+    "incident": "Iron/Cherry (UT-SCS)",
+    "released": "7/5",
+    "days": 14
+   },
+   {
+    "mob": "6/22",
+    "team": "NR 1",
+    "ga": "NR",
+    "incident": "Shingle Creek (ID-CMS)",
+    "released": "7/2",
+    "days": 8
+   },
+   {
+    "mob": "6/23",
+    "team": "GB 5",
+    "ga": "GB",
+    "incident": "Cottonwood (UT-FLF) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "6/24",
+    "team": "SW 3",
+    "ga": "SW",
+    "incident": "McCauley Springs (NM-SNF)",
+    "released": "7/4",
+    "days": 9
+   },
+   {
+    "mob": "6/27",
+    "team": "GB 7",
+    "ga": "GB",
+    "incident": "Wild Goose (UT-FIF) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "6/27",
+    "team": "RM 1",
+    "ga": "GB",
+    "incident": "Snyder (UT-DRD) 2",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "6/28",
+    "team": "RM 3",
+    "ga": "RM",
+    "incident": "Gold Mountain (CO-GMF) 2",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "6/28",
+    "team": "GB 2",
+    "ga": "GB",
+    "incident": "Babylon Fire (UT-MLF) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "6/28",
+    "team": "SW 4",
+    "ga": "RM",
+    "incident": "Willow (CO-PSF) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "6/28",
+    "team": "AK 1",
+    "ga": "RM",
+    "incident": "Aspen Acres (CO-PBC) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "6/28",
+    "team": "CA 6",
+    "ga": "SW",
+    "incident": "Pocket (AZ-COF) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "7/4",
+    "team": "CA 7",
+    "ga": "RM",
+    "incident": "Ferris (CO-SJF) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "7/4",
+    "team": "EA 1",
+    "ga": "RM",
+    "incident": "RM Preposition 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "7/4",
+    "team": "NW 3",
+    "ga": "NW",
+    "incident": "NW Prepostion 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "7/5",
+    "team": "GB 4",
+    "ga": "GB",
+    "incident": "Cottonwood (UT-FLF) 1",
+    "released": null,
+    "days": null
+   }
+  ],
+  "as_of": "7/7/2026",
+  "total_assigns": 27,
+  "total_days": 162
+ },
+ "notes": {
+  "teamless_watch": "fires[] entries with team==null and ctn<50 are order/transition candidates (Chelan lesson)",
+  "preposition": "GA prepositions appear in ledger log with no incident release; prepo >=4 days counts as an assignment (NISRM Ch.20)"
  }
 }
