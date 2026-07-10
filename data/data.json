@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-09T16:28:50.242672+00:00",
- "imsr_edition": "2026-07-09",
+ "generated_at": "2026-07-10T16:26:37.194155+00:00",
+ "imsr_edition": "2026-07-10",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -10,22 +10,22 @@
     "gacc": "AICC",
     "pl": 2,
     "incidents": 5,
-    "acres": 2175,
-    "personnel": 119
+    "acres": 2200,
+    "personnel": 110
    },
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 9,
-    "acres": 32158,
-    "personnel": 1148
+    "incidents": 12,
+    "acres": 24037,
+    "personnel": 1360
    },
    {
     "gacc": "ONCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 1055,
-    "personnel": 708
+    "incidents": 2,
+    "acres": 1142,
+    "personnel": 707
    },
    {
     "gacc": "OSCC",
@@ -44,27 +44,27 @@
    {
     "gacc": "GBCC",
     "pl": 4,
-    "incidents": 16,
-    "acres": 396462,
+    "incidents": 17,
+    "acres": 399652,
     "personnel": 4091
    },
    {
     "gacc": "SWCC",
     "pl": 3,
-    "incidents": 9,
-    "acres": 56658,
-    "personnel": 1482
+    "incidents": 8,
+    "acres": 56526,
+    "personnel": 1469
    },
    {
     "gacc": "RMCC",
     "pl": 4,
     "incidents": 9,
-    "acres": 196986,
-    "personnel": 4251
+    "acres": 200668,
+    "personnel": 4610
    },
    {
     "gacc": "EACC",
-    "pl": 1,
+    "pl": 2,
     "incidents": 0,
     "acres": 0,
     "personnel": 0
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 1,
-    "incidents": 16,
-    "acres": 41084,
-    "personnel": 405
+    "incidents": 18,
+    "acres": 38069,
+    "personnel": 448
    }
   ],
   "cimts_committed": 11,
@@ -85,13 +85,13 @@
     "status": "committed"
    },
    {
-    "team": "RM 3",
-    "incident": "Gold Mountain",
+    "team": "CA 7",
+    "incident": "Ferris",
     "status": "committed"
    },
    {
-    "team": "CA 7",
-    "incident": "Ferris",
+    "team": "RM 3",
+    "incident": "Gold Mountain",
     "status": "committed"
    },
    {
@@ -102,7 +102,7 @@
    {
     "team": "EA 1",
     "incident": "Claremont",
-    "status": "mobilizing"
+    "status": "committed"
    },
    {
     "team": "GB 4",
@@ -122,7 +122,7 @@
    {
     "team": "NW 12",
     "incident": "Salmon",
-    "status": "mobilizing"
+    "status": "committed"
    },
    {
     "team": "NW 3",
@@ -139,35 +139,35 @@
    {
     "name": "Aspen Acres",
     "unit": "CO-CUX",
-    "acres": 96031,
-    "ctn": 15,
+    "acres": 96121,
+    "ctn": 20,
     "est": "7/29",
     "own": "CNTY",
     "team": "AK 1"
    },
    {
-    "name": "Gold Mountain",
-    "unit": "CO-GMF",
-    "acres": 31463,
-    "ctn": 8,
-    "est": "10/31",
-    "own": "FS",
-    "team": "RM 3"
-   },
-   {
     "name": "Ferris",
     "unit": "CO-SJF",
-    "acres": 60105,
+    "acres": 62916,
     "ctn": 19,
     "est": "8/1",
     "own": "FS",
     "team": "CA 7"
    },
    {
+    "name": "Gold Mountain",
+    "unit": "CO-GMF",
+    "acres": 32142,
+    "ctn": 8,
+    "est": "10/31",
+    "own": "FS",
+    "team": "RM 3"
+   },
+   {
     "name": "Willow",
     "unit": "CO-PSF",
-    "acres": 4364,
-    "ctn": 16,
+    "acres": 4466,
+    "ctn": 22,
     "est": "9/30",
     "own": "FS",
     "team": "SW 4"
@@ -175,8 +175,8 @@
    {
     "name": "Claremont",
     "unit": "ID-1AX",
-    "acres": 6530,
-    "ctn": 0,
+    "acres": 6564,
+    "ctn": 23,
     "est": "7/12",
     "own": "CNTY",
     "team": "EA 1"
@@ -184,7 +184,7 @@
    {
     "name": "Cottonwood",
     "unit": "UT-FIF",
-    "acres": 96333,
+    "acres": 97066,
     "ctn": 58,
     "est": "7/24",
     "own": "FS",
@@ -193,8 +193,8 @@
    {
     "name": "Babylon",
     "unit": "UT-MLF",
-    "acres": 101073,
-    "ctn": 21,
+    "acres": 102932,
+    "ctn": 25,
     "est": "8/1",
     "own": "FS",
     "team": "GB 2"
@@ -203,16 +203,25 @@
     "name": "Wild Goose",
     "unit": "UT-FIF",
     "acres": 12665,
-    "ctn": 75,
-    "est": "7/10",
+    "ctn": 88,
+    "est": "7/14",
     "own": "FS",
     "team": "GB 7"
+   },
+   {
+    "name": "Jim Mtn",
+    "unit": "NV-EKD",
+    "acres": 564,
+    "ctn": 0,
+    "est": "7/12",
+    "own": "BLM",
+    "team": null
    },
    {
     "name": "Parsnip Peak",
     "unit": "NV-ELD",
     "acres": 2264,
-    "ctn": 85,
+    "ctn": 95,
     "est": "7/17",
     "own": "BLM",
     "team": null
@@ -224,15 +233,6 @@
     "ctn": 99,
     "est": "7/30",
     "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Kinky Creek",
-    "unit": "WY-BTF",
-    "acres": 880,
-    "ctn": 92,
-    "est": "7/11",
-    "own": "FS",
     "team": null
    },
    {
@@ -256,18 +256,54 @@
    {
     "name": "North Cayuse",
     "unit": "OR-973S",
-    "acres": 4885,
+    "acres": 4887,
     "ctn": 15,
     "est": "7/19",
     "own": "ST",
     "team": "NW 3"
    },
    {
+    "name": "Chelan Hills",
+    "unit": "WA-SES",
+    "acres": 9861,
+    "ctn": 95,
+    "est": "7/10",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Anthony",
+    "unit": "OR-WWF",
+    "acres": 450,
+    "ctn": 0,
+    "est": "8/12",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "HWY 97 Mp 43",
+    "unit": "WA-YAA",
+    "acres": 300,
+    "ctn": 0,
+    "est": "7/18",
+    "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "B And O",
+    "unit": "WA-NES",
+    "acres": 2467,
+    "ctn": 0,
+    "est": "7/16",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Ryegrass Coulee",
     "unit": "WA-SES",
-    "acres": 800,
-    "ctn": 10,
-    "est": "7/11",
+    "acres": 537,
+    "ctn": 99,
+    "est": "7/12",
     "own": "ST",
     "team": null
    },
@@ -278,15 +314,6 @@
     "ctn": 15,
     "est": "7/12",
     "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Chelan Hills",
-    "unit": "WA-SES",
-    "acres": 9735,
-    "ctn": 75,
-    "est": "7/10",
-    "own": "ST",
     "team": null
    },
    {
@@ -301,8 +328,8 @@
    {
     "name": "Pocket",
     "unit": "AZ-COF",
-    "acres": 27449,
-    "ctn": 53,
+    "acres": 27451,
+    "ctn": 69,
     "est": "7/31",
     "own": "FS",
     "team": "CA 6"
@@ -311,7 +338,7 @@
     "name": "Sacaton",
     "unit": "NM-GNF",
     "acres": 9675,
-    "ctn": 23,
+    "ctn": 35,
     "est": "8/1",
     "own": "FS",
     "team": null
@@ -323,6 +350,69 @@
     "ctn": 97,
     "est": "7/18",
     "own": "FS",
+    "team": null
+   },
+   {
+    "name": "3-1 Pit",
+    "unit": "CA-LMU",
+    "acres": 1055,
+    "ctn": 35,
+    "est": "7/10",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Shingle Creek",
+    "unit": "ID-CMS",
+    "acres": 628,
+    "ctn": 85,
+    "est": "8/1",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Cusenbarry Draw",
+    "unit": "TX-TXS",
+    "acres": 1200,
+    "ctn": 10,
+    "est": "7/14",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Getaway Pens",
+    "unit": "TX-TXS",
+    "acres": 850,
+    "ctn": 65,
+    "est": "7/13",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Avocado",
+    "unit": "FL-EVP",
+    "acres": 890,
+    "ctn": 70,
+    "est": "7/13",
+    "own": "NPS",
+    "team": null
+   },
+   {
+    "name": "Rose Hill Bay",
+    "unit": "NC-NCS",
+    "acres": 526,
+    "ctn": 30,
+    "est": "7/22",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Rose Bay Canal",
+    "unit": "NC-NCS",
+    "acres": 667,
+    "ctn": 83,
+    "est": "7/16",
+    "own": "ST",
     "team": null
    },
    {
@@ -362,24 +452,6 @@
     "team": null
    },
    {
-    "name": "Big",
-    "unit": "AK-TAD",
-    "acres": 257,
-    "ctn": 85,
-    "est": "7/31",
-    "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Siruk",
-    "unit": "AK-TAD",
-    "acres": 589,
-    "ctn": 90,
-    "est": "7/11",
-    "own": "BLM",
-    "team": null
-   },
-   {
     "name": "Ishtalitna",
     "unit": "AK-TAD",
     "acres": 725,
@@ -407,79 +479,16 @@
     "team": null
    },
    {
-    "name": "Michigan",
-    "unit": "AK-TAD",
-    "acres": 1446,
-    "ctn": 0,
-    "est": "10/1",
-    "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Mud",
-    "unit": "AK-GAD",
-    "acres": 1733,
-    "ctn": 0,
-    "est": "10/1",
-    "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Shingle Creek",
-    "unit": "ID-CMS",
-    "acres": 628,
-    "ctn": 85,
-    "est": "8/1",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Deer Hollow",
-    "unit": "MT-LG13",
-    "acres": 402,
-    "ctn": 80,
-    "est": "UNK",
-    "own": "CNTY",
-    "team": null
-   },
-   {
-    "name": "3-1 Pit",
-    "unit": "CA-LMU",
-    "acres": 1055,
-    "ctn": 20,
-    "est": "7/10",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Van",
     "unit": "CA-MMU",
     "acres": 1107,
-    "ctn": 10,
+    "ctn": 80,
     "est": "7/11",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Avocado",
-    "unit": "FL-EVP",
-    "acres": 735,
-    "ctn": 70,
-    "est": "7/13",
-    "own": "NPS",
-    "team": null
-   },
-   {
-    "name": "Rose Bay Canal",
-    "unit": "NC-NCS",
-    "acres": 662,
-    "ctn": 83,
-    "est": "7/10",
     "own": "ST",
     "team": null
    }
   ],
-  "discussion": "Isolated to mixed wet and dry thunderstorms capable of new ignitions will develop in northeast Utah into the West Slope and western Wyoming. Isolated, mainly wet, thunderstorms will develop in southeast Arizona and southwest New Mexico. Breezy west winds 12-22 mph with gusts 25-35 mph amid relative humidity of 5-12% will develop in the southern Great Basin to northwest Arizona creating elevated to locally critical conditions. Locally elevated winds gusting near 30 mph will also develop through the Cascade gaps, Sierra Front, and through the Snake River Plain creating areas of elevated conditions. Isolated to scattered showers and thunderstorms will develop in the Lower to Mid-Mississippi Valley into the Lower Great Lakes, Mid-Atlantic, and Northeast, but drier conditions will begin to develop along the southeast Atlantic coast. Dry conditions will continue in northeast Minnesota with minimum relative humidity falling to near 30%. Above normal temperatures will continue in eastern Interior Alaska with isolated thunderstorms, while cooler conditions move into the western half of the state."
+  "discussion": "Above normal temperatures will combine with breezy southwest to west winds at 12-22 mph with gusts to 30 mph and afternoon relative humidities of 5-15% to elevate fire weather conditions across the southern and western Great Basin, northern Arizona, northwestern New Mexico, far southwestern Colorado, northeastern California, and much of the Inland Northwest. Isolated to scattered showers and thunderstorms are possible over the Upper Mississippi Valley with areas of showers and storms likely across the central Plains, Mid-Mississippi Valley, and Mid-Atlantic States. More scattered showers and storms are forecast over the southern Great Lakes and the Northeast with lesser storm chances over the Southeast. Hot, dry and windy conditions are expected over the eastern Carolinas and northern Florida elevating fire potential once again. Dry conditions will continue in northeast Minnesota with minimum relative humidity falling to 38-43%. Above normal temperatures will continue in eastern Interior Alaska with isolated thunderstorms, while cooler conditions move into the western half of the state."
  },
  "ledger": {
   "teams": [
@@ -505,7 +514,7 @@
    },
    {
     "team": "GB 6",
-    "assigns": 0,
+    "assigns": 1,
     "days": 0
    },
    {
@@ -560,7 +569,7 @@
    },
    {
     "team": "NW 12",
-    "assigns": 0,
+    "assigns": 1,
     "days": 0
    },
    {
@@ -571,11 +580,11 @@
    {
     "team": "RM 1",
     "assigns": 2,
-    "days": 14
+    "days": 24
    },
    {
     "team": "RM 2",
-    "assigns": 2,
+    "assigns": 3,
     "days": 20
    },
    {
@@ -776,9 +785,9 @@
     "mob": "6/27",
     "team": "RM 1",
     "ga": "GB",
-    "incident": "Snyder (UT-DRD) 2",
-    "released": null,
-    "days": null
+    "incident": "Snyder (UT-DRD)",
+    "released": "7/10",
+    "days": 10
    },
    {
     "mob": "6/28",
@@ -792,7 +801,7 @@
     "mob": "6/28",
     "team": "GB 2",
     "ga": "GB",
-    "incident": "Babylon Fire (UT-MLF) 1",
+    "incident": "Babylon (UT-MLF) 1",
     "released": null,
     "days": null
    },
@@ -851,11 +860,43 @@
     "incident": "Cottonwood (UT-FLF) 1",
     "released": null,
     "days": null
+   },
+   {
+    "mob": "7/9",
+    "team": "NW 12",
+    "ga": "NW",
+    "incident": "Salmon (OR-UMF) 1",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "7/10",
+    "team": "RM 2",
+    "ga": "RM",
+    "incident": "Gold Mountain (CO-GMF) 3",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "7/10",
+    "team": "CA 8",
+    "ga": "RM",
+    "incident": "Willow (CO-PSF) 2",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "7/10",
+    "team": "GB 6",
+    "ga": "GB",
+    "incident": "Babylon (UT-MLF) 1",
+    "released": null,
+    "days": null
    }
   ],
-  "as_of": "7/8/2026",
-  "total_assigns": 27,
-  "total_days": 176
+  "as_of": "7/9/2026",
+  "total_assigns": 31,
+  "total_days": 186
  },
  "notes": {
   "teamless_watch": "fires[] entries with team==null and ctn<50 are order/transition candidates (Chelan lesson)",
