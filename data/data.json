@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-23T14:24:18.594155+00:00",
- "imsr_edition": "2026-08-23",
+ "generated_at": "2026-08-24T14:43:00.586720+00:00",
+ "imsr_edition": "2026-08-24",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -11,76 +11,76 @@
     "pl": 2,
     "incidents": 1,
     "acres": 7260,
-    "personnel": 264
+    "personnel": 328
    },
    {
     "gacc": "NWCC",
     "pl": 5,
-    "incidents": 43,
-    "acres": 2536315,
-    "personnel": 13311
+    "incidents": 45,
+    "acres": 2558311,
+    "personnel": 13184
    },
    {
     "gacc": "ONCC",
     "pl": 3,
     "incidents": 1,
     "acres": 7610,
-    "personnel": 1172
+    "personnel": 941
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 2,
-    "acres": 8730,
-    "personnel": 1305
+    "acres": 12180,
+    "personnel": 1423
    },
    {
     "gacc": "NRCC",
     "pl": 3,
-    "incidents": 15,
-    "acres": 75296,
-    "personnel": 1862
+    "incidents": 20,
+    "acres": 76301,
+    "personnel": 1863
    },
    {
     "gacc": "GBCC",
     "pl": 3,
     "incidents": 17,
-    "acres": 634529,
-    "personnel": 1466
+    "acres": 655342,
+    "personnel": 1892
    },
    {
     "gacc": "SWCC",
     "pl": 2,
-    "incidents": 4,
-    "acres": 17974,
-    "personnel": 1028
+    "incidents": 3,
+    "acres": 15900,
+    "personnel": 933
    },
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 11,
-    "acres": 179086,
-    "personnel": 582
+    "incidents": 9,
+    "acres": 178844,
+    "personnel": 421
    },
    {
     "gacc": "EACC",
     "pl": 2,
     "incidents": 4,
-    "acres": 64993,
-    "personnel": 635
+    "acres": 64991,
+    "personnel": 602
    },
    {
     "gacc": "SACC",
-    "pl": 2,
-    "incidents": 26,
-    "acres": 45937,
-    "personnel": 497
+    "pl": 3,
+    "incidents": 29,
+    "acres": 50861,
+    "personnel": 498
    }
   ],
-  "cimts_committed": 21,
+  "cimts_committed": 20,
   "teams": [
    {
-    "team": "NW 12",
+    "team": "CA 5",
     "incident": "Little Giant",
     "status": "committed"
    },
@@ -96,12 +96,12 @@
    },
    {
     "team": "SA 2",
-    "incident": "Grasshopper",
+    "incident": "Austin",
     "status": "committed"
    },
    {
     "team": "GB 4",
-    "incident": "Grasshopper",
+    "incident": "Austin",
     "status": "committed"
    },
    {
@@ -110,14 +110,19 @@
     "status": "committed"
    },
    {
+    "team": "NW 2",
+    "incident": "Kaiser Canyon",
+    "status": "committed"
+   },
+   {
     "team": "NW 10",
     "incident": "Big Grass",
     "status": "committed"
    },
    {
-    "team": "NW 2",
-    "incident": "Kaiser Canyon",
-    "status": "committed"
+    "team": "NW 3",
+    "incident": "McCulley",
+    "status": "mobilizing"
    },
    {
     "team": "NR 3",
@@ -125,18 +130,8 @@
     "status": "committed"
    },
    {
-    "team": "NR 1",
-    "incident": "Sand Creek",
-    "status": "mobilizing"
-   },
-   {
-    "team": "RM 2",
-    "incident": "Elk",
-    "status": "committed"
-   },
-   {
-    "team": "CA 1",
-    "incident": "MP18",
+    "team": "GB 6",
+    "incident": "Hawk",
     "status": "committed"
    },
    {
@@ -145,13 +140,13 @@
     "status": "committed"
    },
    {
-    "team": "CA 8",
-    "incident": "Frijoles",
+    "team": "CA 3",
+    "incident": "Timber",
     "status": "committed"
    },
    {
-    "team": "CA 3",
-    "incident": "Timber",
+    "team": "CA 8",
+    "incident": "Frijoles",
     "status": "committed"
    },
    {
@@ -169,16 +164,16 @@
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 142218,
+    "acres": 144832,
     "ctn": 15,
     "est": "10/1",
     "own": "FS",
-    "team": "NW 12"
+    "team": "CA 5"
    },
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 734,
+    "acres": 801,
     "ctn": 0,
     "est": "10/31",
     "own": "FS",
@@ -187,7 +182,7 @@
    {
     "name": "Paradise",
     "unit": "OR-UMF",
-    "acres": 7700,
+    "acres": 7994,
     "ctn": 0,
     "est": "10/1",
     "own": "FS",
@@ -196,7 +191,7 @@
    {
     "name": "Hagen",
     "unit": "OR-UMF",
-    "acres": 59559,
+    "acres": 59817,
     "ctn": 19,
     "est": "10/1",
     "own": "FS",
@@ -205,8 +200,8 @@
    {
     "name": "Three Queens",
     "unit": "WA-OWF",
-    "acres": 6379,
-    "ctn": 2,
+    "acres": 6705,
+    "ctn": 13,
     "est": "9/15",
     "own": "FS",
     "team": "NW 13"
@@ -223,34 +218,43 @@
    {
     "name": "King",
     "unit": "WA-OWF",
-    "acres": 459,
+    "acres": 558,
     "ctn": 0,
     "est": "11/30",
     "own": "FS",
     "team": null
    },
    {
-    "name": "Grasshopper",
-    "unit": "OR-MHF",
-    "acres": 93562,
-    "ctn": 76,
-    "est": "10/1",
+    "name": "Goat",
+    "unit": "WA-OWF",
+    "acres": 50,
+    "ctn": 0,
+    "est": "12/31",
     "own": "FS",
-    "team": "SA 2"
+    "team": null
    },
    {
     "name": "Austin",
     "unit": "OR-MHF",
-    "acres": 4808,
+    "acres": 5295,
     "ctn": 0,
     "est": "10/31",
+    "own": "FS",
+    "team": "SA 2"
+   },
+   {
+    "name": "Grasshopper",
+    "unit": "OR-MHF",
+    "acres": 93693,
+    "ctn": 76,
+    "est": "10/1",
     "own": "FS",
     "team": null
    },
    {
     "name": "The Narrows",
     "unit": "OR-MHF",
-    "acres": 212,
+    "acres": 223,
     "ctn": 0,
     "est": "10/31",
     "own": "FS",
@@ -259,8 +263,8 @@
    {
     "name": "Sinlahekin",
     "unit": "WA-NES",
-    "acres": 154480,
-    "ctn": 47,
+    "acres": 155209,
+    "ctn": 53,
     "est": "8/31",
     "own": "ST",
     "team": null
@@ -268,20 +272,11 @@
    {
     "name": "Wrights Spring",
     "unit": "OR-FWF",
-    "acres": 54325,
+    "acres": 54365,
     "ctn": 55,
     "est": "10/1",
     "own": "FS",
     "team": "NW 7"
-   },
-   {
-    "name": "Big Grass",
-    "unit": "OR-VAD",
-    "acres": 578637,
-    "ctn": 93,
-    "est": "UNK",
-    "own": "BLM",
-    "team": "NW 10"
    },
    {
     "name": "Kaiser Canyon",
@@ -302,10 +297,46 @@
     "team": null
    },
    {
+    "name": "Big Grass",
+    "unit": "OR-VAD",
+    "acres": 578637,
+    "ctn": 93,
+    "est": "UNK",
+    "own": "BLM",
+    "team": "NW 10"
+   },
+   {
+    "name": "McCulley",
+    "unit": "OR-WWF",
+    "acres": 1201,
+    "ctn": 0,
+    "est": "9/12",
+    "own": "FS",
+    "team": "NW 3"
+   },
+   {
+    "name": "North Pole",
+    "unit": "OR-WWF",
+    "acres": 307,
+    "ctn": 0,
+    "est": "9/12",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Colwash",
+    "unit": "WA-YAA",
+    "acres": 38599,
+    "ctn": 8,
+    "est": "9/5",
+    "own": "BIA",
+    "team": null
+   },
+   {
     "name": "High Lava",
     "unit": "WA-GPF",
-    "acres": 1717,
-    "ctn": 19,
+    "acres": 1915,
+    "ctn": 25,
     "est": "9/30",
     "own": "FS",
     "team": null
@@ -313,7 +344,7 @@
    {
     "name": "Luna",
     "unit": "WA-NCP",
-    "acres": 4670,
+    "acres": 4776,
     "ctn": 0,
     "est": "11/30",
     "own": "NPS",
@@ -322,8 +353,8 @@
    {
     "name": "Border 2",
     "unit": "WA-NCP",
-    "acres": 7401,
-    "ctn": 40,
+    "acres": 7467,
+    "ctn": 41,
     "est": "11/1",
     "own": "NPS",
     "team": null
@@ -341,45 +372,9 @@
     "name": "Picture Rock",
     "unit": "OR-LAD",
     "acres": 1228,
-    "ctn": 70,
+    "ctn": 75,
     "est": "8/25",
     "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "0587 Shingle",
-    "unit": "OR-953S",
-    "acres": 73183,
-    "ctn": 93,
-    "est": "8/30",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Second Flat",
-    "unit": "OR-BUD",
-    "acres": 105854,
-    "ctn": 96,
-    "est": "9/25",
-    "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Colwash",
-    "unit": "WA-YAA",
-    "acres": 4000,
-    "ctn": 0,
-    "est": "9/5",
-    "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "North Pole",
-    "unit": "OR-WWF",
-    "acres": 100,
-    "ctn": 0,
-    "est": "9/12",
-    "own": "FS",
     "team": null
    },
    {
@@ -392,6 +387,33 @@
     "team": null
    },
    {
+    "name": "0587 Shingle",
+    "unit": "OR-953S",
+    "acres": 73183,
+    "ctn": 95,
+    "est": "8/30",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Egypt",
+    "unit": "OR-MAF",
+    "acres": 4553,
+    "ctn": 82,
+    "est": "8/29",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Second Flat",
+    "unit": "OR-BUD",
+    "acres": 105854,
+    "ctn": 99,
+    "est": "9/25",
+    "own": "BLM",
+    "team": null
+   },
+   {
     "name": "Rosenbaum",
     "unit": "OR-953S",
     "acres": 483,
@@ -401,11 +423,11 @@
     "team": null
    },
    {
-    "name": "Egypt",
-    "unit": "OR-MAF",
-    "acres": 4553,
-    "ctn": 82,
-    "est": "UNK",
+    "name": "Nature Grove",
+    "unit": "MT-BRF",
+    "acres": 150,
+    "ctn": 0,
+    "est": "10/30",
     "own": "FS",
     "team": null
    },
@@ -413,7 +435,7 @@
     "name": "Sand Creek",
     "unit": "MT-BDF",
     "acres": 32306,
-    "ctn": 10,
+    "ctn": 14,
     "est": "10/31",
     "own": "FS",
     "team": "NR 3"
@@ -428,30 +450,12 @@
     "team": null
    },
    {
-    "name": "Windmill",
-    "unit": "MT-LG32",
-    "acres": 4253,
-    "ctn": 57,
-    "est": "8/26",
-    "own": "CNTY",
-    "team": null
-   },
-   {
     "name": "Deer Creek",
     "unit": "MT-NWS",
-    "acres": 724,
+    "acres": 949,
     "ctn": 0,
     "est": "9/30",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Moose",
-    "unit": "MT-BDF",
-    "acres": 5965,
-    "ctn": 6,
-    "est": "10/31",
-    "own": "FS",
     "team": null
    },
    {
@@ -461,6 +465,24 @@
     "ctn": 38,
     "est": "10/31",
     "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Moose",
+    "unit": "MT-BDF",
+    "acres": 5965,
+    "ctn": 10,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Windmill",
+    "unit": "MT-LG32",
+    "acres": 4253,
+    "ctn": 72,
+    "est": "8/26",
+    "own": "CNTY",
     "team": null
    },
    {
@@ -475,18 +497,18 @@
    {
     "name": "Cherry Peak",
     "unit": "MT-LNF",
-    "acres": 204,
-    "ctn": 0,
+    "acres": 200,
+    "ctn": 44,
     "est": "9/1",
     "own": "FS",
     "team": null
    },
    {
-    "name": "Ant Park",
-    "unit": "MT-HLF",
-    "acres": 400,
-    "ctn": 88,
-    "est": "10/1",
+    "name": "Skillet",
+    "unit": "MT-FNF",
+    "acres": 3375,
+    "ctn": 82,
+    "est": "10/31",
     "own": "FS",
     "team": null
    },
@@ -509,11 +531,11 @@
     "team": null
    },
    {
-    "name": "Skillet",
-    "unit": "MT-FNF",
-    "acres": 3369,
-    "ctn": 82,
-    "est": "10/31",
+    "name": "Ant Park",
+    "unit": "MT-HLF",
+    "acres": 400,
+    "ctn": 95,
+    "est": "10/1",
     "own": "FS",
     "team": null
    },
@@ -565,7 +587,7 @@
    {
     "name": "Crooked",
     "unit": "ID-BOF",
-    "acres": 1038,
+    "acres": 1530,
     "ctn": 0,
     "est": "9/1",
     "own": "FS",
@@ -593,45 +615,36 @@
     "name": "North Heglar",
     "unit": "ID-CAX",
     "acres": 1844,
-    "ctn": 45,
-    "est": "8/24",
+    "ctn": 73,
+    "est": "8/25",
     "own": "CNTY",
     "team": null
    },
    {
     "name": "Shale Butte",
     "unit": "ID-TFD",
-    "acres": 1000,
-    "ctn": 0,
+    "acres": 1500,
+    "ctn": 40,
     "est": "8/24",
     "own": "BLM",
     "team": null
    },
    {
-    "name": "Fraser",
-    "unit": "ID-BOD",
-    "acres": 300,
-    "ctn": 25,
-    "est": "UNK",
-    "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Shoshone",
-    "unit": "NV-CCD",
-    "acres": 24513,
-    "ctn": 82,
-    "est": "8/27",
-    "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Bug",
-    "unit": "NV-CCD",
-    "acres": 93733,
-    "ctn": 94,
+    "name": "Big Mountain",
+    "unit": "UT-WDD",
+    "acres": 400,
+    "ctn": 0,
     "est": "8/25",
     "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Master",
+    "unit": "NV-ECFX",
+    "acres": 770,
+    "ctn": 50,
+    "est": "8/28",
+    "own": "CNTY",
     "team": null
    },
    {
@@ -644,22 +657,139 @@
     "team": null
    },
    {
-    "name": "Salt Wells",
-    "unit": "UT-BRS",
-    "acres": 585,
-    "ctn": 90,
+    "name": "Shoshone",
+    "unit": "NV-CCD",
+    "acres": 24513,
+    "ctn": 92,
+    "est": "8/27",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Bug",
+    "unit": "NV-CCD",
+    "acres": 93733,
+    "ctn": 97,
+    "est": "8/25",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Bison",
+    "unit": "OK-OSA",
+    "acres": 889,
+    "ctn": 30,
+    "est": "8/25",
+    "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "Rustler",
+    "unit": "TX-TXS",
+    "acres": 1300,
+    "ctn": 40,
+    "est": "8/27",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "22",
+    "unit": "FL-FLS",
+    "acres": 500,
+    "ctn": 30,
+    "est": "8/31",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Vulture",
+    "unit": "FL-EVP",
+    "acres": 347,
+    "ctn": 80,
+    "est": "UNK",
+    "own": "NPS",
+    "team": null
+   },
+   {
+    "name": "Chipmunk",
+    "unit": "FL-EVP",
+    "acres": 15508,
+    "ctn": 50,
+    "est": "8/27",
+    "own": "NPS",
+    "team": null
+   },
+   {
+    "name": "Movie Dome",
+    "unit": "FL-EVP",
+    "acres": 6222,
+    "ctn": 60,
+    "est": "8/31",
+    "own": "NPS",
+    "team": null
+   },
+   {
+    "name": "Main Trail",
+    "unit": "GA-WSR",
+    "acres": 820,
+    "ctn": 45,
+    "est": "9/8",
+    "own": "FWS",
+    "team": null
+   },
+   {
+    "name": "Pine Tree Rd",
+    "unit": "AR-ARS",
+    "acres": 2328,
+    "ctn": 95,
     "est": "UNK",
     "own": "ST",
     "team": null
    },
    {
-    "name": "Rocky Canyon",
-    "unit": "UT-NWS",
-    "acres": 16464,
-    "ctn": 96,
+    "name": "Sugar Creek",
+    "unit": "OK-ANA",
+    "acres": 370,
+    "ctn": 10,
     "est": "8/27",
+    "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "2690",
+    "unit": "OK-ANA",
+    "acres": 900,
+    "ctn": 15,
+    "est": "8/25",
+    "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "Jackson HWY 90",
+    "unit": "MS-MSS",
+    "acres": 1428,
+    "ctn": 75,
+    "est": "UNK",
     "own": "ST",
     "team": null
+   },
+   {
+    "name": "Timber",
+    "unit": "CA-LPF",
+    "acres": 12115,
+    "ctn": 25,
+    "est": "10/1",
+    "own": "FS",
+    "team": "CA 3"
+   },
+   {
+    "name": "Frijoles",
+    "unit": "NM-SNF",
+    "acres": 15226,
+    "ctn": 45,
+    "est": "9/12",
+    "own": "FS",
+    "team": "CA 8"
    },
    {
     "name": "Elk",
@@ -668,7 +798,7 @@
     "ctn": 33,
     "est": "10/31",
     "own": "FS",
-    "team": "RM 2"
+    "team": null
    },
    {
     "name": "Gold Mountain",
@@ -702,105 +832,15 @@
     "unit": "SD-PRA",
     "acres": 503,
     "ctn": 85,
-    "est": "8/27",
-    "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "West Coal Creek",
-    "unit": "WY-CMX",
-    "acres": 896,
-    "ctn": 90,
-    "est": "8/27",
-    "own": "CNTY",
-    "team": null
-   },
-   {
-    "name": "Sugar Creek",
-    "unit": "OK-ANA",
-    "acres": 370,
-    "ctn": 10,
-    "est": "8/27",
-    "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "Chipmunk",
-    "unit": "FL-EVP",
-    "acres": 9232,
-    "ctn": 30,
-    "est": "8/27",
-    "own": "NPS",
-    "team": null
-   },
-   {
-    "name": "Pine Tree Rd",
-    "unit": "AR-ARS",
-    "acres": 2328,
-    "ctn": 80,
-    "est": "8/23",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Movie Dome",
-    "unit": "FL-EVP",
-    "acres": 6222,
-    "ctn": 60,
     "est": "8/31",
-    "own": "NPS",
-    "team": null
-   },
-   {
-    "name": "2690",
-    "unit": "OK-ANA",
-    "acres": 900,
-    "ctn": 15,
-    "est": "8/25",
     "own": "BIA",
     "team": null
-   },
-   {
-    "name": "Main Trail",
-    "unit": "GA-WSR",
-    "acres": 741,
-    "ctn": 35,
-    "est": "9/8",
-    "own": "FWS",
-    "team": null
-   },
-   {
-    "name": "Jackson HWY 90",
-    "unit": "MS-MSS",
-    "acres": 1428,
-    "ctn": 75,
-    "est": "UNK",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Frijoles",
-    "unit": "NM-SNF",
-    "acres": 15220,
-    "ctn": 42,
-    "est": "9/12",
-    "own": "FS",
-    "team": "CA 8"
-   },
-   {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 8665,
-    "ctn": 25,
-    "est": "10/1",
-    "own": "FS",
-    "team": "CA 3"
    },
    {
     "name": "Mukluk",
     "unit": "AK-TAS",
     "acres": 7260,
-    "ctn": 20,
+    "ctn": 29,
     "est": "9/30",
     "own": "ST",
     "team": "AK 1"
@@ -826,14 +866,14 @@
    {
     "name": "Bear Trap",
     "unit": "MN-SUF",
-    "acres": 30806,
+    "acres": 30804,
     "ctn": 55,
     "est": "10/1",
     "own": "FS",
     "team": null
    }
   ],
-  "discussion": "An upper trough passes to the northern of Montana, bringing scattered, fast-moving thunderstorms with little rainfall to parts of the Northern Rockies and eastern Pacific Northwest, as well as dry and breezy winds. This weather will result in high-risk significant fire potential for those parts. Highs in the mid 80\u2019s to mid 90\u2019s are forecast across the Intermountain West, increasing to 100 to 115 over southeast California and southern Arizona. The hot temperatures will coincide with relative humidity levels of 8 to 20%. Gusty winds are expected in the afternoon throughout the Great Basin and into eastern Northern Rockies. Farther east, the main weather concern will revolve around the unwavering heat across the Southern Plains. High temperatures in this area will peak in the 90s to 110F with relative humidity values dropping into the mid-teens to mid 20s. Scattered mixed wet/dry thunderstorms are expected to develop in the Greater Four Corners and Great Basin, as well as over the Southern Plains into the Lower Mississippi Valley."
+  "discussion": "A cold front will move through the northern Plains, with cooler temperatures expected today across much of Montana. However, the cooler temperatures observed in the Northwest yesterday will warm back above normal today with highs 80-95\u00b0F and minimum relative humidity will fall to 8-20%. Above normal temperatures will continue across the rest of the West, with isolated mixed wet and dry thunderstorms expected to develop across far northeast California and southeast Oregon into the northern Great Basin. Meanwhile, isolated to scattered monsoon thunderstorms will continue in Arizona, Utah, Colorado, and northwest New Mexico, although rainfall footprints will remain small due to the hot temperatures. Very hot temperatures of 100-110\u00b0F will continue across southern Oklahoma and much of north Texas amid relative humidity of 10-20%, and locally breezy winds will create elevated conditions. Isolated thunderstorms will develop across portions of the Lower Mississippi Valley amid above normal temperatures as well as the Florida Peninsula. In the Southeast, dry northwesterly winds around 10 mph will result in lower-than-average relative humidity of 25-35%. Rain and winds will ease in Hawai\u2019i as Tropical Storm Moke moves westward away from the islands. Alaska will remain cool and damp except for the southeast Interior which will be warmer and drier today."
  },
  "ledger": {
   "teams": [
@@ -874,7 +914,7 @@
    },
    {
     "team": "NW 3",
-    "assigns": 2,
+    "assigns": 3,
     "days": 28
    },
    {
@@ -895,7 +935,7 @@
    {
     "team": "NW 12",
     "assigns": 2,
-    "days": 31
+    "days": 14
    },
    {
     "team": "NW 13",
@@ -944,7 +984,7 @@
    },
    {
     "team": "SW 3",
-    "assigns": 2,
+    "assigns": 3,
     "days": 32
    },
    {
@@ -1617,10 +1657,34 @@
     "incident": "Bobcat Lakes (MT-BDF) 3",
     "released": null,
     "days": null
+   },
+   {
+    "mob": "8/24",
+    "team": "NW 3",
+    "ga": "NW",
+    "incident": "McCulley (OR-WWF) 3",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "8/24",
+    "team": "CA 4",
+    "ga": "NW",
+    "incident": "Rowe Creek Complex (OR-PRD) 2",
+    "released": null,
+    "days": null
+   },
+   {
+    "mob": "8/25",
+    "team": "SW 3",
+    "ga": "NW",
+    "incident": "Sinlahekin (WA-NES) 3",
+    "released": null,
+    "days": null
    }
   ],
-  "as_of": "8/22/2026",
-  "total_assigns": 85,
+  "as_of": "8/23/2026",
+  "total_assigns": 88,
   "total_days": 969
  },
  "notes": {
