@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-10T17:31:09.074324+00:00",
- "imsr_edition": "2026-09-10",
+ "generated_at": "2026-09-11T17:36:31.626746+00:00",
+ "imsr_edition": "2026-09-11",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,37 +16,37 @@
    {
     "gacc": "NWCC",
     "pl": 3,
-    "incidents": 30,
-    "acres": 2307609,
-    "personnel": 6143
+    "incidents": 31,
+    "acres": 2028965,
+    "personnel": 5990
    },
    {
     "gacc": "ONCC",
     "pl": 3,
-    "incidents": 1,
-    "acres": 17291,
-    "personnel": 408
+    "incidents": 3,
+    "acres": 17821,
+    "personnel": 765
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 2,
-    "acres": 55294,
-    "personnel": 3074
+    "acres": 55322,
+    "personnel": 2979
    },
    {
     "gacc": "NRCC",
     "pl": 2,
-    "incidents": 24,
-    "acres": 129612,
-    "personnel": 1053
+    "incidents": 21,
+    "acres": 114535,
+    "personnel": 943
    },
    {
     "gacc": "GBCC",
     "pl": 2,
     "incidents": 8,
     "acres": 237418,
-    "personnel": 773
+    "personnel": 693
    },
    {
     "gacc": "SWCC",
@@ -59,22 +59,22 @@
     "gacc": "RMCC",
     "pl": 2,
     "incidents": 10,
-    "acres": 167004,
-    "personnel": 635
+    "acres": 168932,
+    "personnel": 602
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 35619,
-    "personnel": 20
+    "incidents": 1,
+    "acres": 30804,
+    "personnel": 18
    },
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 25,
-    "acres": 105267,
-    "personnel": 876
+    "incidents": 21,
+    "acres": 103026,
+    "personnel": 764
    }
   ],
   "cimts_committed": 11,
@@ -100,11 +100,6 @@
     "status": "committed"
    },
    {
-    "team": "CA 1",
-    "incident": "McCully",
-    "status": "committed"
-   },
-   {
     "team": "NW 10",
     "incident": "Austin",
     "status": "committed"
@@ -120,6 +115,11 @@
     "status": "committed"
    },
    {
+    "team": "CA 1",
+    "incident": "McCully",
+    "status": "committed"
+   },
+   {
     "team": "SW 3",
     "incident": "Sinlahekin",
     "status": "committed"
@@ -130,7 +130,7 @@
     "name": "Ross",
     "unit": "TX-TXS",
     "acres": 90400,
-    "ctn": 65,
+    "ctn": 76,
     "est": "9/20",
     "own": "ST",
     "team": null
@@ -138,10 +138,19 @@
    {
     "name": "Kurk",
     "unit": "TX-TXS",
-    "acres": 1000,
-    "ctn": 50,
+    "acres": 822,
+    "ctn": 75,
     "est": "9/12",
     "own": "ST",
+    "team": null
+   },
+   {
+    "name": "West Glover",
+    "unit": "AR-OUF",
+    "acres": 499,
+    "ctn": 80,
+    "est": "9/15",
+    "own": "FS",
     "team": null
    },
    {
@@ -154,15 +163,6 @@
     "team": null
    },
    {
-    "name": "West Glover",
-    "unit": "AR-OUF",
-    "acres": 499,
-    "ctn": 75,
-    "est": "9/15",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Meers",
     "unit": "OK-ANA",
     "acres": 914,
@@ -172,28 +172,37 @@
     "team": null
    },
    {
+    "name": "Railroad South",
+    "unit": "OK-ANA",
+    "acres": 515,
+    "ctn": 90,
+    "est": "9/20",
+    "own": "BIA",
+    "team": null
+   },
+   {
     "name": "Main Trail",
     "unit": "GA-WSR",
-    "acres": 820,
-    "ctn": 88,
-    "est": "9/15",
+    "acres": 841,
+    "ctn": 99,
+    "est": "9/12",
     "own": "FWS",
     "team": null
    },
    {
-    "name": "Railroad South",
-    "unit": "OK-ANA",
-    "acres": 515,
-    "ctn": 80,
-    "est": "9/20",
-    "own": "BIA",
+    "name": "Beaver Creek",
+    "unit": "MT-LG09",
+    "acres": 505,
+    "ctn": 0,
+    "est": "9/12",
+    "own": "CNTY",
     "team": null
    },
    {
     "name": "Sand Creek",
     "unit": "MT-BDF",
     "acres": 35509,
-    "ctn": 36,
+    "ctn": 48,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -217,6 +226,15 @@
     "team": null
    },
    {
+    "name": "Moose",
+    "unit": "MT-BDF",
+    "acres": 6005,
+    "ctn": 15,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "Upper Smith",
     "unit": "ID-IPF",
     "acres": 4848,
@@ -226,11 +244,11 @@
     "team": null
    },
    {
-    "name": "Dudley",
-    "unit": "ID-IPF",
-    "acres": 800,
-    "ctn": 88,
-    "est": "9/15",
+    "name": "Cascade",
+    "unit": "ID-NCF",
+    "acres": 7475,
+    "ctn": 50,
+    "est": "11/1",
     "own": "FS",
     "team": null
    },
@@ -298,48 +316,30 @@
     "team": null
    },
    {
-    "name": "Moose",
-    "unit": "MT-BDF",
-    "acres": 6005,
-    "ctn": 15,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Cascade",
-    "unit": "ID-NCF",
-    "acres": 7475,
-    "ctn": 50,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Lookout",
-    "unit": "SD-SDS",
-    "acres": 444,
-    "ctn": 29,
-    "est": "9/11",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Moonshine",
     "unit": "WY-HDD",
-    "acres": 2000,
+    "acres": 3928,
     "ctn": 0,
     "est": "9/30",
     "own": "BLM",
     "team": null
    },
    {
-    "name": "Needles",
-    "unit": "SD-PRA",
-    "acres": 6017,
-    "ctn": 70,
-    "est": "9/25",
-    "own": "BIA",
+    "name": "Lookout",
+    "unit": "SD-SDS",
+    "acres": 444,
+    "ctn": 71,
+    "est": "9/14",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Elk",
+    "unit": "CO-GMF",
+    "acres": 7257,
+    "ctn": 73,
+    "est": "10/31",
+    "own": "FS",
     "team": null
    },
    {
@@ -361,19 +361,28 @@
     "team": null
    },
    {
-    "name": "Elk",
-    "unit": "CO-GMF",
-    "acres": 7257,
-    "ctn": 73,
-    "est": "10/31",
-    "own": "FS",
+    "name": "Needles",
+    "unit": "SD-PRA",
+    "acres": 6017,
+    "ctn": 90,
+    "est": "9/25",
+    "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "Lucas",
+    "unit": "CA-LNU",
+    "acres": 300,
+    "ctn": 0,
+    "est": "9/17",
+    "own": "ST",
     "team": null
    },
    {
     "name": "Plaskett",
     "unit": "CA-LPF",
-    "acres": 29914,
-    "ctn": 73,
+    "acres": 29942,
+    "ctn": 79,
     "est": "10/1",
     "own": "FS",
     "team": "CA 7"
@@ -391,7 +400,7 @@
     "name": "Crooked",
     "unit": "ID-BOF",
     "acres": 10084,
-    "ctn": 71,
+    "ctn": 88,
     "est": "9/30",
     "own": "FS",
     "team": "GB 3"
@@ -426,7 +435,7 @@
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172199,
+    "acres": 172401,
     "ctn": 81,
     "est": "10/1",
     "own": "FS",
@@ -435,26 +444,17 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 2764,
+    "acres": 2812,
     "ctn": 11,
     "est": "10/31",
     "own": "FS",
     "team": null
    },
    {
-    "name": "McCully",
-    "unit": "OR-WWF",
-    "acres": 13560,
-    "ctn": 59,
-    "est": "10/11",
-    "own": "FS",
-    "team": "CA 1"
-   },
-   {
     "name": "Austin",
     "unit": "OR-MHF",
-    "acres": 12824,
-    "ctn": 34,
+    "acres": 12831,
+    "ctn": 36,
     "est": "10/31",
     "own": "FS",
     "team": "NW 10"
@@ -471,7 +471,7 @@
    {
     "name": "Grasshopper",
     "unit": "OR-MHF",
-    "acres": 93997,
+    "acres": 93999,
     "ctn": 96,
     "est": "10/1",
     "own": "FS",
@@ -481,7 +481,7 @@
     "name": "Three Queens",
     "unit": "WA-OWF",
     "acres": 9518,
-    "ctn": 13,
+    "ctn": 14,
     "est": "10/31",
     "own": "FS",
     "team": "NW 2"
@@ -507,7 +507,7 @@
    {
     "name": "Paradise",
     "unit": "OR-UMF",
-    "acres": 9655,
+    "acres": 9656,
     "ctn": 28,
     "est": "10/1",
     "own": "FS",
@@ -517,15 +517,24 @@
     "name": "Hagen",
     "unit": "OR-UMF",
     "acres": 61385,
-    "ctn": 60,
+    "ctn": 63,
     "est": "10/1",
     "own": "FS",
     "team": null
    },
    {
+    "name": "McCully",
+    "unit": "OR-WWF",
+    "acres": 13561,
+    "ctn": 61,
+    "est": "10/11",
+    "own": "FS",
+    "team": "CA 1"
+   },
+   {
     "name": "Sinlahekin",
     "unit": "WA-NES",
-    "acres": 166018,
+    "acres": 166021,
     "ctn": 76,
     "est": "9/20",
     "own": "ST",
@@ -534,8 +543,8 @@
    {
     "name": "Electric",
     "unit": "WA-MSF",
-    "acres": 622,
-    "ctn": 38,
+    "acres": 494,
+    "ctn": 36,
     "est": "11/1",
     "own": "FS",
     "team": null
@@ -543,7 +552,7 @@
    {
     "name": "Luna",
     "unit": "WA-NCP",
-    "acres": 7722,
+    "acres": 7835,
     "ctn": 34,
     "est": "11/1",
     "own": "NPS",
@@ -561,7 +570,7 @@
    {
     "name": "Border 2",
     "unit": "WA-NCP",
-    "acres": 8043,
+    "acres": 8169,
     "ctn": 73,
     "est": "11/1",
     "own": "NPS",
@@ -573,15 +582,6 @@
     "acres": 25166,
     "ctn": 73,
     "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Wrights Spring",
-    "unit": "OR-FWF",
-    "acres": 55134,
-    "ctn": 98,
-    "est": "10/1",
     "own": "FS",
     "team": null
    },
@@ -613,7 +613,7 @@
     "team": null
    }
   ],
-  "discussion": "Dry and breezy west winds will continue across Wyoming and spread into southeast Montana today as winds gust to 45 mph amid minimum relative humidity of 7-20% creating elevated to locally critical conditions. Breezy winds are also expected for the Inland Northwest into the northern Great Basin, but relative humidity is expected to be higher and mostly above 15% if not 20%. Stronger winds may develop in north-central Montana, but relative humidity will be elevated with scattered showers in the evening to mitigate. Hot temperatures will continue in California today along with low relative humidity of 10-20% but winds will be light. A cold front will slowly move southward into the Texas Panhandle and much of Oklahoma today, with scattered showers and thunderstorms bringing areas of relief, but new ignitions are possible, as well. Scattered showers and thunderstorms will also develop from the Mid-Mississippi Valley to the Mid-Atlantic, while drier conditions are expected in the Great Lakes and Northeast."
+  "discussion": "Dry and breezy westerly winds continue across parts of Wyoming, with wind gusts to 40-50mph amid minimum relative humidity of 10-20%, creating elevated to locally critical conditions. Breezy winds are also expected for much of the Great Basin and Four Corners, extending into the Central Rockies amid RH lowering to 5-20%, bringing moderate significant fire potential to some parts of the area. Well above normal temperatures will continue in the Plains, extending into the Midwest, with temperatures near 100 \u00b0F and moderate significant fire potential expected across parts of the southern Plains. A cold front will slowly move southward into the Texas Panhandle and much of Oklahoma today, with scattered showers and thunderstorms bringing areas of relief, but new ignitions are possible, as well. Scattered showers and thunderstorms will extend from the Mid-Mississippi Valley to the Mid-Atlantic, as well as the Southeast, while mostly dry conditions are expected in the Great Lakes and Northeast."
  },
  "ledger": {
   "teams": [
