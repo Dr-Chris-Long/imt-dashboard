@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-18T17:33:55.146156+00:00",
- "imsr_edition": "2026-09-18",
+ "generated_at": "2026-09-19T17:02:02.512808+00:00",
+ "imsr_edition": "2026-09-19",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,51 +16,51 @@
    {
     "gacc": "NWCC",
     "pl": 3,
-    "incidents": 27,
-    "acres": 1868599,
-    "personnel": 5129
+    "incidents": 25,
+    "acres": 1360634,
+    "personnel": 5035
    },
    {
     "gacc": "ONCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 12367,
-    "personnel": 3165
+    "acres": 12349,
+    "personnel": 2121
    },
    {
     "gacc": "OSCC",
     "pl": 3,
-    "incidents": 2,
-    "acres": 55428,
-    "personnel": 1529
+    "incidents": 3,
+    "acres": 57614,
+    "personnel": 1981
    },
    {
     "gacc": "NRCC",
-    "pl": 2,
-    "incidents": 13,
-    "acres": 97444,
-    "personnel": 390
+    "pl": 1,
+    "incidents": 12,
+    "acres": 96987,
+    "personnel": 333
    },
    {
     "gacc": "GBCC",
     "pl": 2,
-    "incidents": 7,
-    "acres": 187535,
-    "personnel": 430
+    "incidents": 6,
+    "acres": 180599,
+    "personnel": 220
    },
    {
     "gacc": "SWCC",
     "pl": 1,
     "incidents": 4,
     "acres": 17222,
-    "personnel": 215
+    "personnel": 200
    },
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 8,
-    "acres": 132789,
-    "personnel": 293
+    "incidents": 7,
+    "acres": 125539,
+    "personnel": 238
    },
    {
     "gacc": "EACC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 40,
-    "acres": 144930,
-    "personnel": 1164
+    "incidents": 39,
+    "acres": 143647,
+    "personnel": 1195
    }
   ],
   "cimts_committed": 9,
@@ -122,38 +122,56 @@
   ],
   "fires": [
    {
-    "name": "Breezy",
-    "unit": "TX-TXS",
-    "acres": 500,
-    "ctn": 75,
-    "est": "9/23",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Clark",
-    "unit": "TX-TXS",
-    "acres": 1523,
-    "ctn": 35,
-    "est": "9/22",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Dry River",
     "unit": "TX-TXS",
     "acres": 8939,
-    "ctn": 40,
+    "ctn": 55,
     "est": "9/24",
     "own": "ST",
     "team": null
    },
    {
+    "name": "Gracemont",
+    "unit": "OK-ANA",
+    "acres": 2665,
+    "ctn": 45,
+    "est": "9/27",
+    "own": "BIA",
+    "team": null
+   },
+   {
     "name": "Hydra",
     "unit": "TX-TXS",
-    "acres": 1100,
+    "acres": 933,
     "ctn": 35,
-    "est": "9/20",
+    "est": "9/25",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Star Lake",
+    "unit": "TX-MCR",
+    "acres": 16412,
+    "ctn": 80,
+    "est": "9/21",
+    "own": "FWS",
+    "team": null
+   },
+   {
+    "name": "Clark",
+    "unit": "TX-TXS",
+    "acres": 970,
+    "ctn": 90,
+    "est": "9/25",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Tram Trail",
+    "unit": "OK-OKS",
+    "acres": 660,
+    "ctn": 90,
+    "est": "UNK",
     "own": "ST",
     "team": null
    },
@@ -171,60 +189,78 @@
     "unit": "OK-OKS",
     "acres": 906,
     "ctn": 85,
-    "est": "9/18",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Gracemont",
-    "unit": "OK-ANA",
-    "acres": 2665,
-    "ctn": 30,
-    "est": "9/27",
-    "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "Star Lake",
-    "unit": "TX-MCR",
-    "acres": 16412,
-    "ctn": 75,
-    "est": "9/21",
-    "own": "FWS",
-    "team": null
-   },
-   {
-    "name": "Tram Trail",
-    "unit": "OK-OKS",
-    "acres": 660,
-    "ctn": 70,
-    "est": "9/18",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Lobo",
-    "unit": "TX-TXS",
-    "acres": 658,
-    "ctn": 91,
-    "est": "9/22",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Black Kettle",
-    "unit": "OK-OKS",
-    "acres": 1527,
-    "ctn": 94,
     "est": "UNK",
     "own": "ST",
     "team": null
    },
    {
+    "name": "Floriston",
+    "unit": "CA-NEU",
+    "acres": 622,
+    "ctn": 25,
+    "est": "9/26",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Lucas",
+    "unit": "CA-LNU",
+    "acres": 4128,
+    "ctn": 84,
+    "est": "9/21",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Dome",
+    "unit": "CA-YNP",
+    "acres": 2186,
+    "ctn": 15,
+    "est": "9/30",
+    "own": "NPS",
+    "team": "CA 3"
+   },
+   {
+    "name": "Timber",
+    "unit": "CA-LPF",
+    "acres": 25435,
+    "ctn": 59,
+    "est": "10/1",
+    "own": "FS",
+    "team": "SW 1"
+   },
+   {
+    "name": "Plaskett",
+    "unit": "CA-LPF",
+    "acres": 29993,
+    "ctn": 97,
+    "est": "10/1",
+    "own": "FS",
+    "team": "CA 6"
+   },
+   {
+    "name": "Doublesprings",
+    "unit": "ID-SCF",
+    "acres": 1779,
+    "ctn": 70,
+    "est": "9/25",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Slough Canyon",
+    "unit": "UT-UOA",
+    "acres": 4774,
+    "ctn": 75,
+    "est": "10/5",
+    "own": "BIA",
+    "team": null
+   },
+   {
     "name": "Moonshine",
     "unit": "WY-HDD",
-    "acres": 7320,
-    "ctn": 51,
+    "acres": 7325,
+    "ctn": 61,
     "est": "9/30",
     "own": "BLM",
     "team": null
@@ -232,7 +268,7 @@
    {
     "name": "Swiss Roll",
     "unit": "CO-SJF",
-    "acres": 775,
+    "acres": 777,
     "ctn": 0,
     "est": "10/22",
     "own": "FS",
@@ -266,159 +302,6 @@
     "team": null
    },
    {
-    "name": "Floriston",
-    "unit": "CA-NEU",
-    "acres": 640,
-    "ctn": 8,
-    "est": "9/26",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Lucas",
-    "unit": "CA-LNU",
-    "acres": 4128,
-    "ctn": 67,
-    "est": "9/21",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Dome",
-    "unit": "CA-YNP",
-    "acres": 1177,
-    "ctn": 10,
-    "est": "9/30",
-    "own": "NPS",
-    "team": "CA 3"
-   },
-   {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 25435,
-    "ctn": 59,
-    "est": "10/1",
-    "own": "FS",
-    "team": "SW 1"
-   },
-   {
-    "name": "Plaskett",
-    "unit": "CA-LPF",
-    "acres": 29993,
-    "ctn": 97,
-    "est": "10/1",
-    "own": "FS",
-    "team": "CA 6"
-   },
-   {
-    "name": "Crooked",
-    "unit": "ID-BOF",
-    "acres": 10081,
-    "ctn": 98,
-    "est": "9/18",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Doublesprings",
-    "unit": "ID-SCF",
-    "acres": 1779,
-    "ctn": 70,
-    "est": "9/25",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Slough Canyon",
-    "unit": "UT-UOA",
-    "acres": 4774,
-    "ctn": 75,
-    "est": "10/5",
-    "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "Davis Coulee",
-    "unit": "MT-CRA",
-    "acres": 15470,
-    "ctn": 50,
-    "est": "9/30",
-    "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "Sand Creek",
-    "unit": "MT-BDF",
-    "acres": 35520,
-    "ctn": 58,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Bobcat Lakes",
-    "unit": "MT-BDF",
-    "acres": 10896,
-    "ctn": 72,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Upper Smith",
-    "unit": "ID-IPF",
-    "acres": 4848,
-    "ctn": 41,
-    "est": "12/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Parker Lake",
-    "unit": "ID-IPF",
-    "acres": 1531,
-    "ctn": 0,
-    "est": "12/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Silver",
-    "unit": "ID-IPF",
-    "acres": 2593,
-    "ctn": 30,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Nature Grove",
-    "unit": "MT-BRF",
-    "acres": 1422,
-    "ctn": 0,
-    "est": "10/30",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Cascade",
-    "unit": "ID-NCF",
-    "acres": 7475,
-    "ctn": 70,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Moose",
-    "unit": "MT-BDF",
-    "acres": 6005,
-    "ctn": 15,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Little Giant",
     "unit": "WA-OWF",
     "acres": 172814,
@@ -430,7 +313,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 3691,
+    "acres": 3731,
     "ctn": 15,
     "est": "10/31",
     "own": "FS",
@@ -439,7 +322,7 @@
    {
     "name": "Austin",
     "unit": "OR-MHF",
-    "acres": 12866,
+    "acres": 12886,
     "ctn": 98,
     "est": "10/31",
     "own": "FS",
@@ -485,7 +368,7 @@
     "name": "Goat",
     "unit": "WA-OWF",
     "acres": 815,
-    "ctn": 64,
+    "ctn": 70,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -520,8 +403,8 @@
    {
     "name": "Border 2",
     "unit": "WA-NCP",
-    "acres": 8284,
-    "ctn": 70,
+    "acres": 8362,
+    "ctn": 64,
     "est": "11/1",
     "own": "NPS",
     "team": null
@@ -545,10 +428,91 @@
     "team": null
    },
    {
+    "name": "Davis Coulee",
+    "unit": "MT-CRA",
+    "acres": 15470,
+    "ctn": 50,
+    "est": "9/30",
+    "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "Sand Creek",
+    "unit": "MT-BDF",
+    "acres": 35520,
+    "ctn": 58,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Upper Smith",
+    "unit": "ID-IPF",
+    "acres": 4848,
+    "ctn": 41,
+    "est": "12/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Bobcat Lakes",
+    "unit": "MT-BDF",
+    "acres": 10896,
+    "ctn": 72,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Parker Lake",
+    "unit": "ID-IPF",
+    "acres": 1531,
+    "ctn": 0,
+    "est": "12/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Silver",
+    "unit": "ID-IPF",
+    "acres": 2593,
+    "ctn": 30,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Cascade",
+    "unit": "ID-NCF",
+    "acres": 7475,
+    "ctn": 70,
+    "est": "11/1",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Nature Grove",
+    "unit": "MT-BRF",
+    "acres": 1422,
+    "ctn": 0,
+    "est": "10/30",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Moose",
+    "unit": "MT-BDF",
+    "acres": 6005,
+    "ctn": 15,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "Whiskey",
     "unit": "NM-CIF",
     "acres": 542,
-    "ctn": 48,
+    "ctn": 52,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -563,7 +527,7 @@
     "team": null
    }
   ],
-  "discussion": "Hot temperatures with highs near 100\u00b0F continue across the southern Plains and Mid-Mississippi Valley today, and widespread above normal temperatures will spread east into the southern Appalachians. Minimum relative humidity is expected to be 20-35% from the southern Plains to the Lower Mississippi Valley, with breezy south winds of 15-20 mph in the southern Plains creating areas of elevated conditions. Relative humidity will remain low in the Mojave Desert to southern Nevada today, but winds will be lighter than the past two days and generally near or less than 10 mph. Widespread showers and isolated thunderstorms will develop in central Idaho to the northern Rockies, while abundant cloud cover continues in the Greater Four Corners with isolated afternoon showers and thunderstorms. Cool temperatures will continue in California while temperatures remain slightly above normal in Washington."
+  "discussion": "Temperatures will remain hot across the southern plains and middle Mississippi Valley today with highs reaching near 100\u00b0F. Breezy winds with gusts 25 to 35 mph will develop from the Texas panhandle across central Oklahoma this afternoon. Flood Watches remain in effect for northern Wyoming and southcentral Montana today as heavy rain continues beneath the upper level trough as it moves east. The eastward movement of the trough will also cause breezy winds gusting to 30 mph to develop along the Front Range and in the eastern Sierra. A warming and drying trend will begin across the Pacific Northwest as a weak and transient ridge of high pressure builds over the area. Well below normal temperatures continue across the Great Basin and Northern Rockies while California remains near to slightly below normal. Relative humidity across northern California will drop to 10-20% while RHs drop to 7-15% across Nevada and the Mojave Desert."
  },
  "ledger": {
   "teams": [
@@ -625,7 +589,7 @@
    {
     "team": "NW 12",
     "assigns": 3,
-    "days": 31
+    "days": 45
    },
    {
     "team": "NW 13",
@@ -1453,7 +1417,7 @@
     "days": null
    }
   ],
-  "as_of": "9/16/2026",
+  "as_of": "9/18/2026",
   "total_assigns": 102,
   "total_days": 1
  },
