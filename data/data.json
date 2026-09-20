@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-19T17:02:02.512808+00:00",
- "imsr_edition": "2026-09-19",
+ "generated_at": "2026-09-20T17:19:39.590144+00:00",
+ "imsr_edition": "2026-09-20",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -17,50 +17,50 @@
     "gacc": "NWCC",
     "pl": 3,
     "incidents": 25,
-    "acres": 1360634,
-    "personnel": 5035
+    "acres": 1360942,
+    "personnel": 5050
    },
    {
     "gacc": "ONCC",
     "pl": 3,
     "incidents": 3,
     "acres": 12349,
-    "personnel": 2121
+    "personnel": 2021
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 57614,
-    "personnel": 1981
+    "acres": 57812,
+    "personnel": 1860
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 12,
     "acres": 96987,
-    "personnel": 333
+    "personnel": 336
    },
    {
     "gacc": "GBCC",
     "pl": 2,
     "incidents": 6,
     "acres": 180599,
-    "personnel": 220
+    "personnel": 223
    },
    {
     "gacc": "SWCC",
     "pl": 1,
     "incidents": 4,
     "acres": 17222,
-    "personnel": 200
+    "personnel": 140
    },
    {
     "gacc": "RMCC",
     "pl": 2,
     "incidents": 7,
     "acres": 125539,
-    "personnel": 238
+    "personnel": 218
    },
    {
     "gacc": "EACC",
@@ -72,12 +72,12 @@
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 39,
-    "acres": 143647,
-    "personnel": 1195
+    "incidents": 36,
+    "acres": 140592,
+    "personnel": 1038
    }
   ],
-  "cimts_committed": 9,
+  "cimts_committed": 8,
   "teams": [
    {
     "team": "CA 3",
@@ -91,17 +91,17 @@
    },
    {
     "team": "CA 6",
+    "incident": "Timber",
+    "status": "committed"
+   },
+   {
+    "team": "CA 6",
     "incident": "Plaskett",
     "status": "committed"
    },
    {
     "team": "NW 13",
     "incident": "Little Giant",
-    "status": "committed"
-   },
-   {
-    "team": "NW 10",
-    "incident": "Austin",
     "status": "committed"
    },
    {
@@ -122,24 +122,6 @@
   ],
   "fires": [
    {
-    "name": "Dry River",
-    "unit": "TX-TXS",
-    "acres": 8939,
-    "ctn": 55,
-    "est": "9/24",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Gracemont",
-    "unit": "OK-ANA",
-    "acres": 2665,
-    "ctn": 45,
-    "est": "9/27",
-    "own": "BIA",
-    "team": null
-   },
-   {
     "name": "Hydra",
     "unit": "TX-TXS",
     "acres": 933,
@@ -149,30 +131,39 @@
     "team": null
    },
    {
+    "name": "Gracemont",
+    "unit": "OK-ANA",
+    "acres": 2665,
+    "ctn": 60,
+    "est": "9/27",
+    "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "Dry River",
+    "unit": "TX-TXS",
+    "acres": 8939,
+    "ctn": 85,
+    "est": "9/24",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Calvary Creek",
+    "unit": "OK-OKS",
+    "acres": 906,
+    "ctn": 95,
+    "est": "UNK",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Star Lake",
     "unit": "TX-MCR",
     "acres": 16412,
-    "ctn": 80,
+    "ctn": 98,
     "est": "9/21",
     "own": "FWS",
-    "team": null
-   },
-   {
-    "name": "Clark",
-    "unit": "TX-TXS",
-    "acres": 970,
-    "ctn": 90,
-    "est": "9/25",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Tram Trail",
-    "unit": "OK-OKS",
-    "acres": 660,
-    "ctn": 90,
-    "est": "UNK",
-    "own": "ST",
     "team": null
    },
    {
@@ -185,20 +176,11 @@
     "team": null
    },
    {
-    "name": "Calvary Creek",
-    "unit": "OK-OKS",
-    "acres": 906,
-    "ctn": 85,
-    "est": "UNK",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Floriston",
     "unit": "CA-NEU",
     "acres": 622,
-    "ctn": 25,
-    "est": "9/26",
+    "ctn": 45,
+    "est": "9/25",
     "own": "ST",
     "team": null
    },
@@ -206,7 +188,7 @@
     "name": "Lucas",
     "unit": "CA-LNU",
     "acres": 4128,
-    "ctn": 84,
+    "ctn": 95,
     "est": "9/21",
     "own": "ST",
     "team": null
@@ -214,7 +196,7 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 2186,
+    "acres": 2384,
     "ctn": 15,
     "est": "9/30",
     "own": "NPS",
@@ -239,24 +221,6 @@
     "team": "CA 6"
    },
    {
-    "name": "Doublesprings",
-    "unit": "ID-SCF",
-    "acres": 1779,
-    "ctn": 70,
-    "est": "9/25",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Slough Canyon",
-    "unit": "UT-UOA",
-    "acres": 4774,
-    "ctn": 75,
-    "est": "10/5",
-    "own": "BIA",
-    "team": null
-   },
-   {
     "name": "Moonshine",
     "unit": "WY-HDD",
     "acres": 7325,
@@ -269,26 +233,8 @@
     "name": "Swiss Roll",
     "unit": "CO-SJF",
     "acres": 777,
-    "ctn": 0,
+    "ctn": 36,
     "est": "10/22",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Aspen Acres",
-    "unit": "CO-CUX",
-    "acres": 102004,
-    "ctn": 82,
-    "est": "11/27",
-    "own": "CNTY",
-    "team": null
-   },
-   {
-    "name": "Willow",
-    "unit": "CO-PSF",
-    "acres": 7389,
-    "ctn": 80,
-    "est": "9/30",
     "own": "FS",
     "team": null
    },
@@ -322,11 +268,11 @@
    {
     "name": "Austin",
     "unit": "OR-MHF",
-    "acres": 12886,
+    "acres": 12882,
     "ctn": 98,
     "est": "10/31",
     "own": "FS",
-    "team": "NW 10"
+    "team": "CA 2"
    },
    {
     "name": "The Narrows",
@@ -340,7 +286,7 @@
    {
     "name": "Grasshopper",
     "unit": "OR-MHF",
-    "acres": 93996,
+    "acres": 93966,
     "ctn": 98,
     "est": "10/1",
     "own": "FS",
@@ -349,7 +295,7 @@
    {
     "name": "Three Queens",
     "unit": "WA-OWF",
-    "acres": 9562,
+    "acres": 9566,
     "ctn": 23,
     "est": "10/31",
     "own": "FS",
@@ -358,7 +304,7 @@
    {
     "name": "King",
     "unit": "WA-OWF",
-    "acres": 3304,
+    "acres": 3314,
     "ctn": 0,
     "est": "10/31",
     "own": "FS",
@@ -377,7 +323,7 @@
     "name": "Hagen",
     "unit": "OR-UMF",
     "acres": 61382,
-    "ctn": 87,
+    "ctn": 89,
     "est": "10/1",
     "own": "FS",
     "team": "NW 7"
@@ -385,26 +331,17 @@
    {
     "name": "Sinlahekin",
     "unit": "WA-NES",
-    "acres": 166012,
-    "ctn": 84,
+    "acres": 166005,
+    "ctn": 92,
     "est": "9/28",
     "own": "ST",
     "team": null
    },
    {
-    "name": "Luna",
-    "unit": "WA-NCP",
-    "acres": 7879,
-    "ctn": 53,
-    "est": "11/1",
-    "own": "NPS",
-    "team": null
-   },
-   {
     "name": "Border 2",
     "unit": "WA-NCP",
-    "acres": 8362,
-    "ctn": 64,
+    "acres": 8707,
+    "ctn": 74,
     "est": "11/1",
     "own": "NPS",
     "team": null
@@ -455,42 +392,6 @@
     "team": null
    },
    {
-    "name": "Bobcat Lakes",
-    "unit": "MT-BDF",
-    "acres": 10896,
-    "ctn": 72,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Parker Lake",
-    "unit": "ID-IPF",
-    "acres": 1531,
-    "ctn": 0,
-    "est": "12/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Silver",
-    "unit": "ID-IPF",
-    "acres": 2593,
-    "ctn": 30,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Cascade",
-    "unit": "ID-NCF",
-    "acres": 7475,
-    "ctn": 70,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Nature Grove",
     "unit": "MT-BRF",
     "acres": 1422,
@@ -516,18 +417,9 @@
     "est": "10/31",
     "own": "FS",
     "team": null
-   },
-   {
-    "name": "Frijoles",
-    "unit": "NM-SNF",
-    "acres": 15956,
-    "ctn": 74,
-    "est": "9/30",
-    "own": "FS",
-    "team": null
    }
   ],
-  "discussion": "Temperatures will remain hot across the southern plains and middle Mississippi Valley today with highs reaching near 100\u00b0F. Breezy winds with gusts 25 to 35 mph will develop from the Texas panhandle across central Oklahoma this afternoon. Flood Watches remain in effect for northern Wyoming and southcentral Montana today as heavy rain continues beneath the upper level trough as it moves east. The eastward movement of the trough will also cause breezy winds gusting to 30 mph to develop along the Front Range and in the eastern Sierra. A warming and drying trend will begin across the Pacific Northwest as a weak and transient ridge of high pressure builds over the area. Well below normal temperatures continue across the Great Basin and Northern Rockies while California remains near to slightly below normal. Relative humidity across northern California will drop to 10-20% while RHs drop to 7-15% across Nevada and the Mojave Desert."
+  "discussion": "Hot temperatures, very dry fuels, and RH dropping to 20-30% persists across the Lower Mississippi Valley today. The eastward progression of the upper trough and slight weakening of the ridge over the southeast will allow wet thunderstorms to develop this afternoon over central Oklahoma. This will bring relief to the relative humidity there but bring gusty winds as well. Eastern Oklahoma and Texas and the Lower Mississippi Valley will remain dry. Wet thunderstorms develop again today over eastern Montana, Wyoming, and the High Plains with many areas likely to see near 1\u201d of rain. Light winds persist across the Pacific Northwest, though warming and drying will allow relative humidity to drop to 15-25% this afternoon across the Columbia Basin. Relative humidity will drop to 7-18% across Nevada, the Mojave Desert, and the Central Valley this afternoon but winds will remain light with gusts less than 25 mph. Wind gusts to 25 to 30 mph are likely again today across the Front Range and the eastern Sierra."
  },
  "ledger": {
   "teams": [
