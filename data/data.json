@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-20T17:19:39.590144+00:00",
- "imsr_edition": "2026-09-20",
+ "generated_at": "2026-09-21T19:06:43.383441+00:00",
+ "imsr_edition": "2026-09-21",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -10,88 +10,78 @@
     "gacc": "AICC",
     "pl": 1,
     "incidents": 0,
-    "acres": 7339,
+    "acres": 0,
     "personnel": 0
    },
    {
     "gacc": "NWCC",
     "pl": 3,
     "incidents": 25,
-    "acres": 1360942,
-    "personnel": 5050
+    "acres": 1336078,
+    "personnel": 5008
    },
    {
     "gacc": "ONCC",
-    "pl": 3,
-    "incidents": 3,
-    "acres": 12349,
-    "personnel": 2021
+    "pl": 2,
+    "incidents": 4,
+    "acres": 12690,
+    "personnel": 1760
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 57812,
-    "personnel": 1860
+    "acres": 58475,
+    "personnel": 1774
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 12,
-    "acres": 96987,
-    "personnel": 336
+    "incidents": 11,
+    "acres": 90982,
+    "personnel": 267
    },
    {
     "gacc": "GBCC",
     "pl": 2,
     "incidents": 6,
-    "acres": 180599,
-    "personnel": 223
+    "acres": 180606,
+    "personnel": 193
    },
    {
     "gacc": "SWCC",
     "pl": 1,
     "incidents": 4,
     "acres": 17222,
-    "personnel": 140
+    "personnel": 147
    },
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 7,
-    "acres": 125539,
-    "personnel": 218
+    "incidents": 6,
+    "acres": 125095,
+    "personnel": 151
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 1,
+    "acres": 130,
+    "personnel": 5
    },
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 36,
-    "acres": 140592,
-    "personnel": 1038
+    "incidents": 35,
+    "acres": 147038,
+    "personnel": 984
    }
   ],
-  "cimts_committed": 8,
+  "cimts_committed": 7,
   "teams": [
    {
     "team": "CA 3",
     "incident": "Dome",
-    "status": "committed"
-   },
-   {
-    "team": "SW 1",
-    "incident": "Timber",
-    "status": "committed"
-   },
-   {
-    "team": "CA 6",
-    "incident": "Timber",
     "status": "committed"
    },
    {
@@ -125,7 +115,7 @@
     "name": "Hydra",
     "unit": "TX-TXS",
     "acres": 933,
-    "ctn": 35,
+    "ctn": 52,
     "est": "9/25",
     "own": "ST",
     "team": null
@@ -133,37 +123,28 @@
    {
     "name": "Gracemont",
     "unit": "OK-ANA",
-    "acres": 2665,
-    "ctn": 60,
+    "acres": 2690,
+    "ctn": 75,
     "est": "9/27",
     "own": "BIA",
+    "team": null
+   },
+   {
+    "name": "Mud Bayou",
+    "unit": "TX-MCR",
+    "acres": 10550,
+    "ctn": 80,
+    "est": "9/21",
+    "own": "FWS",
     "team": null
    },
    {
     "name": "Dry River",
     "unit": "TX-TXS",
     "acres": 8939,
-    "ctn": 85,
+    "ctn": 90,
     "est": "9/24",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Calvary Creek",
-    "unit": "OK-OKS",
-    "acres": 906,
-    "ctn": 95,
-    "est": "UNK",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Star Lake",
-    "unit": "TX-MCR",
-    "acres": 16412,
-    "ctn": 98,
-    "est": "9/21",
-    "own": "FWS",
     "team": null
    },
    {
@@ -176,40 +157,13 @@
     "team": null
    },
    {
-    "name": "Floriston",
-    "unit": "CA-NEU",
-    "acres": 622,
-    "ctn": 45,
-    "est": "9/25",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Lucas",
-    "unit": "CA-LNU",
-    "acres": 4128,
-    "ctn": 95,
-    "est": "9/21",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 2384,
+    "acres": 3047,
     "ctn": 15,
     "est": "9/30",
     "own": "NPS",
     "team": "CA 3"
-   },
-   {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 25435,
-    "ctn": 59,
-    "est": "10/1",
-    "own": "FS",
-    "team": "SW 1"
    },
    {
     "name": "Plaskett",
@@ -221,30 +175,30 @@
     "team": "CA 6"
    },
    {
-    "name": "Moonshine",
-    "unit": "WY-HDD",
-    "acres": 7325,
-    "ctn": 61,
-    "est": "9/30",
-    "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Swiss Roll",
-    "unit": "CO-SJF",
-    "acres": 777,
-    "ctn": 36,
-    "est": "10/22",
+    "name": "Timber",
+    "unit": "CA-LPF",
+    "acres": 25435,
+    "ctn": 59,
+    "est": "10/1",
     "own": "FS",
     "team": null
    },
    {
-    "name": "Elk",
-    "unit": "CO-GMF",
-    "acres": 7257,
-    "ctn": 73,
-    "est": "10/31",
-    "own": "FS",
+    "name": "Chileno",
+    "unit": "CA-MRN",
+    "acres": 341,
+    "ctn": 5,
+    "est": "9/23",
+    "own": "CNTY",
+    "team": null
+   },
+   {
+    "name": "Floriston",
+    "unit": "CA-NEU",
+    "acres": 622,
+    "ctn": 65,
+    "est": "9/25",
+    "own": "ST",
     "team": null
    },
    {
@@ -314,7 +268,7 @@
     "name": "Goat",
     "unit": "WA-OWF",
     "acres": 815,
-    "ctn": 70,
+    "ctn": 80,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -322,7 +276,7 @@
    {
     "name": "Hagen",
     "unit": "OR-UMF",
-    "acres": 61382,
+    "acres": 61379,
     "ctn": 89,
     "est": "10/1",
     "own": "FS",
@@ -365,6 +319,33 @@
     "team": null
    },
    {
+    "name": "Moonshine",
+    "unit": "WY-HDD",
+    "acres": 7325,
+    "ctn": 61,
+    "est": "9/30",
+    "own": "BLM",
+    "team": null
+   },
+   {
+    "name": "Swiss Roll",
+    "unit": "CO-SJF",
+    "acres": 777,
+    "ctn": 36,
+    "est": "10/22",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Elk",
+    "unit": "CO-GMF",
+    "acres": 7257,
+    "ctn": 73,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "Davis Coulee",
     "unit": "MT-CRA",
     "acres": 15470,
@@ -377,7 +358,7 @@
     "name": "Sand Creek",
     "unit": "MT-BDF",
     "acres": 35520,
-    "ctn": 58,
+    "ctn": 71,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -401,15 +382,6 @@
     "team": null
    },
    {
-    "name": "Moose",
-    "unit": "MT-BDF",
-    "acres": 6005,
-    "ctn": 15,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Whiskey",
     "unit": "NM-CIF",
     "acres": 542,
@@ -417,9 +389,18 @@
     "est": "10/31",
     "own": "FS",
     "team": null
+   },
+   {
+    "name": "Tabor",
+    "unit": "MO-MTF",
+    "acres": 130,
+    "ctn": 4,
+    "est": "UNK",
+    "own": "FS",
+    "team": null
    }
   ],
-  "discussion": "Hot temperatures, very dry fuels, and RH dropping to 20-30% persists across the Lower Mississippi Valley today. The eastward progression of the upper trough and slight weakening of the ridge over the southeast will allow wet thunderstorms to develop this afternoon over central Oklahoma. This will bring relief to the relative humidity there but bring gusty winds as well. Eastern Oklahoma and Texas and the Lower Mississippi Valley will remain dry. Wet thunderstorms develop again today over eastern Montana, Wyoming, and the High Plains with many areas likely to see near 1\u201d of rain. Light winds persist across the Pacific Northwest, though warming and drying will allow relative humidity to drop to 15-25% this afternoon across the Columbia Basin. Relative humidity will drop to 7-18% across Nevada, the Mojave Desert, and the Central Valley this afternoon but winds will remain light with gusts less than 25 mph. Wind gusts to 25 to 30 mph are likely again today across the Front Range and the eastern Sierra."
+  "discussion": "The ridge of high pressure over the southeast will continue to weaken, but temperatures will still rise into the mid to upper 90s this afternoon from the lower Mississippi Valley north through Tennessee. Relative humidity will bottom out near 25-30% again today as well. In the Pacific Northwest, a trough aloft will bring breezy west winds gusting to 25 mph to cascade gaps and relative humidity will fall to 15-30% again this afternoon east of the Cascades. Further south, slightly above average temperatures are expected across northern California today along with breezy overnight winds and poor relative humidity recovery after RH falls to 10-20% this afternoon. Isolated mixed wet and dry thunderstorms will develop this afternoon across southern and western Nevada including across the Sierra Front. Isolated thunderstorms will also develop across the lower Mississippi Valley and across west Texas today, bring gusty outflow winds with them. Conditions trend drier across the desert southwest, though high temperatures remain mostly below normal. Today will be the driest day of the week across the southern Front Range with relative humidity dropping into the teens."
  },
  "ledger": {
   "teams": [
