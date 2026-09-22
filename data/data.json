@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-21T19:06:43.383441+00:00",
- "imsr_edition": "2026-09-21",
+ "generated_at": "2026-09-22T17:58:39.643484+00:00",
+ "imsr_edition": "2026-09-22",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
-  "national_pl": 3,
+  "national_pl": 2,
   "gacc_pl": [
    {
     "gacc": "AICC",
@@ -16,36 +16,36 @@
    {
     "gacc": "NWCC",
     "pl": 3,
-    "incidents": 25,
-    "acres": 1336078,
-    "personnel": 5008
+    "incidents": 24,
+    "acres": 1294352,
+    "personnel": 4656
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 4,
     "acres": 12690,
-    "personnel": 1760
+    "personnel": 1477
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 58475,
-    "personnel": 1774
+    "acres": 58849,
+    "personnel": 1932
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 11,
-    "acres": 90982,
-    "personnel": 267
+    "incidents": 10,
+    "acres": 89559,
+    "personnel": 258
    },
    {
     "gacc": "GBCC",
     "pl": 2,
     "incidents": 6,
-    "acres": 180606,
+    "acres": 180721,
     "personnel": 193
    },
    {
@@ -53,31 +53,31 @@
     "pl": 1,
     "incidents": 4,
     "acres": 17222,
-    "personnel": 147
+    "personnel": 129
    },
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 6,
-    "acres": 125095,
-    "personnel": 151
+    "incidents": 5,
+    "acres": 123513,
+    "personnel": 111
    },
    {
     "gacc": "EACC",
     "pl": 1,
     "incidents": 1,
-    "acres": 130,
-    "personnel": 5
+    "acres": 300,
+    "personnel": 9
    },
    {
     "gacc": "SACC",
     "pl": 3,
     "incidents": 35,
-    "acres": 147038,
-    "personnel": 984
+    "acres": 146338,
+    "personnel": 936
    }
   ],
-  "cimts_committed": 7,
+  "cimts_committed": 6,
   "teams": [
    {
     "team": "CA 3",
@@ -100,11 +100,6 @@
     "status": "committed"
    },
    {
-    "team": "NW 2",
-    "incident": "Three Queens",
-    "status": "committed"
-   },
-   {
     "team": "NW 7",
     "incident": "Hagen",
     "status": "committed"
@@ -112,10 +107,19 @@
   ],
   "fires": [
    {
+    "name": "Round Prarie",
+    "unit": "LA-LAS",
+    "acres": 739,
+    "ctn": 60,
+    "est": "9/24",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Hydra",
     "unit": "TX-TXS",
     "acres": 933,
-    "ctn": 52,
+    "ctn": 66,
     "est": "9/25",
     "own": "ST",
     "team": null
@@ -124,34 +128,16 @@
     "name": "Gracemont",
     "unit": "OK-ANA",
     "acres": 2690,
-    "ctn": 75,
+    "ctn": 90,
     "est": "9/27",
     "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "Mud Bayou",
-    "unit": "TX-MCR",
-    "acres": 10550,
-    "ctn": 80,
-    "est": "9/21",
-    "own": "FWS",
-    "team": null
-   },
-   {
-    "name": "Dry River",
-    "unit": "TX-TXS",
-    "acres": 8939,
-    "ctn": 90,
-    "est": "9/24",
-    "own": "ST",
     "team": null
    },
    {
     "name": "Bunker",
     "unit": "AR-ARS",
     "acres": 2849,
-    "ctn": 75,
+    "ctn": 90,
     "est": "9/24",
     "own": "ST",
     "team": null
@@ -159,7 +145,7 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 3047,
+    "acres": 3420,
     "ctn": 15,
     "est": "9/30",
     "own": "NPS",
@@ -177,7 +163,7 @@
    {
     "name": "Timber",
     "unit": "CA-LPF",
-    "acres": 25435,
+    "acres": 25436,
     "ctn": 59,
     "est": "10/1",
     "own": "FS",
@@ -187,7 +173,7 @@
     "name": "Chileno",
     "unit": "CA-MRN",
     "acres": 341,
-    "ctn": 5,
+    "ctn": 75,
     "est": "9/23",
     "own": "CNTY",
     "team": null
@@ -196,7 +182,7 @@
     "name": "Floriston",
     "unit": "CA-NEU",
     "acres": 622,
-    "ctn": 65,
+    "ctn": 85,
     "est": "9/25",
     "own": "ST",
     "team": null
@@ -204,7 +190,7 @@
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172814,
+    "acres": 172836,
     "ctn": 81,
     "est": "10/1",
     "own": "FS",
@@ -213,7 +199,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 3731,
+    "acres": 3908,
     "ctn": 15,
     "est": "10/31",
     "own": "FS",
@@ -240,26 +226,35 @@
    {
     "name": "Grasshopper",
     "unit": "OR-MHF",
-    "acres": 93966,
+    "acres": 93971,
     "ctn": 98,
     "est": "10/1",
     "own": "FS",
     "team": null
    },
    {
+    "name": "Hagen",
+    "unit": "OR-UMF",
+    "acres": 61379,
+    "ctn": 91,
+    "est": "10/1",
+    "own": "FS",
+    "team": "NW 7"
+   },
+   {
     "name": "Three Queens",
     "unit": "WA-OWF",
-    "acres": 9566,
-    "ctn": 23,
+    "acres": 9572,
+    "ctn": 31,
     "est": "10/31",
     "own": "FS",
-    "team": "NW 2"
+    "team": null
    },
    {
     "name": "King",
     "unit": "WA-OWF",
-    "acres": 3314,
-    "ctn": 0,
+    "acres": 3335,
+    "ctn": 20,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -274,15 +269,6 @@
     "team": null
    },
    {
-    "name": "Hagen",
-    "unit": "OR-UMF",
-    "acres": 61379,
-    "ctn": 89,
-    "est": "10/1",
-    "own": "FS",
-    "team": "NW 7"
-   },
-   {
     "name": "Sinlahekin",
     "unit": "WA-NES",
     "acres": 166005,
@@ -294,8 +280,8 @@
    {
     "name": "Border 2",
     "unit": "WA-NCP",
-    "acres": 8707,
-    "ctn": 74,
+    "acres": 9108,
+    "ctn": 75,
     "est": "11/1",
     "own": "NPS",
     "team": null
@@ -306,15 +292,6 @@
     "acres": 9656,
     "ctn": 86,
     "est": "10/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Ptarmigan",
-    "unit": "WA-OWF",
-    "acres": 25166,
-    "ctn": 73,
-    "est": "11/1",
     "own": "FS",
     "team": null
    },
@@ -346,15 +323,6 @@
     "team": null
    },
    {
-    "name": "Davis Coulee",
-    "unit": "MT-CRA",
-    "acres": 15470,
-    "ctn": 50,
-    "est": "9/30",
-    "own": "BIA",
-    "team": null
-   },
-   {
     "name": "Sand Creek",
     "unit": "MT-BDF",
     "acres": 35520,
@@ -373,6 +341,15 @@
     "team": null
    },
    {
+    "name": "Davis Coulee",
+    "unit": "MT-CRA",
+    "acres": 15470,
+    "ctn": 50,
+    "est": "9/30",
+    "own": "BIA",
+    "team": null
+   },
+   {
     "name": "Nature Grove",
     "unit": "MT-BRF",
     "acres": 1422,
@@ -385,7 +362,7 @@
     "name": "Whiskey",
     "unit": "NM-CIF",
     "acres": 542,
-    "ctn": 52,
+    "ctn": 75,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -393,14 +370,14 @@
    {
     "name": "Tabor",
     "unit": "MO-MTF",
-    "acres": 130,
-    "ctn": 4,
+    "acres": 300,
+    "ctn": 99,
     "est": "UNK",
     "own": "FS",
     "team": null
    }
   ],
-  "discussion": "The ridge of high pressure over the southeast will continue to weaken, but temperatures will still rise into the mid to upper 90s this afternoon from the lower Mississippi Valley north through Tennessee. Relative humidity will bottom out near 25-30% again today as well. In the Pacific Northwest, a trough aloft will bring breezy west winds gusting to 25 mph to cascade gaps and relative humidity will fall to 15-30% again this afternoon east of the Cascades. Further south, slightly above average temperatures are expected across northern California today along with breezy overnight winds and poor relative humidity recovery after RH falls to 10-20% this afternoon. Isolated mixed wet and dry thunderstorms will develop this afternoon across southern and western Nevada including across the Sierra Front. Isolated thunderstorms will also develop across the lower Mississippi Valley and across west Texas today, bring gusty outflow winds with them. Conditions trend drier across the desert southwest, though high temperatures remain mostly below normal. Today will be the driest day of the week across the southern Front Range with relative humidity dropping into the teens."
+  "discussion": "The lower Mississippi Valley will be the main area of concern today as warm temperatures and dry relative humidities re-establish after isolated thunderstorms moved over the area yesterday. Relative humidity will fall to 35-40% as temperatures rise back into the low to mid 90s, and there will be a few isolated thunderstorms today as well. The reorientation of the high pressure ridge over the southeast will allow southerly flow to draw another round of monsoonal moisture into New Mexico and eastern Arizona, and 2-5 inches of rain is expected there today. Breezy west winds will develop through Cascade gaps this afternoon with gusts to 35 mph, slightly stronger than yesterday. This will include the Columbia Gorge. Relative humidity will drop to 10-20% across northern California with breezy winds and poor overnight humidity recovery again today, though significant fire potential will remain low. A weak cold front moving south through the southern plains will continue to bring isolated showers and thunderstorms to parts of Texas and western Oklahoma."
  },
  "ledger": {
   "teams": [
@@ -1261,9 +1238,9 @@
     "mob": "9/7",
     "team": "NW 2",
     "ga": "NW",
-    "incident": "Three Queens (WA-OWF) 4",
-    "released": null,
-    "days": null
+    "incident": "Three Queens (WA-OWF)",
+    "released": "9/22",
+    "days": 14
    },
    {
     "mob": "9/14",
@@ -1290,7 +1267,7 @@
     "days": null
    }
   ],
-  "as_of": "9/18/2026",
+  "as_of": "9/21/2026",
   "total_assigns": 102,
   "total_days": 1
  },
