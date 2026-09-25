@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-24T18:17:14.358005+00:00",
- "imsr_edition": "2026-09-24",
+ "generated_at": "2026-09-25T18:17:03.628035+00:00",
+ "imsr_edition": "2026-09-25",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,51 +16,51 @@
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 21,
-    "acres": 1294563,
-    "personnel": 3324
+    "incidents": 20,
+    "acres": 1291791,
+    "personnel": 3115
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 3,
     "acres": 5091,
-    "personnel": 753
+    "personnel": 409
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 59425,
-    "personnel": 1939
+    "acres": 59639,
+    "personnel": 2164
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 5,
+    "incidents": 6,
     "acres": 71737,
-    "personnel": 244
+    "personnel": 192
    },
    {
     "gacc": "GBCC",
     "pl": 1,
-    "incidents": 7,
-    "acres": 180449,
-    "personnel": 273
+    "incidents": 6,
+    "acres": 170368,
+    "personnel": 198
    },
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 16498,
-    "personnel": 34
+    "incidents": 3,
+    "acres": 16650,
+    "personnel": 35
    },
    {
     "gacc": "RMCC",
     "pl": 2,
     "incidents": 5,
-    "acres": 123513,
-    "personnel": 59
+    "acres": 117644,
+    "personnel": 153
    },
    {
     "gacc": "EACC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 36,
-    "acres": 55052,
-    "personnel": 712
+    "incidents": 27,
+    "acres": 50254,
+    "personnel": 552
    }
   ],
   "cimts_committed": 6,
@@ -107,46 +107,37 @@
   ],
   "fires": [
    {
-    "name": "Cedar Hollow",
+    "name": "Lake Ranch",
     "unit": "OK-OKS",
-    "acres": 130,
-    "ctn": 60,
-    "est": "9/25",
+    "acres": 390,
+    "ctn": 74,
+    "est": "9/26",
     "own": "ST",
     "team": null
    },
    {
-    "name": "Merit Creek",
-    "unit": "MS-MNF",
-    "acres": 800,
-    "ctn": 75,
-    "est": "10/2",
-    "own": "FS",
+    "name": "Cedar Hollow",
+    "unit": "OK-OKS",
+    "acres": 130,
+    "ctn": 80,
+    "est": "9/25",
+    "own": "ST",
     "team": null
    },
    {
     "name": "Hydra",
     "unit": "TX-TXS",
     "acres": 933,
-    "ctn": 87,
+    "ctn": 93,
     "est": "9/29",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Round Prarie",
-    "unit": "LA-LAS",
-    "acres": 739,
-    "ctn": 95,
-    "est": "9/24",
     "own": "ST",
     "team": null
    },
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 3989,
-    "ctn": 15,
+    "acres": 4133,
+    "ctn": 16,
     "est": "9/30",
     "own": "NPS",
     "team": "CA 3"
@@ -163,7 +154,7 @@
    {
     "name": "Timber",
     "unit": "CA-LPF",
-    "acres": 25443,
+    "acres": 25513,
     "ctn": 59,
     "est": "10/1",
     "own": "FS",
@@ -172,7 +163,7 @@
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172879,
+    "acres": 172889,
     "ctn": 81,
     "est": "10/1",
     "own": "FS",
@@ -181,7 +172,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4158,
+    "acres": 4275,
     "ctn": 15,
     "est": "10/31",
     "own": "FS",
@@ -218,7 +209,7 @@
     "name": "Hagen",
     "unit": "OR-UMF",
     "acres": 61380,
-    "ctn": 95,
+    "ctn": 97,
     "est": "10/1",
     "own": "FS",
     "team": "NW 7"
@@ -233,30 +224,21 @@
     "team": null
    },
    {
-    "name": "King",
-    "unit": "WA-OWF",
-    "acres": 3409,
-    "ctn": 19,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Goat",
-    "unit": "WA-OWF",
-    "acres": 815,
-    "ctn": 85,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Sinlahekin",
     "unit": "WA-NES",
     "acres": 166007,
     "ctn": 93,
     "est": "9/28",
     "own": "ST",
+    "team": null
+   },
+   {
+    "name": "King",
+    "unit": "WA-OWF",
+    "acres": 3409,
+    "ctn": 19,
+    "est": "10/31",
+    "own": "FS",
     "team": null
    },
    {
@@ -278,29 +260,20 @@
     "team": null
    },
    {
-    "name": "Chileno",
-    "unit": "CA-MRN",
-    "acres": 341,
-    "ctn": 95,
-    "est": "9/24",
-    "own": "CNTY",
-    "team": null
-   },
-   {
-    "name": "Floriston",
-    "unit": "CA-NEU",
-    "acres": 622,
-    "ctn": 96,
-    "est": "9/25",
-    "own": "ST",
+    "name": "Goat",
+    "unit": "WA-OWF",
+    "acres": 815,
+    "ctn": 85,
+    "est": "10/31",
+    "own": "FS",
     "team": null
    },
    {
     "name": "Moonshine",
     "unit": "WY-HDD",
     "acres": 7325,
-    "ctn": 65,
-    "est": "9/30",
+    "ctn": 74,
+    "est": "10/4",
     "own": "BLM",
     "team": null
    },
@@ -317,7 +290,7 @@
     "name": "Sand Creek",
     "unit": "MT-BDF",
     "acres": 35520,
-    "ctn": 80,
+    "ctn": 83,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -332,21 +305,21 @@
     "team": null
    },
    {
-    "name": "Davis Coulee",
-    "unit": "MT-CRA",
-    "acres": 15470,
-    "ctn": 50,
-    "est": "9/30",
-    "own": "BIA",
-    "team": null
-   },
-   {
     "name": "Nature Grove",
     "unit": "MT-BRF",
     "acres": 1422,
     "ctn": 0,
     "est": "10/30",
     "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Davis Coulee",
+    "unit": "MT-CRA",
+    "acres": 15470,
+    "ctn": 50,
+    "est": "9/30",
+    "own": "BIA",
     "team": null
    },
    {
@@ -359,7 +332,7 @@
     "team": null
    }
   ],
-  "discussion": "An upper level trough will move eastward over the northwest today, bringing southwest winds 15-20 mph with higher gusts along with afternoon relative humidity in the 15-25% range across northeastern California and southeastern Oregon. Higher winds with 25-35 mph gusts are expected across northwestern Nevada including the Sierra Front and western Idaho in combination with RH values of 12-18%. Above normal temperatures continue across the southern Plains and lower Mississippi Valley along with seasonably low RH and locally breezy north winds. Heavy rain at times along with cloud cover and near to below normal temperatures will continue across the desert Southwest. A strong Nor\u2019easter will continue to bring strong winds, heavy rain, and coastal flooding to the mid-Atlantic coast. In Hawaii, Tropical Depression 15-E, forecasted to become Hurricane Nolo will begin to track northward toward the Big Island, bringing heavy rain, flash flooding concerns, and strong winds."
+  "discussion": "Southwesterly winds 15-25 mph with gusts 30-40 mph will develop across northeast California into the northern Great Basin and southwest to central Montana today. Minimum relative humidity will be lowest from 10-20% from northern Nevada into central Montana with areas of elevated conditions expected. Breezy west winds will also occur in the Columbia Basin but will be accompanied by higher humidity above 30% and isolated to scattered showers. More widespread rainfall is expected near and west of the Cascades in Oregon and Washington, with wetting rain also expected in northern Idaho to western Montana. Warm and dry conditions are expected in southern California, but winds will be light outside the deserts. Widespread showers and scattered thunderstorms will continue in New Mexico, but areas of flooding are likely to be more localized than previous days. Above normal temperatures will continue in the southern Plains to Lower Mississippi Valley but with light winds and minimum relative humidity near or above 30%. A strong Nor\u2019easter will develop off the Mid-Atlantic coast with strong northeast winds expected near the coast, with rain expected to spread into southern New England overnight. Areas of heavy rain are expected for the Big Island of Hawai\u2019i and Maui as Hurricane Nolo approaches."
  },
  "ledger": {
   "teams": [
