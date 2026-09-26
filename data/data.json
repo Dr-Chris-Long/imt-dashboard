@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-25T18:17:03.628035+00:00",
- "imsr_edition": "2026-09-25",
+ "generated_at": "2026-09-26T17:38:41.097028+00:00",
+ "imsr_edition": "2026-09-26",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,37 +16,37 @@
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 20,
-    "acres": 1291791,
-    "personnel": 3115
+    "incidents": 19,
+    "acres": 1224752,
+    "personnel": 2772
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 3,
     "acres": 5091,
-    "personnel": 409
+    "personnel": 425
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 59639,
-    "personnel": 2164
+    "acres": 59695,
+    "personnel": 2107
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 6,
     "acres": 71737,
-    "personnel": 192
+    "personnel": 160
    },
    {
     "gacc": "GBCC",
     "pl": 1,
     "incidents": 6,
     "acres": 170368,
-    "personnel": 198
+    "personnel": 187
    },
    {
     "gacc": "SWCC",
@@ -60,7 +60,7 @@
     "pl": 2,
     "incidents": 5,
     "acres": 117644,
-    "personnel": 153
+    "personnel": 132
    },
    {
     "gacc": "EACC",
@@ -72,12 +72,12 @@
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 27,
-    "acres": 50254,
-    "personnel": 552
+    "incidents": 25,
+    "acres": 48977,
+    "personnel": 484
    }
   ],
-  "cimts_committed": 6,
+  "cimts_committed": 5,
   "teams": [
    {
     "team": "CA 3",
@@ -107,37 +107,10 @@
   ],
   "fires": [
    {
-    "name": "Lake Ranch",
-    "unit": "OK-OKS",
-    "acres": 390,
-    "ctn": 74,
-    "est": "9/26",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Cedar Hollow",
-    "unit": "OK-OKS",
-    "acres": 130,
-    "ctn": 80,
-    "est": "9/25",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Hydra",
-    "unit": "TX-TXS",
-    "acres": 933,
-    "ctn": 93,
-    "est": "9/29",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 4133,
-    "ctn": 16,
+    "acres": 4361,
+    "ctn": 18,
     "est": "9/30",
     "own": "NPS",
     "team": "CA 3"
@@ -146,7 +119,7 @@
     "name": "Plaskett",
     "unit": "CA-LPF",
     "acres": 29993,
-    "ctn": 97,
+    "ctn": 98,
     "est": "10/1",
     "own": "FS",
     "team": "CA 6"
@@ -154,16 +127,25 @@
    {
     "name": "Timber",
     "unit": "CA-LPF",
-    "acres": 25513,
+    "acres": 25341,
     "ctn": 59,
-    "est": "10/1",
+    "est": "11/1",
     "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Lake Ranch",
+    "unit": "OK-OKS",
+    "acres": 390,
+    "ctn": 90,
+    "est": "9/26",
+    "own": "ST",
     "team": null
    },
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172889,
+    "acres": 172891,
     "ctn": 81,
     "est": "10/1",
     "own": "FS",
@@ -172,7 +154,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4275,
+    "acres": 4305,
     "ctn": 15,
     "est": "10/31",
     "own": "FS",
@@ -233,57 +215,12 @@
     "team": null
    },
    {
-    "name": "King",
-    "unit": "WA-OWF",
-    "acres": 3409,
-    "ctn": 19,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Border 2",
-    "unit": "WA-NCP",
-    "acres": 9108,
-    "ctn": 75,
-    "est": "11/1",
-    "own": "NPS",
-    "team": null
-   },
-   {
-    "name": "Paradise",
-    "unit": "OR-UMF",
-    "acres": 9656,
-    "ctn": 86,
-    "est": "10/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Goat",
-    "unit": "WA-OWF",
-    "acres": 815,
-    "ctn": 85,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Moonshine",
     "unit": "WY-HDD",
     "acres": 7325,
     "ctn": 74,
     "est": "10/4",
     "own": "BLM",
-    "team": null
-   },
-   {
-    "name": "Swiss Roll",
-    "unit": "CO-SJF",
-    "acres": 777,
-    "ctn": 36,
-    "est": "10/22",
-    "own": "FS",
     "team": null
    },
    {
@@ -296,43 +233,16 @@
     "team": null
    },
    {
-    "name": "Upper Smith",
-    "unit": "ID-IPF",
-    "acres": 4848,
-    "ctn": 41,
-    "est": "12/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Nature Grove",
-    "unit": "MT-BRF",
-    "acres": 1422,
-    "ctn": 0,
-    "est": "10/30",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Davis Coulee",
     "unit": "MT-CRA",
     "acres": 15470,
-    "ctn": 50,
+    "ctn": 80,
     "est": "9/30",
     "own": "BIA",
     "team": null
-   },
-   {
-    "name": "Whiskey",
-    "unit": "NM-CIF",
-    "acres": 542,
-    "ctn": 75,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
    }
   ],
-  "discussion": "Southwesterly winds 15-25 mph with gusts 30-40 mph will develop across northeast California into the northern Great Basin and southwest to central Montana today. Minimum relative humidity will be lowest from 10-20% from northern Nevada into central Montana with areas of elevated conditions expected. Breezy west winds will also occur in the Columbia Basin but will be accompanied by higher humidity above 30% and isolated to scattered showers. More widespread rainfall is expected near and west of the Cascades in Oregon and Washington, with wetting rain also expected in northern Idaho to western Montana. Warm and dry conditions are expected in southern California, but winds will be light outside the deserts. Widespread showers and scattered thunderstorms will continue in New Mexico, but areas of flooding are likely to be more localized than previous days. Above normal temperatures will continue in the southern Plains to Lower Mississippi Valley but with light winds and minimum relative humidity near or above 30%. A strong Nor\u2019easter will develop off the Mid-Atlantic coast with strong northeast winds expected near the coast, with rain expected to spread into southern New England overnight. Areas of heavy rain are expected for the Big Island of Hawai\u2019i and Maui as Hurricane Nolo approaches."
+  "discussion": "Dry southwesterly winds 12-20 mph with gusts 20-35 mph will develop across southern Nevada into southwest Utah amid minimum relative humidity of 10-20% creating areas of elevated conditions. Lighter winds are expected in the northwestern U.S., although breezy west winds will continue near and east of the Divide in Montana and Wyoming. Dry conditions are expected in California with temperatures remaining slightly above normal for the southern half of the state. Drier conditions are expected in New Mexico today with only isolated showers while Arizona is mild and dry. Above normal temperatures will continue in the southern Plains to Lower Mississippi Valley but with light winds and minimum relative humidity near or above 30%. Dry northerly winds around 10 mph will also occur farther east into Georgia and the Carolinas. A strong Nor\u2019easter will remain off the Mid-Atlantic and southern New England coast with strong northeast winds and coastal flooding, while heavy rain is also expected for Long Island and southern/eastern New England. Heavy rain will persist across Maui and the Big Island today along with strong winds for the Big Island as Hurricane Nolo passes south of the islands. Areas of flooding, perhaps locally catastrophic, will occur across Maui and the Big Island, as well."
  },
  "ledger": {
   "teams": [
@@ -379,7 +289,7 @@
    {
     "team": "NW 7",
     "assigns": 3,
-    "days": 32
+    "days": 46
    },
    {
     "team": "NW 8",
@@ -393,7 +303,7 @@
    },
    {
     "team": "NW 12",
-    "assigns": 3,
+    "assigns": 4,
     "days": 45
    },
    {
@@ -1201,9 +1111,9 @@
     "mob": "9/14",
     "team": "NW 7",
     "ga": "NW",
-    "incident": "Hagen (OR-UMF) 3",
-    "released": null,
-    "days": null
+    "incident": "Hagen (OR-UMF)",
+    "released": "9/29",
+    "days": 14
    },
    {
     "mob": "9/16",
@@ -1220,10 +1130,18 @@
     "incident": "Austin (OR-MHF) 3",
     "released": null,
     "days": null
+   },
+   {
+    "mob": "9/29",
+    "team": "NW 12",
+    "ga": "NW",
+    "incident": "Little Giant (WA-OWF) 4",
+    "released": null,
+    "days": null
    }
   ],
-  "as_of": "9/21/2026",
-  "total_assigns": 102,
+  "as_of": "9/26/2026",
+  "total_assigns": 104,
   "total_days": 1
  },
  "notes": {
