@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-26T17:38:41.097028+00:00",
- "imsr_edition": "2026-09-26",
+ "generated_at": "2026-09-27T18:05:09.245584+00:00",
+ "imsr_edition": "2026-09-27",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,37 +16,37 @@
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 19,
-    "acres": 1224752,
-    "personnel": 2772
+    "incidents": 20,
+    "acres": 1225927,
+    "personnel": 2801
    },
    {
     "gacc": "ONCC",
     "pl": 2,
-    "incidents": 3,
-    "acres": 5091,
-    "personnel": 425
+    "incidents": 2,
+    "acres": 963,
+    "personnel": 249
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 59695,
-    "personnel": 2107
+    "acres": 59945,
+    "personnel": 2069
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 6,
-    "acres": 71737,
-    "personnel": 160
+    "incidents": 5,
+    "acres": 65906,
+    "personnel": 112
    },
    {
     "gacc": "GBCC",
     "pl": 1,
-    "incidents": 6,
-    "acres": 170368,
-    "personnel": 187
+    "incidents": 5,
+    "acres": 170203,
+    "personnel": 125
    },
    {
     "gacc": "SWCC",
@@ -60,7 +60,7 @@
     "pl": 2,
     "incidents": 5,
     "acres": 117644,
-    "personnel": 132
+    "personnel": 83
    },
    {
     "gacc": "EACC",
@@ -73,8 +73,8 @@
     "gacc": "SACC",
     "pl": 3,
     "incidents": 25,
-    "acres": 48977,
-    "personnel": 484
+    "acres": 49417,
+    "personnel": 523
    }
   ],
   "cimts_committed": 5,
@@ -109,9 +109,9 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 4361,
-    "ctn": 18,
-    "est": "9/30",
+    "acres": 4606,
+    "ctn": 30,
+    "est": "10/17",
     "own": "NPS",
     "team": "CA 3"
    },
@@ -127,18 +127,27 @@
    {
     "name": "Timber",
     "unit": "CA-LPF",
-    "acres": 25341,
-    "ctn": 59,
+    "acres": 25346,
+    "ctn": 71,
     "est": "11/1",
     "own": "FS",
     "team": null
    },
    {
-    "name": "Lake Ranch",
+    "name": "Rafter 4B",
+    "unit": "TX-TXS",
+    "acres": 1250,
+    "ctn": 0,
+    "est": "9/30",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Stone Bridge",
     "unit": "OK-OKS",
-    "acres": 390,
-    "ctn": 90,
-    "est": "9/26",
+    "acres": 130,
+    "ctn": 60,
+    "est": "9/27",
     "own": "ST",
     "team": null
    },
@@ -199,7 +208,7 @@
    {
     "name": "Three Queens",
     "unit": "WA-OWF",
-    "acres": 9551,
+    "acres": 9575,
     "ctn": 31,
     "est": "10/31",
     "own": "FS",
@@ -210,7 +219,16 @@
     "unit": "WA-NES",
     "acres": 166007,
     "ctn": 93,
-    "est": "9/28",
+    "est": "10/2",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Second Street",
+    "unit": "WA-WFS",
+    "acres": 1151,
+    "ctn": 60,
+    "est": "9/27",
     "own": "ST",
     "team": null
    },
@@ -218,7 +236,7 @@
     "name": "Moonshine",
     "unit": "WY-HDD",
     "acres": 7325,
-    "ctn": 74,
+    "ctn": 80,
     "est": "10/4",
     "own": "BLM",
     "team": null
@@ -231,18 +249,9 @@
     "est": "10/31",
     "own": "FS",
     "team": null
-   },
-   {
-    "name": "Davis Coulee",
-    "unit": "MT-CRA",
-    "acres": 15470,
-    "ctn": 80,
-    "est": "9/30",
-    "own": "BIA",
-    "team": null
    }
   ],
-  "discussion": "Dry southwesterly winds 12-20 mph with gusts 20-35 mph will develop across southern Nevada into southwest Utah amid minimum relative humidity of 10-20% creating areas of elevated conditions. Lighter winds are expected in the northwestern U.S., although breezy west winds will continue near and east of the Divide in Montana and Wyoming. Dry conditions are expected in California with temperatures remaining slightly above normal for the southern half of the state. Drier conditions are expected in New Mexico today with only isolated showers while Arizona is mild and dry. Above normal temperatures will continue in the southern Plains to Lower Mississippi Valley but with light winds and minimum relative humidity near or above 30%. Dry northerly winds around 10 mph will also occur farther east into Georgia and the Carolinas. A strong Nor\u2019easter will remain off the Mid-Atlantic and southern New England coast with strong northeast winds and coastal flooding, while heavy rain is also expected for Long Island and southern/eastern New England. Heavy rain will persist across Maui and the Big Island today along with strong winds for the Big Island as Hurricane Nolo passes south of the islands. Areas of flooding, perhaps locally catastrophic, will occur across Maui and the Big Island, as well."
+  "discussion": "Above normal temperatures will persist across the southern Plains into the Lower Mississippi Valley today, with areas of low afternoon relative humidity as low as 25% but winds will be light. In the West, temperatures will average below normal as winds are mostly light, with areas of low afternoon relative humidity in central and southern California into Nevada. Scattered showers and isolated thunderstorms will develop later in the day across the Southwest as moisture from Hurricane Polo off the Mexico coast moves northward. Isolated showers and thunderstorms will also develop in the Lower Mississippi Valley, while rain occurs along a cold front in the northern Plains. Heavy rain is expected in much of southern and eastern New England today as the strong Nor\u2019easter continues to affect the areas, with strong northeast winds and coastal flooding continuing, as well. Winds will slowly weaken in Hawai\u2019i as Hurricane Nolo moves westward away from the islands, with a decrease in showers also expected."
  },
  "ledger": {
   "teams": [
