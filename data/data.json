@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-27T18:05:09.245584+00:00",
- "imsr_edition": "2026-09-27",
+ "generated_at": "2026-09-28T20:24:29.019617+00:00",
+ "imsr_edition": "2026-09-28",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 20,
-    "acres": 1225927,
-    "personnel": 2801
+    "incidents": 19,
+    "acres": 1225132,
+    "personnel": 2588
    },
    {
     "gacc": "ONCC",
@@ -31,22 +31,22 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 59945,
-    "personnel": 2069
+    "acres": 60423,
+    "personnel": 2083
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 5,
     "acres": 65906,
-    "personnel": 112
+    "personnel": 105
    },
    {
     "gacc": "GBCC",
     "pl": 1,
     "incidents": 5,
     "acres": 170203,
-    "personnel": 125
+    "personnel": 34
    },
    {
     "gacc": "SWCC",
@@ -60,7 +60,7 @@
     "pl": 2,
     "incidents": 5,
     "acres": 117644,
-    "personnel": 83
+    "personnel": 41
    },
    {
     "gacc": "EACC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 25,
-    "acres": 49417,
-    "personnel": 523
+    "incidents": 21,
+    "acres": 23847,
+    "personnel": 556
    }
   ],
   "cimts_committed": 5,
@@ -109,7 +109,7 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 4606,
+    "acres": 5081,
     "ctn": 30,
     "est": "10/17",
     "own": "NPS",
@@ -119,7 +119,7 @@
     "name": "Plaskett",
     "unit": "CA-LPF",
     "acres": 29993,
-    "ctn": 98,
+    "ctn": 99,
     "est": "10/1",
     "own": "FS",
     "team": "CA 6"
@@ -127,8 +127,8 @@
    {
     "name": "Timber",
     "unit": "CA-LPF",
-    "acres": 25346,
-    "ctn": 71,
+    "acres": 25349,
+    "ctn": 77,
     "est": "11/1",
     "own": "FS",
     "team": null
@@ -136,9 +136,18 @@
    {
     "name": "Rafter 4B",
     "unit": "TX-TXS",
-    "acres": 1250,
-    "ctn": 0,
+    "acres": 2100,
+    "ctn": 50,
     "est": "9/30",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Grover Bend",
+    "unit": "TX-TXS",
+    "acres": 320,
+    "ctn": 60,
+    "est": "10/3",
     "own": "ST",
     "team": null
    },
@@ -147,7 +156,7 @@
     "unit": "OK-OKS",
     "acres": 130,
     "ctn": 60,
-    "est": "9/27",
+    "est": "UNK",
     "own": "ST",
     "team": null
    },
@@ -163,7 +172,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4305,
+    "acres": 4325,
     "ctn": 15,
     "est": "10/31",
     "own": "FS",
@@ -209,7 +218,7 @@
     "name": "Three Queens",
     "unit": "WA-OWF",
     "acres": 9575,
-    "ctn": 31,
+    "ctn": 32,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -227,8 +236,8 @@
     "name": "Second Street",
     "unit": "WA-WFS",
     "acres": 1151,
-    "ctn": 60,
-    "est": "9/27",
+    "ctn": 95,
+    "est": "UNK",
     "own": "ST",
     "team": null
    },
@@ -251,7 +260,7 @@
     "team": null
    }
   ],
-  "discussion": "Above normal temperatures will persist across the southern Plains into the Lower Mississippi Valley today, with areas of low afternoon relative humidity as low as 25% but winds will be light. In the West, temperatures will average below normal as winds are mostly light, with areas of low afternoon relative humidity in central and southern California into Nevada. Scattered showers and isolated thunderstorms will develop later in the day across the Southwest as moisture from Hurricane Polo off the Mexico coast moves northward. Isolated showers and thunderstorms will also develop in the Lower Mississippi Valley, while rain occurs along a cold front in the northern Plains. Heavy rain is expected in much of southern and eastern New England today as the strong Nor\u2019easter continues to affect the areas, with strong northeast winds and coastal flooding continuing, as well. Winds will slowly weaken in Hawai\u2019i as Hurricane Nolo moves westward away from the islands, with a decrease in showers also expected."
+  "discussion": "Above normal temperatures will persist across the southern Plains into the Lower Mississippi Valley today, but light southerly flow off the Gulf will bring additional low level moisture with minimum relative humidity forecast to remain above 35%. In addition, isolated showers and thunderstorms in the afternoon and evening will produce localized wetting rain. Drier conditions with minimum relative humidity of 25-35% will persist in the Southeast. In the West, abundant moisture from Hurricane Polo will move into the Southwest with widespread showers, scattered thunderstorms, and localized flooding. Scattered showers and thunderstorms are also likely to develop farther to the north and east into the central Rockies and much of the central and northern Plains. Farther west, dry conditions are expected for California, the western Great Basin, Northwest, and northern Rockies, amid below normal temperatures. Rain and wind will diminish in the Northeast today, with drier conditions and moderate trade winds in Hawai\u2019i."
  },
  "ledger": {
   "teams": [
