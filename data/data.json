@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-29T19:10:27.063410+00:00",
- "imsr_edition": "2026-09-29",
+ "generated_at": "2026-09-30T18:51:34.377113+00:00",
+ "imsr_edition": "2026-09-30",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -17,29 +17,29 @@
     "gacc": "NWCC",
     "pl": 2,
     "incidents": 20,
-    "acres": 1250298,
-    "personnel": 2425
+    "acres": 1204350,
+    "personnel": 2186
    },
    {
     "gacc": "ONCC",
     "pl": 2,
-    "incidents": 2,
-    "acres": 963,
-    "personnel": 249
+    "incidents": 1,
+    "acres": 341,
+    "personnel": 20
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 60601,
-    "personnel": 2050
+    "acres": 60752,
+    "personnel": 2194
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 5,
     "acres": 58431,
-    "personnel": 103
+    "personnel": 102
    },
    {
     "gacc": "GBCC",
@@ -51,9 +51,9 @@
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 3,
-    "acres": 16650,
-    "personnel": 35
+    "incidents": 2,
+    "acres": 16108,
+    "personnel": 8
    },
    {
     "gacc": "RMCC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 20,
-    "acres": 15553,
-    "personnel": 487
+    "incidents": 18,
+    "acres": 13807,
+    "personnel": 265
    }
   ],
   "cimts_committed": 5,
@@ -85,19 +85,14 @@
     "status": "committed"
    },
    {
-    "team": "CA 6",
-    "incident": "Plaskett",
-    "status": "committed"
+    "team": "CA 4",
+    "incident": "Dome",
+    "status": "mobilizing"
    },
    {
     "team": "NW 13",
     "incident": "Little Giant",
     "status": "committed"
-   },
-   {
-    "team": "NW 12",
-    "incident": "Little Giant",
-    "status": "mobilizing"
    },
    {
     "team": "CA 2",
@@ -107,11 +102,29 @@
   ],
   "fires": [
    {
+    "name": "Dome",
+    "unit": "CA-YNP",
+    "acres": 5410,
+    "ctn": 39,
+    "est": "10/17",
+    "own": "NPS",
+    "team": "CA 3"
+   },
+   {
+    "name": "Timber",
+    "unit": "CA-LPF",
+    "acres": 25349,
+    "ctn": 88,
+    "est": "11/1",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "3 Alpha Sierra",
     "unit": "FL-FLS",
-    "acres": 330,
-    "ctn": 16,
-    "est": "10/10",
+    "acres": 400,
+    "ctn": 90,
+    "est": "10/5",
     "own": "ST",
     "team": null
    },
@@ -119,7 +132,7 @@
     "name": "Rafter 4B",
     "unit": "TX-TXS",
     "acres": 2125,
-    "ctn": 75,
+    "ctn": 90,
     "est": "10/2",
     "own": "ST",
     "team": null
@@ -143,37 +156,10 @@
     "team": null
    },
    {
-    "name": "Dome",
-    "unit": "CA-YNP",
-    "acres": 5259,
-    "ctn": 31,
-    "est": "10/17",
-    "own": "NPS",
-    "team": "CA 3"
-   },
-   {
-    "name": "Plaskett",
-    "unit": "CA-LPF",
-    "acres": 29993,
-    "ctn": 99,
-    "est": "10/1",
-    "own": "FS",
-    "team": "CA 6"
-   },
-   {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 25349,
-    "ctn": 88,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Little Giant",
     "unit": "WA-OWF",
     "acres": 172891,
-    "ctn": 91,
+    "ctn": 93,
     "est": "10/1",
     "own": "FS",
     "team": "NW 13"
@@ -181,8 +167,8 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4325,
-    "ctn": 15,
+    "acres": 4330,
+    "ctn": 29,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -190,7 +176,7 @@
    {
     "name": "Austin",
     "unit": "OR-MHF",
-    "acres": 12884,
+    "acres": 12889,
     "ctn": 98,
     "est": "10/31",
     "own": "FS",
@@ -208,7 +194,7 @@
    {
     "name": "Grasshopper",
     "unit": "OR-MHF",
-    "acres": 93971,
+    "acres": 93972,
     "ctn": 98,
     "est": "10/1",
     "own": "FS",
@@ -219,16 +205,7 @@
     "unit": "OR-UMF",
     "acres": 61380,
     "ctn": 99,
-    "est": "10/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Three Queens",
-    "unit": "WA-OWF",
-    "acres": 9575,
-    "ctn": 33,
-    "est": "10/31",
+    "est": "11/15",
     "own": "FS",
     "team": null
    },
@@ -240,9 +217,18 @@
     "est": "10/2",
     "own": "ST",
     "team": null
+   },
+   {
+    "name": "Three Queens",
+    "unit": "WA-OWF",
+    "acres": 9575,
+    "ctn": 33,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
    }
   ],
-  "discussion": "Breezy northerly winds are expected today in portions of the Sacramento Valley and southern California amid relative humidity of 10-15% creating elevated conditions. Downslope westerly winds are also expected in north- central Montana east of the Divide amid relative humidity of 15-25%. However, moisture from decaying Hurricane Polo will persist in the Southwest and Colorado today, with widespread wetting rainfall and areas of flooding as local amounts near 3 inches are possible. Scattered showers and thunderstorms are also expected north and eastward into the central Plains and Midwest. Farther east, dry and breezy south winds are expected in the southern Plains amid above normal temperatures creating locally elevated conditions. In the Lower Mississippi Valley, winds will be light but relative humidity will be very low for the area with minima of 20-35%."
+  "discussion": "Locally breezy northerly winds in portions of the Sacramento Valley and southern California diminish this morning, but relative humidity of 10-15% will persist amid above normal temperatures. Lighter winds are expected today across the northwestern U.S. as a weak cold front moves through with temperatures either slightly above or below normal ahead of or behind the front, respectively. An upper-level low will move through the Southwest and Colorado with scattered showers and thunderstorms and below normal temperatures. A cold front will stretch from Colorado into the Great Lakes with widespread showers and scattered thunderstorms. Widespread showers and thunderstorms, with a few severe thunderstorms, will produce areas of heavy rain and flooding in central Texas and Oklahoma today as moisture from the remnants of Hurricane Polo move across the region. Farther east, breezy south winds of 10-18 mph are expected amid above normal temperatures and minimum relative humidity of 25-35% creating elevated conditions. Otherwise, isolated showers and thunderstorms will continue across the Gulf Coast and Florida."
  },
  "ledger": {
   "teams": [
