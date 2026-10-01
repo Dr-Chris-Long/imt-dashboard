@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-30T18:51:34.377113+00:00",
- "imsr_edition": "2026-09-30",
+ "generated_at": "2026-10-01T19:18:46.875028+00:00",
+ "imsr_edition": "2026-10-01",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -17,8 +17,8 @@
     "gacc": "NWCC",
     "pl": 2,
     "incidents": 20,
-    "acres": 1204350,
-    "personnel": 2186
+    "acres": 1197012,
+    "personnel": 1982
    },
    {
     "gacc": "ONCC",
@@ -31,15 +31,15 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 60752,
-    "personnel": 2194
+    "acres": 61009,
+    "personnel": 1920
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 5,
+    "incidents": 3,
     "acres": 58431,
-    "personnel": 102
+    "personnel": 84
    },
    {
     "gacc": "GBCC",
@@ -72,12 +72,12 @@
    {
     "gacc": "SACC",
     "pl": 3,
-    "incidents": 18,
-    "acres": 13807,
-    "personnel": 265
+    "incidents": 16,
+    "acres": 11138,
+    "personnel": 155
    }
   ],
-  "cimts_committed": 5,
+  "cimts_committed": 4,
   "teams": [
    {
     "team": "CA 3",
@@ -87,10 +87,10 @@
    {
     "team": "CA 4",
     "incident": "Dome",
-    "status": "mobilizing"
+    "status": "committed"
    },
    {
-    "team": "NW 13",
+    "team": "NW 12",
     "incident": "Little Giant",
     "status": "committed"
    },
@@ -104,8 +104,8 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 5410,
-    "ctn": 39,
+    "acres": 5667,
+    "ctn": 40,
     "est": "10/17",
     "own": "NPS",
     "team": "CA 3"
@@ -120,20 +120,20 @@
     "team": null
    },
    {
-    "name": "3 Alpha Sierra",
-    "unit": "FL-FLS",
-    "acres": 400,
-    "ctn": 90,
-    "est": "10/5",
-    "own": "ST",
+    "name": "San Francisco 2",
+    "unit": "TX-RGR",
+    "acres": 510,
+    "ctn": 10,
+    "est": "10/4",
+    "own": "FWS",
     "team": null
    },
    {
-    "name": "Rafter 4B",
-    "unit": "TX-TXS",
-    "acres": 2125,
-    "ctn": 90,
-    "est": "10/2",
+    "name": "Bradley Road",
+    "unit": "AL-ALS",
+    "acres": 350,
+    "ctn": 0,
+    "est": "10/3",
     "own": "ST",
     "team": null
    },
@@ -141,7 +141,7 @@
     "name": "Honey",
     "unit": "OK-OMA",
     "acres": 333,
-    "ctn": 80,
+    "ctn": 91,
     "est": "10/2",
     "own": "BIA",
     "team": null
@@ -158,11 +158,11 @@
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172891,
+    "acres": 172896,
     "ctn": 93,
     "est": "10/1",
     "own": "FS",
-    "team": "NW 13"
+    "team": "NW 12"
    },
    {
     "name": "Sisi",
@@ -176,11 +176,20 @@
    {
     "name": "Austin",
     "unit": "OR-MHF",
-    "acres": 12889,
+    "acres": 12888,
     "ctn": 98,
     "est": "10/31",
     "own": "FS",
     "team": "CA 2"
+   },
+   {
+    "name": "Grasshopper",
+    "unit": "OR-MHF",
+    "acres": 93972,
+    "ctn": 98,
+    "est": "10/1",
+    "own": "FS",
+    "team": null
    },
    {
     "name": "The Narrows",
@@ -192,12 +201,12 @@
     "team": null
    },
    {
-    "name": "Grasshopper",
-    "unit": "OR-MHF",
-    "acres": 93972,
-    "ctn": 98,
-    "est": "10/1",
-    "own": "FS",
+    "name": "Sinlahekin",
+    "unit": "WA-NES",
+    "acres": 166007,
+    "ctn": 94,
+    "est": "10/2",
+    "own": "ST",
     "team": null
    },
    {
@@ -210,15 +219,6 @@
     "team": null
    },
    {
-    "name": "Sinlahekin",
-    "unit": "WA-NES",
-    "acres": 166007,
-    "ctn": 93,
-    "est": "10/2",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Three Queens",
     "unit": "WA-OWF",
     "acres": 9575,
@@ -228,7 +228,7 @@
     "team": null
    }
   ],
-  "discussion": "Locally breezy northerly winds in portions of the Sacramento Valley and southern California diminish this morning, but relative humidity of 10-15% will persist amid above normal temperatures. Lighter winds are expected today across the northwestern U.S. as a weak cold front moves through with temperatures either slightly above or below normal ahead of or behind the front, respectively. An upper-level low will move through the Southwest and Colorado with scattered showers and thunderstorms and below normal temperatures. A cold front will stretch from Colorado into the Great Lakes with widespread showers and scattered thunderstorms. Widespread showers and thunderstorms, with a few severe thunderstorms, will produce areas of heavy rain and flooding in central Texas and Oklahoma today as moisture from the remnants of Hurricane Polo move across the region. Farther east, breezy south winds of 10-18 mph are expected amid above normal temperatures and minimum relative humidity of 25-35% creating elevated conditions. Otherwise, isolated showers and thunderstorms will continue across the Gulf Coast and Florida."
+  "discussion": "A slow-moving storm will bring widespread showers and thunderstorms across central and east Texas into the eastern Oklahoma and the Mid-Mississippi Valley, with areas of flooding possible in Texas. Farther east, breezy south winds of 10-20 mph are expected amid above normal temperatures in the Lower Mississippi Valley, but overall relative humidity will begin to gradually increase. Scattered showers and thunderstorms will also develop today along the Gulf Coast and Florida, with showers into the Ohio Valley and Lower Great Lakes, as well. A warming trend will continue across the West, with temperatures rising above 90\u00b0F in the lower elevations of California, with above normal temperatures spreading into the Northwest and northern Rockies."
  },
  "ledger": {
   "teams": [
