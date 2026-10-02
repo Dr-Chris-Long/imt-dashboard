@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-01T19:18:46.875028+00:00",
- "imsr_edition": "2026-10-01",
+ "generated_at": "2026-10-02T19:01:52.797829+00:00",
+ "imsr_edition": "2026-10-02",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 20,
-    "acres": 1197012,
-    "personnel": 1982
+    "incidents": 22,
+    "acres": 1206048,
+    "personnel": 1847
    },
    {
     "gacc": "ONCC",
@@ -31,15 +31,15 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 61009,
-    "personnel": 1920
+    "acres": 61198,
+    "personnel": 1958
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 3,
     "acres": 58431,
-    "personnel": 84
+    "personnel": 70
    },
    {
     "gacc": "GBCC",
@@ -60,7 +60,7 @@
     "pl": 2,
     "incidents": 5,
     "acres": 117614,
-    "personnel": 30
+    "personnel": 27
    },
    {
     "gacc": "EACC",
@@ -71,13 +71,13 @@
    },
    {
     "gacc": "SACC",
-    "pl": 3,
-    "incidents": 16,
-    "acres": 11138,
-    "personnel": 155
+    "pl": 2,
+    "incidents": 15,
+    "acres": 10185,
+    "personnel": 142
    }
   ],
-  "cimts_committed": 4,
+  "cimts_committed": 3,
   "teams": [
    {
     "team": "CA 3",
@@ -93,18 +93,13 @@
     "team": "NW 12",
     "incident": "Little Giant",
     "status": "committed"
-   },
-   {
-    "team": "CA 2",
-    "incident": "Austin",
-    "status": "committed"
    }
   ],
   "fires": [
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 5667,
+    "acres": 5855,
     "ctn": 40,
     "est": "10/17",
     "own": "NPS",
@@ -113,45 +108,18 @@
    {
     "name": "Timber",
     "unit": "CA-LPF",
-    "acres": 25349,
+    "acres": 25350,
     "ctn": 88,
     "est": "11/1",
     "own": "FS",
     "team": null
    },
    {
-    "name": "San Francisco 2",
-    "unit": "TX-RGR",
-    "acres": 510,
-    "ctn": 10,
-    "est": "10/4",
-    "own": "FWS",
-    "team": null
-   },
-   {
-    "name": "Bradley Road",
-    "unit": "AL-ALS",
-    "acres": 350,
-    "ctn": 0,
-    "est": "10/3",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Honey",
-    "unit": "OK-OMA",
-    "acres": 333,
-    "ctn": 91,
+    "name": "Hatch Grade",
+    "unit": "WA-WFS",
+    "acres": 9023,
+    "ctn": 70,
     "est": "10/2",
-    "own": "BIA",
-    "team": null
-   },
-   {
-    "name": "Stone Bridge",
-    "unit": "OK-OKS",
-    "acres": 175,
-    "ctn": 80,
-    "est": "UNK",
     "own": "ST",
     "team": null
    },
@@ -160,14 +128,14 @@
     "unit": "WA-OWF",
     "acres": 172896,
     "ctn": 93,
-    "est": "10/1",
+    "est": "11/1",
     "own": "FS",
     "team": "NW 12"
    },
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4330,
+    "acres": 4343,
     "ctn": 29,
     "est": "10/31",
     "own": "FS",
@@ -180,23 +148,14 @@
     "ctn": 98,
     "est": "10/31",
     "own": "FS",
-    "team": "CA 2"
+    "team": null
    },
    {
     "name": "Grasshopper",
     "unit": "OR-MHF",
     "acres": 93972,
     "ctn": 98,
-    "est": "10/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "The Narrows",
-    "unit": "OR-MHF",
-    "acres": 305,
-    "ctn": 98,
-    "est": "10/31",
+    "est": "UNK",
     "own": "FS",
     "team": null
    },
@@ -204,18 +163,9 @@
     "name": "Sinlahekin",
     "unit": "WA-NES",
     "acres": 166007,
-    "ctn": 94,
+    "ctn": 96,
     "est": "10/2",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Hagen",
-    "unit": "OR-UMF",
-    "acres": 61380,
-    "ctn": 99,
-    "est": "11/15",
-    "own": "FS",
     "team": null
    },
    {
@@ -226,9 +176,27 @@
     "est": "10/31",
     "own": "FS",
     "team": null
+   },
+   {
+    "name": "Bradley Road",
+    "unit": "AL-ALS",
+    "acres": 300,
+    "ctn": 90,
+    "est": "10/3",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "San Francisco 2",
+    "unit": "TX-RGR",
+    "acres": 510,
+    "ctn": 10,
+    "est": "10/4",
+    "own": "FWS",
+    "team": null
    }
   ],
-  "discussion": "A slow-moving storm will bring widespread showers and thunderstorms across central and east Texas into the eastern Oklahoma and the Mid-Mississippi Valley, with areas of flooding possible in Texas. Farther east, breezy south winds of 10-20 mph are expected amid above normal temperatures in the Lower Mississippi Valley, but overall relative humidity will begin to gradually increase. Scattered showers and thunderstorms will also develop today along the Gulf Coast and Florida, with showers into the Ohio Valley and Lower Great Lakes, as well. A warming trend will continue across the West, with temperatures rising above 90\u00b0F in the lower elevations of California, with above normal temperatures spreading into the Northwest and northern Rockies."
+  "discussion": "A cold front will slowly move across east Texas, the Tennessee Valley, Appalachians, Mid-Atlantic, and Northeast today bringing scattered to widespread showers and thunderstorms. The heaviest rain will fall in east Texas and the Ohio to Tennessee Valleys. Isolated to scattered showers and thunderstorms will also develop in much of the Southeast ahead of the front, with the most widespread storms along the northern Gulf Coast and in Florida. In the West, the warming trend continues as temperatures rise to 5-15\u00b0F above normal across most of the West, with only portions of the Southwest remaining near to below normal. Minimum relative humidity will remain very low in California and Nevada at 5-15% with areas of poor overnight recovery, with higher minima of 15-30% in the northern Intermountain West. Winds will be light in California and Nevada, but locally breezy west winds will develop near and east of the Divide in Montana and Wyoming."
  },
  "ledger": {
   "teams": [
@@ -295,7 +263,7 @@
    {
     "team": "NW 13",
     "assigns": 3,
-    "days": 31
+    "days": 45
    },
    {
     "team": "RM 1",
@@ -1105,17 +1073,17 @@
     "mob": "9/16",
     "team": "NW 13",
     "ga": "NW",
-    "incident": "Little Giant (WA-OWF) 3",
-    "released": null,
-    "days": null
+    "incident": "Little Giant (WA-OWF)",
+    "released": "10/1",
+    "days": 14
    },
    {
     "mob": "9/16",
     "team": "CA 2",
     "ga": "NW",
-    "incident": "Austin (OR-MHF) 3",
-    "released": null,
-    "days": null
+    "incident": "Austin (OR-MHF)",
+    "released": "10/2",
+    "days": 14
    },
    {
     "mob": "9/29",
@@ -1126,7 +1094,7 @@
     "days": null
    }
   ],
-  "as_of": "9/26/2026",
+  "as_of": "10/2/2026",
   "total_assigns": 104,
   "total_days": 1
  },
