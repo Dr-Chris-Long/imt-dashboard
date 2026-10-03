@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-02T19:01:52.797829+00:00",
- "imsr_edition": "2026-10-02",
+ "generated_at": "2026-10-03T17:49:48.746337+00:00",
+ "imsr_edition": "2026-10-03",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 22,
-    "acres": 1206048,
-    "personnel": 1847
+    "incidents": 20,
+    "acres": 1210895,
+    "personnel": 1712
    },
    {
     "gacc": "ONCC",
@@ -31,22 +31,22 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 3,
-    "acres": 61198,
-    "personnel": 1958
+    "acres": 61628,
+    "personnel": 1954
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 3,
-    "acres": 58431,
+    "acres": 42961,
     "personnel": 70
    },
    {
     "gacc": "GBCC",
     "pl": 1,
-    "incidents": 4,
-    "acres": 170203,
-    "personnel": 21
+    "incidents": 5,
+    "acres": 172713,
+    "personnel": 298
    },
    {
     "gacc": "SWCC",
@@ -60,7 +60,7 @@
     "pl": 2,
     "incidents": 5,
     "acres": 117614,
-    "personnel": 27
+    "personnel": 22
    },
    {
     "gacc": "EACC",
@@ -72,18 +72,13 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 15,
-    "acres": 10185,
-    "personnel": 142
+    "incidents": 14,
+    "acres": 11734,
+    "personnel": 105
    }
   ],
-  "cimts_committed": 3,
+  "cimts_committed": 2,
   "teams": [
-   {
-    "team": "CA 3",
-    "incident": "Dome",
-    "status": "committed"
-   },
    {
     "team": "CA 4",
     "incident": "Dome",
@@ -99,11 +94,11 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 5855,
+    "acres": 6285,
     "ctn": 40,
     "est": "10/17",
     "own": "NPS",
-    "team": "CA 3"
+    "team": "CA 4"
    },
    {
     "name": "Timber",
@@ -115,18 +110,18 @@
     "team": null
    },
    {
-    "name": "Hatch Grade",
-    "unit": "WA-WFS",
-    "acres": 9023,
-    "ctn": 70,
-    "est": "10/2",
-    "own": "ST",
+    "name": "Bull",
+    "unit": "NV-TMFX",
+    "acres": 2500,
+    "ctn": 0,
+    "est": "11/1",
+    "own": "CNTY",
     "team": null
    },
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172896,
+    "acres": 172899,
     "ctn": 93,
     "est": "11/1",
     "own": "FS",
@@ -163,8 +158,8 @@
     "name": "Sinlahekin",
     "unit": "WA-NES",
     "acres": 166007,
-    "ctn": 96,
-    "est": "10/2",
+    "ctn": 98,
+    "est": "UNK",
     "own": "ST",
     "team": null
    },
@@ -178,25 +173,16 @@
     "team": null
    },
    {
-    "name": "Bradley Road",
-    "unit": "AL-ALS",
-    "acres": 300,
-    "ctn": 90,
-    "est": "10/3",
+    "name": "Hatch Grade",
+    "unit": "WA-WFS",
+    "acres": 9023,
+    "ctn": 70,
+    "est": "UNK",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "San Francisco 2",
-    "unit": "TX-RGR",
-    "acres": 510,
-    "ctn": 10,
-    "est": "10/4",
-    "own": "FWS",
     "team": null
    }
   ],
-  "discussion": "A cold front will slowly move across east Texas, the Tennessee Valley, Appalachians, Mid-Atlantic, and Northeast today bringing scattered to widespread showers and thunderstorms. The heaviest rain will fall in east Texas and the Ohio to Tennessee Valleys. Isolated to scattered showers and thunderstorms will also develop in much of the Southeast ahead of the front, with the most widespread storms along the northern Gulf Coast and in Florida. In the West, the warming trend continues as temperatures rise to 5-15\u00b0F above normal across most of the West, with only portions of the Southwest remaining near to below normal. Minimum relative humidity will remain very low in California and Nevada at 5-15% with areas of poor overnight recovery, with higher minima of 15-30% in the northern Intermountain West. Winds will be light in California and Nevada, but locally breezy west winds will develop near and east of the Divide in Montana and Wyoming."
+  "discussion": "Very warm and dry conditions will continue in California and Nevada with high temperatures 85-100\u00b0F, which are as much as 20 degrees above normal. Very low relative humidity of 5-15% will persist and poor overnight recovery of 20-40% is expected for mid-slopes and ridges. Above normal temperatures will stretch north and eastward into much of the northern half of the West and Rockies, but temperatures will remain near to below normal in most of the Southwest. A cold front along the northern Gulf Coast and into the Southeast will begin to stall with scattered to widespread showers and thunderstorms bringing relief from the very dry conditions of late. A weak cold front will move through the northern Plains and Upper Midwest with scattered light showers."
  },
  "ledger": {
   "teams": [
