@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-03T17:49:48.746337+00:00",
- "imsr_edition": "2026-10-03",
+ "generated_at": "2026-10-04T18:00:58.396925+00:00",
+ "imsr_edition": "2026-10-04",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -17,22 +17,22 @@
     "gacc": "NWCC",
     "pl": 2,
     "incidents": 20,
-    "acres": 1210895,
-    "personnel": 1712
+    "acres": 1209756,
+    "personnel": 1666
    },
    {
     "gacc": "ONCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 341,
-    "personnel": 20
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "OSCC",
     "pl": 3,
-    "incidents": 3,
-    "acres": 61628,
-    "personnel": 1954
+    "incidents": 4,
+    "acres": 63013,
+    "personnel": 2281
    },
    {
     "gacc": "NRCC",
@@ -45,8 +45,8 @@
     "gacc": "GBCC",
     "pl": 1,
     "incidents": 5,
-    "acres": 172713,
-    "personnel": 298
+    "acres": 171596,
+    "personnel": 403
    },
    {
     "gacc": "SWCC",
@@ -73,8 +73,8 @@
     "gacc": "SACC",
     "pl": 2,
     "incidents": 14,
-    "acres": 11734,
-    "personnel": 105
+    "acres": 11403,
+    "personnel": 126
    }
   ],
   "cimts_committed": 2,
@@ -92,9 +92,18 @@
   ],
   "fires": [
    {
+    "name": "Bouquet",
+    "unit": "CA-ANF",
+    "acres": 1000,
+    "ctn": 0,
+    "est": "10/6",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 6285,
+    "acres": 6670,
     "ctn": 40,
     "est": "10/17",
     "own": "NPS",
@@ -110,18 +119,9 @@
     "team": null
    },
    {
-    "name": "Bull",
-    "unit": "NV-TMFX",
-    "acres": 2500,
-    "ctn": 0,
-    "est": "11/1",
-    "own": "CNTY",
-    "team": null
-   },
-   {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172899,
+    "acres": 172902,
     "ctn": 93,
     "est": "11/1",
     "own": "FS",
@@ -130,7 +130,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4343,
+    "acres": 4352,
     "ctn": 29,
     "est": "10/31",
     "own": "FS",
@@ -150,7 +150,7 @@
     "unit": "OR-MHF",
     "acres": 93972,
     "ctn": 98,
-    "est": "UNK",
+    "est": "10/31",
     "own": "FS",
     "team": null
    },
@@ -158,31 +158,13 @@
     "name": "Sinlahekin",
     "unit": "WA-NES",
     "acres": 166007,
-    "ctn": 98,
-    "est": "UNK",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Three Queens",
-    "unit": "WA-OWF",
-    "acres": 9575,
-    "ctn": 33,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Hatch Grade",
-    "unit": "WA-WFS",
-    "acres": 9023,
-    "ctn": 70,
-    "est": "UNK",
+    "ctn": 99,
+    "est": "10/7",
     "own": "ST",
     "team": null
    }
   ],
-  "discussion": "Very warm and dry conditions will continue in California and Nevada with high temperatures 85-100\u00b0F, which are as much as 20 degrees above normal. Very low relative humidity of 5-15% will persist and poor overnight recovery of 20-40% is expected for mid-slopes and ridges. Above normal temperatures will stretch north and eastward into much of the northern half of the West and Rockies, but temperatures will remain near to below normal in most of the Southwest. A cold front along the northern Gulf Coast and into the Southeast will begin to stall with scattered to widespread showers and thunderstorms bringing relief from the very dry conditions of late. A weak cold front will move through the northern Plains and Upper Midwest with scattered light showers."
+  "discussion": "Very warm and dry conditions will expand across more of the West today with afternoon highs 10-20\u00b0F above normal from the northern Rockies and Northwest south to California and Nevada. Maxima near 100\u00b0F are expected in the California Central Valley and portions of southern California. Very low relative humidity of 5-15% will persist in California and Nevada, spreading into Oregon and Idaho, and poor overnight recovery of 20-40% is expected for mid-slopes and ridges. However, temperatures will remain near to below normal in the Southwest. A stalled cold front along the northern Gulf Coast and into the Southeast will bring scattered to widespread showers and thunderstorms and areas of heavy rain bringing significant relief from the very dry conditions of late."
  },
  "ledger": {
   "teams": [
