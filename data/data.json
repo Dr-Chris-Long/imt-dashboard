@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-04T18:00:58.396925+00:00",
- "imsr_edition": "2026-10-04",
+ "generated_at": "2026-10-05T21:23:31.065855+00:00",
+ "imsr_edition": "2026-10-05",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -31,7 +31,7 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 4,
-    "acres": 63013,
+    "acres": 63061,
     "personnel": 2281
    },
    {
@@ -51,9 +51,9 @@
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 16108,
-    "personnel": 8
+    "incidents": 1,
+    "acres": 15956,
+    "personnel": 6
    },
    {
     "gacc": "RMCC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 14,
-    "acres": 11403,
-    "personnel": 126
+    "incidents": 12,
+    "acres": 8449,
+    "personnel": 80
    }
   ],
   "cimts_committed": 2,
@@ -113,7 +113,7 @@
     "name": "Timber",
     "unit": "CA-LPF",
     "acres": 25350,
-    "ctn": 88,
+    "ctn": 90,
     "est": "11/1",
     "own": "FS",
     "team": null
@@ -130,7 +130,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4352,
+    "acres": 4363,
     "ctn": 29,
     "est": "10/31",
     "own": "FS",
@@ -164,7 +164,7 @@
     "team": null
    }
   ],
-  "discussion": "Very warm and dry conditions will expand across more of the West today with afternoon highs 10-20\u00b0F above normal from the northern Rockies and Northwest south to California and Nevada. Maxima near 100\u00b0F are expected in the California Central Valley and portions of southern California. Very low relative humidity of 5-15% will persist in California and Nevada, spreading into Oregon and Idaho, and poor overnight recovery of 20-40% is expected for mid-slopes and ridges. However, temperatures will remain near to below normal in the Southwest. A stalled cold front along the northern Gulf Coast and into the Southeast will bring scattered to widespread showers and thunderstorms and areas of heavy rain bringing significant relief from the very dry conditions of late."
+  "discussion": "Very warm and dry conditions will continue across most of the West today with afternoon highs 10-20\u00b0F above normal from the northern Rockies and Northwest south to California and Nevada. Maxima near 100\u00b0F are expected in the California Central Valley and portions of southern California. Very low relative humidity of 5-20% will persist in California, Nevada, eastern Oregon and Idaho, and poor overnight recovery of 20-40% is expected for mid-slopes and ridges. Breezy westerly winds are expected near and east of the Divide in Montana and Wyoming creating areas of elevated conditions as minimum relative humidity falls to 10-20%. However, temperatures will remain near to below normal in the Southwest. A stalled cold front along the northern Gulf Coast will keep scattered to widespread showers and thunderstorms with areas of heavy rain."
  },
  "ledger": {
   "teams": [
