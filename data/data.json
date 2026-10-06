@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-05T21:23:31.065855+00:00",
- "imsr_edition": "2026-10-05",
+ "generated_at": "2026-10-06T19:19:47.493193+00:00",
+ "imsr_edition": "2026-10-06",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 2,
-    "incidents": 20,
-    "acres": 1209756,
-    "personnel": 1666
+    "incidents": 18,
+    "acres": 1129474,
+    "personnel": 1558
    },
    {
     "gacc": "ONCC",
@@ -31,36 +31,36 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 4,
-    "acres": 63061,
-    "personnel": 2281
+    "acres": 63151,
+    "personnel": 2066
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 3,
     "acres": 42961,
-    "personnel": 70
+    "personnel": 66
    },
    {
     "gacc": "GBCC",
     "pl": 1,
-    "incidents": 5,
-    "acres": 171596,
-    "personnel": 403
+    "incidents": 4,
+    "acres": 41898,
+    "personnel": 240
    },
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 15956,
-    "personnel": 6
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 5,
-    "acres": 117614,
-    "personnel": 22
+    "incidents": 3,
+    "acres": 116688,
+    "personnel": 10
    },
    {
     "gacc": "EACC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 12,
-    "acres": 8449,
-    "personnel": 80
+    "incidents": 9,
+    "acres": 5422,
+    "personnel": 54
    }
   ],
   "cimts_committed": 2,
@@ -94,8 +94,8 @@
    {
     "name": "Bouquet",
     "unit": "CA-ANF",
-    "acres": 1000,
-    "ctn": 0,
+    "acres": 1048,
+    "ctn": 63,
     "est": "10/6",
     "own": "FS",
     "team": null
@@ -103,7 +103,7 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 6670,
+    "acres": 6760,
     "ctn": 40,
     "est": "10/17",
     "own": "NPS",
@@ -119,9 +119,18 @@
     "team": null
    },
    {
+    "name": "Bull",
+    "unit": "NV-TMFX",
+    "acres": 1529,
+    "ctn": 44,
+    "est": "10/15",
+    "own": "CNTY",
+    "team": null
+   },
+   {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172902,
+    "acres": 172904,
     "ctn": 93,
     "est": "11/1",
     "own": "FS",
@@ -130,7 +139,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4363,
+    "acres": 4368,
     "ctn": 29,
     "est": "10/31",
     "own": "FS",
@@ -164,7 +173,7 @@
     "team": null
    }
   ],
-  "discussion": "Very warm and dry conditions will continue across most of the West today with afternoon highs 10-20\u00b0F above normal from the northern Rockies and Northwest south to California and Nevada. Maxima near 100\u00b0F are expected in the California Central Valley and portions of southern California. Very low relative humidity of 5-20% will persist in California, Nevada, eastern Oregon and Idaho, and poor overnight recovery of 20-40% is expected for mid-slopes and ridges. Breezy westerly winds are expected near and east of the Divide in Montana and Wyoming creating areas of elevated conditions as minimum relative humidity falls to 10-20%. However, temperatures will remain near to below normal in the Southwest. A stalled cold front along the northern Gulf Coast will keep scattered to widespread showers and thunderstorms with areas of heavy rain."
+  "discussion": "Very hot temperatures reaching into the low 100s will continue across the California Central Valley and portions of southern California this afternoon with very low relative humidity of 10-20%. Winds will be light across most of California however. Afternoon highs 5-15\u00b0F above normal continue across the Great Basin and into Montana and Wyoming. Winds in Montana and Wyoming will be locally breezy, but generally not as windy as Monday. Near normal temperatures are expected across the Southwest and through the lower Mississippi Valley, while below normal temperatures are expected across the east coast. Moderate to heavy rain will continue across Florida and southern Georgia. Scattered showers and isolated thunderstorms are expected across the Wasatch and the Colorado Rockies. Mainly dry conditions will prevail elsewhere."
  },
  "ledger": {
   "teams": [
