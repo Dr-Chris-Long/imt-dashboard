@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-10T18:15:33.515567+00:00",
- "imsr_edition": "2026-10-10",
+ "generated_at": "2026-10-11T18:40:19.214178+00:00",
+ "imsr_edition": "2026-10-11",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 15,
-    "acres": 715282,
-    "personnel": 1174
+    "incidents": 14,
+    "acres": 713849,
+    "personnel": 1126
    },
    {
     "gacc": "ONCC",
@@ -31,8 +31,8 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 5,
-    "acres": 33827,
-    "personnel": 1949
+    "acres": 33896,
+    "personnel": 1526
    },
    {
     "gacc": "NRCC",
@@ -46,7 +46,7 @@
     "pl": 2,
     "incidents": 5,
     "acres": 43555,
-    "personnel": 249
+    "personnel": 261
    },
    {
     "gacc": "SWCC",
@@ -58,9 +58,9 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 3,
-    "acres": 116691,
-    "personnel": 14
+    "incidents": 4,
+    "acres": 118336,
+    "personnel": 32
    },
    {
     "gacc": "EACC",
@@ -73,8 +73,8 @@
     "gacc": "SACC",
     "pl": 2,
     "incidents": 5,
-    "acres": 826,
-    "personnel": 24
+    "acres": 908,
+    "personnel": 18
    }
   ],
   "cimts_committed": 2,
@@ -94,8 +94,8 @@
    {
     "name": "Cyrus",
     "unit": "CA-SQF",
-    "acres": 450,
-    "ctn": 0,
+    "acres": 543,
+    "ctn": 61,
     "est": "10/16",
     "own": "FS",
     "team": null
@@ -103,8 +103,8 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 6829,
-    "ctn": 61,
+    "acres": 6805,
+    "ctn": 69,
     "est": "10/17",
     "own": "NPS",
     "team": "CA 4"
@@ -113,7 +113,7 @@
     "name": "Bouquet",
     "unit": "CA-ANF",
     "acres": 1048,
-    "ctn": 83,
+    "ctn": 93,
     "est": "10/13",
     "own": "FS",
     "team": null
@@ -131,7 +131,7 @@
     "name": "Little Giant",
     "unit": "WA-OWF",
     "acres": 172906,
-    "ctn": 93,
+    "ctn": 95,
     "est": "11/1",
     "own": "FS",
     "team": "NW 12"
@@ -140,7 +140,7 @@
     "name": "Sisi",
     "unit": "WA-OWF",
     "acres": 4439,
-    "ctn": 29,
+    "ctn": 34,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -162,9 +162,18 @@
     "est": "10/31",
     "own": "FS",
     "team": null
+   },
+   {
+    "name": "Pk",
+    "unit": "WY-SHX",
+    "acres": 1645,
+    "ctn": 80,
+    "est": "10/11",
+    "own": "CNTY",
+    "team": null
    }
   ],
-  "discussion": "A deep trough of low pressure will continue to drop south over the western US, bringing a significant cooldown to the Pacific Northwest and the Great Basin. Winds will still be strong along the Sierra Front with gusts 40-45 mph and along the leading edge of the trough east of the Rockies, but precipitation will begin to increase to the west. Snow is likely across western Montana and Wyoming. Showers and isolated thunderstorms will move across southern California in the afternoon, where southerly and westerly winds of 20-30 mph with gusts to 50 mph will continue across mountain ridges and desert passes. Down south, Hurricane Isaias is rapidly weakening as it moves inland across Alabama, though a narrow corridor of critical RH below 35% and north and northwest winds gusting 25-45 mph is likely to develop west of the storm in the afternoon."
+  "discussion": "The pattern change continues to progress today with widespread moisture and cool conditions across the Rocky Mountains and the Great Basin. Northern California will remain gusty and dry however with RH dropping into the teens, though some rainfall is expected across the northeast and far eastside. Moisture from the remnants of Hurricane Rachel will be drawn northward to bring areas of moderate to heavy rain to southern California, Arizona, and southern Nevada. Winds will also be quite strong with gusts to 50 mph across southern California and Arizona. High temperatures will be 10 to 20 degrees below normal across most areas west of the Rockies. The Pacific Northwest will also see some breezy north and northeast winds with gusts to 35 mph across the Columbia Basin and most of Oregon. Dry and hot weather will follow Isaias across the south today, but winds will be much lighter."
  },
  "ledger": {
   "teams": [
