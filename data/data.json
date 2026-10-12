@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-11T18:40:19.214178+00:00",
- "imsr_edition": "2026-10-11",
+ "generated_at": "2026-10-12T21:59:28.543472+00:00",
+ "imsr_edition": "2026-10-12",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 14,
     "acres": 713849,
-    "personnel": 1126
+    "personnel": 1065
    },
    {
     "gacc": "ONCC",
@@ -31,8 +31,8 @@
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 5,
-    "acres": 33896,
-    "personnel": 1526
+    "acres": 33879,
+    "personnel": 1329
    },
    {
     "gacc": "NRCC",
@@ -44,9 +44,9 @@
    {
     "gacc": "GBCC",
     "pl": 2,
-    "incidents": 5,
-    "acres": 43555,
-    "personnel": 261
+    "incidents": 6,
+    "acres": 45555,
+    "personnel": 239
    },
    {
     "gacc": "SWCC",
@@ -60,21 +60,21 @@
     "pl": 2,
     "incidents": 4,
     "acres": 118336,
-    "personnel": 32
+    "personnel": 25
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 2,
+    "acres": 566,
+    "personnel": 52
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 5,
-    "acres": 908,
-    "personnel": 18
+    "incidents": 7,
+    "acres": 911,
+    "personnel": 26
    }
   ],
   "cimts_committed": 2,
@@ -95,7 +95,7 @@
     "name": "Cyrus",
     "unit": "CA-SQF",
     "acres": 543,
-    "ctn": 61,
+    "ctn": 80,
     "est": "10/16",
     "own": "FS",
     "team": null
@@ -103,11 +103,20 @@
    {
     "name": "Dome",
     "unit": "CA-YNP",
-    "acres": 6805,
-    "ctn": 69,
+    "acres": 6788,
+    "ctn": 73,
     "est": "10/17",
     "own": "NPS",
     "team": "CA 4"
+   },
+   {
+    "name": "Timber",
+    "unit": "CA-LPF",
+    "acres": 25350,
+    "ctn": 97,
+    "est": "11/1",
+    "own": "FS",
+    "team": null
    },
    {
     "name": "Bouquet",
@@ -119,12 +128,12 @@
     "team": null
    },
    {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 25350,
-    "ctn": 97,
-    "est": "11/1",
-    "own": "FS",
+    "name": "Buckhorn 2",
+    "unit": "ID-TFD",
+    "acres": 2000,
+    "ctn": 50,
+    "est": "10/12",
+    "own": "BLM",
     "team": null
    },
    {
@@ -164,16 +173,25 @@
     "team": null
    },
    {
+    "name": "Craig Lake 1",
+    "unit": "MI-MIS",
+    "acres": 309,
+    "ctn": 20,
+    "est": "10/23",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Pk",
     "unit": "WY-SHX",
     "acres": 1645,
-    "ctn": 80,
-    "est": "10/11",
+    "ctn": 85,
+    "est": "UNK",
     "own": "CNTY",
     "team": null
    }
   ],
-  "discussion": "The pattern change continues to progress today with widespread moisture and cool conditions across the Rocky Mountains and the Great Basin. Northern California will remain gusty and dry however with RH dropping into the teens, though some rainfall is expected across the northeast and far eastside. Moisture from the remnants of Hurricane Rachel will be drawn northward to bring areas of moderate to heavy rain to southern California, Arizona, and southern Nevada. Winds will also be quite strong with gusts to 50 mph across southern California and Arizona. High temperatures will be 10 to 20 degrees below normal across most areas west of the Rockies. The Pacific Northwest will also see some breezy north and northeast winds with gusts to 35 mph across the Columbia Basin and most of Oregon. Dry and hot weather will follow Isaias across the south today, but winds will be much lighter."
+  "discussion": "A ridge of high pressure building in the wake of Isaias will bring hot, unstable, and windy conditions to northern Louisiana and east Arkansas today. A trough of low pressure over the inland Northwest will weaken today, though below normal temperatures will continue there and across the Great Basin with widespread precipitation across the Great Basin as well. Temperatures begin to rebound over northern California, but there will be less wind today and still some showers over the Far Eastside and Tahoe regions. Showers and isolated thunderstorms continue across southern California along with south to west winds of 20 to 30 mph with gusts to 50 mph across the mountain ridges and desert passes. Temperatures there will cool to 15 to 20 degrees below normal. Cool conditions continue across the northern Rockies with widespread precipitation across the Southwest."
  },
  "ledger": {
   "teams": [
