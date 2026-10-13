@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-12T21:59:28.543472+00:00",
- "imsr_edition": "2026-10-12",
+ "generated_at": "2026-10-13T20:06:40.267634+00:00",
+ "imsr_edition": "2026-10-13",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 14,
-    "acres": 713849,
-    "personnel": 1065
+    "incidents": 13,
+    "acres": 547997,
+    "personnel": 920
    },
    {
     "gacc": "ONCC",
@@ -30,9 +30,9 @@
    {
     "gacc": "OSCC",
     "pl": 3,
-    "incidents": 5,
+    "incidents": 4,
     "acres": 33879,
-    "personnel": 1329
+    "personnel": 1033
    },
    {
     "gacc": "NRCC",
@@ -46,7 +46,7 @@
     "pl": 2,
     "incidents": 6,
     "acres": 45555,
-    "personnel": 239
+    "personnel": 205
    },
    {
     "gacc": "SWCC",
@@ -58,23 +58,23 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 4,
-    "acres": 118336,
-    "personnel": 25
+    "incidents": 3,
+    "acres": 111011,
+    "personnel": 21
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 566,
-    "personnel": 52
+    "incidents": 3,
+    "acres": 1001,
+    "personnel": 91
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 7,
-    "acres": 911,
-    "personnel": 26
+    "incidents": 6,
+    "acres": 681,
+    "personnel": 23
    }
   ],
   "cimts_committed": 2,
@@ -92,22 +92,22 @@
   ],
   "fires": [
    {
-    "name": "Cyrus",
-    "unit": "CA-SQF",
-    "acres": 543,
-    "ctn": 80,
-    "est": "10/16",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Dome",
     "unit": "CA-YNP",
     "acres": 6788,
-    "ctn": 73,
+    "ctn": 86,
     "est": "10/17",
     "own": "NPS",
     "team": "CA 4"
+   },
+   {
+    "name": "Cyrus",
+    "unit": "CA-SQF",
+    "acres": 543,
+    "ctn": 85,
+    "est": "10/16",
+    "own": "FS",
+    "team": null
    },
    {
     "name": "Timber",
@@ -119,20 +119,11 @@
     "team": null
    },
    {
-    "name": "Bouquet",
-    "unit": "CA-ANF",
-    "acres": 1048,
-    "ctn": 93,
-    "est": "10/13",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Buckhorn 2",
     "unit": "ID-TFD",
     "acres": 2000,
     "ctn": 50,
-    "est": "10/12",
+    "est": "UNK",
     "own": "BLM",
     "team": null
    },
@@ -148,7 +139,7 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4439,
+    "acres": 4594,
     "ctn": 34,
     "est": "10/31",
     "own": "FS",
@@ -173,10 +164,19 @@
     "team": null
    },
    {
+    "name": "Ridge",
+    "unit": "MI-MIS",
+    "acres": 450,
+    "ctn": 20,
+    "est": "10/23",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Craig Lake 1",
     "unit": "MI-MIS",
-    "acres": 309,
-    "ctn": 20,
+    "acres": 400,
+    "ctn": 25,
     "est": "10/23",
     "own": "ST",
     "team": null
@@ -191,7 +191,7 @@
     "team": null
    }
   ],
-  "discussion": "A ridge of high pressure building in the wake of Isaias will bring hot, unstable, and windy conditions to northern Louisiana and east Arkansas today. A trough of low pressure over the inland Northwest will weaken today, though below normal temperatures will continue there and across the Great Basin with widespread precipitation across the Great Basin as well. Temperatures begin to rebound over northern California, but there will be less wind today and still some showers over the Far Eastside and Tahoe regions. Showers and isolated thunderstorms continue across southern California along with south to west winds of 20 to 30 mph with gusts to 50 mph across the mountain ridges and desert passes. Temperatures there will cool to 15 to 20 degrees below normal. Cool conditions continue across the northern Rockies with widespread precipitation across the Southwest."
+  "discussion": "Warm and dry conditions continue across eastern Arkansas, northern Louisiana, and Mississippi today. Northern California will see a return to above normal temperatures but with lighter winds while southern California sees slight warming but temperatures staying 10 to 15 degrees below normal. Below normal temperatures and widespread precipitation continue across the Great Basin. This is likely being a season ending event for areas of the Great Basin still seeing fire activity. Cool conditions continue across the northern Rockies. Across the Rockies and the Southwest, precipitation shifts to east of the Continental Divide with minimal fire potential through this week. The Northwest will see a return to near normal temperatures as high pressure over the northeast Pacific drifts over the area."
  },
  "ledger": {
   "teams": [
