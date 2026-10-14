@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-13T20:06:40.267634+00:00",
- "imsr_edition": "2026-10-13",
+ "generated_at": "2026-10-14T18:22:04.190033+00:00",
+ "imsr_edition": "2026-10-14",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
-  "national_pl": 2,
+  "national_pl": 1,
   "gacc_pl": [
    {
     "gacc": "AICC",
@@ -17,8 +17,8 @@
     "gacc": "NWCC",
     "pl": 1,
     "incidents": 13,
-    "acres": 547997,
-    "personnel": 920
+    "acres": 523300,
+    "personnel": 900
    },
    {
     "gacc": "ONCC",
@@ -32,61 +32,56 @@
     "pl": 3,
     "incidents": 4,
     "acres": 33879,
-    "personnel": 1033
+    "personnel": 851
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 2,
-    "acres": 7441,
-    "personnel": 4
+    "acres": 1099,
+    "personnel": 14
    },
    {
     "gacc": "GBCC",
     "pl": 2,
-    "incidents": 6,
+    "incidents": 5,
     "acres": 45555,
-    "personnel": 205
+    "personnel": 154
    },
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 16498,
-    "personnel": 2
+    "incidents": 1,
+    "acres": 542,
+    "personnel": 1
    },
    {
     "gacc": "RMCC",
     "pl": 2,
     "incidents": 3,
     "acres": 111011,
-    "personnel": 21
+    "personnel": 19
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 3,
-    "acres": 1001,
-    "personnel": 91
+    "incidents": 4,
+    "acres": 1601,
+    "personnel": 152
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 6,
-    "acres": 681,
-    "personnel": 23
+    "incidents": 8,
+    "acres": 913,
+    "personnel": 30
    }
   ],
-  "cimts_committed": 2,
+  "cimts_committed": 1,
   "teams": [
    {
     "team": "CA 4",
     "incident": "Dome",
-    "status": "committed"
-   },
-   {
-    "team": "NW 12",
-    "incident": "Little Giant",
     "status": "committed"
    }
   ],
@@ -95,19 +90,10 @@
     "name": "Dome",
     "unit": "CA-YNP",
     "acres": 6788,
-    "ctn": 86,
+    "ctn": 95,
     "est": "10/17",
     "own": "NPS",
     "team": "CA 4"
-   },
-   {
-    "name": "Cyrus",
-    "unit": "CA-SQF",
-    "acres": 543,
-    "ctn": 85,
-    "est": "10/16",
-    "own": "FS",
-    "team": null
    },
    {
     "name": "Timber",
@@ -119,27 +105,27 @@
     "team": null
    },
    {
-    "name": "Buckhorn 2",
-    "unit": "ID-TFD",
-    "acres": 2000,
-    "ctn": 50,
-    "est": "UNK",
-    "own": "BLM",
+    "name": "Cyrus",
+    "unit": "CA-SQF",
+    "acres": 543,
+    "ctn": 90,
+    "est": "10/16",
+    "own": "FS",
     "team": null
    },
    {
     "name": "Little Giant",
     "unit": "WA-OWF",
-    "acres": 172906,
+    "acres": 172912,
     "ctn": 95,
     "est": "11/1",
     "own": "FS",
-    "team": "NW 12"
+    "team": null
    },
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4594,
+    "acres": 4615,
     "ctn": 34,
     "est": "10/31",
     "own": "FS",
@@ -164,6 +150,15 @@
     "team": null
    },
    {
+    "name": "Black River",
+    "unit": "MI-MIS",
+    "acres": 400,
+    "ctn": 40,
+    "est": "10/24",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Ridge",
     "unit": "MI-MIS",
     "acres": 450,
@@ -175,7 +170,7 @@
    {
     "name": "Craig Lake 1",
     "unit": "MI-MIS",
-    "acres": 400,
+    "acres": 600,
     "ctn": 25,
     "est": "10/23",
     "own": "ST",
@@ -189,9 +184,18 @@
     "est": "UNK",
     "own": "CNTY",
     "team": null
+   },
+   {
+    "name": "Dowling",
+    "unit": "MS-MNF",
+    "acres": 107,
+    "ctn": 5,
+    "est": "10/14",
+    "own": "FS",
+    "team": null
    }
   ],
-  "discussion": "Warm and dry conditions continue across eastern Arkansas, northern Louisiana, and Mississippi today. Northern California will see a return to above normal temperatures but with lighter winds while southern California sees slight warming but temperatures staying 10 to 15 degrees below normal. Below normal temperatures and widespread precipitation continue across the Great Basin. This is likely being a season ending event for areas of the Great Basin still seeing fire activity. Cool conditions continue across the northern Rockies. Across the Rockies and the Southwest, precipitation shifts to east of the Continental Divide with minimal fire potential through this week. The Northwest will see a return to near normal temperatures as high pressure over the northeast Pacific drifts over the area."
+  "discussion": "An upper-level low will slowly move eastward through the central Rockies today with widespread showers, falling as snow above 7,000 to 8,000 feet. To the east, a slow-moving cold front will continue to bring widespread showers and thunderstorms to the central Plains and Mid-Mississippi Valley today, with widespread showers and thunderstorms also expected in west Texas today as tropical moisture from Mexico and Pacific Hurricane Simon moves northward. A cold front will also move through the Northeast and Mid-Atlantic with light precipitation while the Southeast and Lower Mississippi Valley are dry. Dry weather is expected across most of the rest of the West, with above-normal temperatures expected across much of the West Coast. Light, but dry trade winds are expected in Hawai\u2019i while cool temperatures and isolated snow showers are expected in Interior Alaska."
  },
  "ledger": {
   "teams": [
