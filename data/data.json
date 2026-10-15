@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-14T18:22:04.190033+00:00",
- "imsr_edition": "2026-10-14",
+ "generated_at": "2026-10-15T18:04:17.649681+00:00",
+ "imsr_edition": "2026-10-15",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 13,
-    "acres": 523300,
-    "personnel": 900
+    "incidents": 12,
+    "acres": 497734,
+    "personnel": 725
    },
    {
     "gacc": "ONCC",
@@ -32,7 +32,7 @@
     "pl": 3,
     "incidents": 4,
     "acres": 33879,
-    "personnel": 851
+    "personnel": 737
    },
    {
     "gacc": "NRCC",
@@ -44,9 +44,9 @@
    {
     "gacc": "GBCC",
     "pl": 2,
-    "incidents": 5,
-    "acres": 45555,
-    "personnel": 154
+    "incidents": 4,
+    "acres": 43898,
+    "personnel": 112
    },
    {
     "gacc": "SWCC",
@@ -66,15 +66,15 @@
     "gacc": "EACC",
     "pl": 1,
     "incidents": 4,
-    "acres": 1601,
-    "personnel": 152
+    "acres": 1571,
+    "personnel": 155
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 8,
-    "acres": 913,
-    "personnel": 30
+    "incidents": 9,
+    "acres": 1072,
+    "personnel": 34
    }
   ],
   "cimts_committed": 1,
@@ -100,24 +100,6 @@
     "unit": "CA-LPF",
     "acres": 25350,
     "ctn": 97,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Cyrus",
-    "unit": "CA-SQF",
-    "acres": 543,
-    "ctn": 90,
-    "est": "10/16",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Little Giant",
-    "unit": "WA-OWF",
-    "acres": 172912,
-    "ctn": 95,
     "est": "11/1",
     "own": "FS",
     "team": null
@@ -150,30 +132,57 @@
     "team": null
    },
    {
-    "name": "Black River",
-    "unit": "MI-MIS",
-    "acres": 400,
-    "ctn": 40,
-    "est": "10/24",
-    "own": "ST",
+    "name": "Little Giant",
+    "unit": "WA-OWF",
+    "acres": 172912,
+    "ctn": 95,
+    "est": "11/1",
+    "own": "FS",
     "team": null
    },
    {
     "name": "Ridge",
     "unit": "MI-MIS",
-    "acres": 450,
-    "ctn": 20,
+    "acres": 434,
+    "ctn": 30,
     "est": "10/23",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Black River",
+    "unit": "MI-MIS",
+    "acres": 382,
+    "ctn": 50,
+    "est": "10/24",
     "own": "ST",
     "team": null
    },
    {
     "name": "Craig Lake 1",
     "unit": "MI-MIS",
-    "acres": 600,
-    "ctn": 25,
+    "acres": 604,
+    "ctn": 50,
     "est": "10/23",
     "own": "ST",
+    "team": null
+   },
+   {
+    "name": "South White Wolf",
+    "unit": "OK-OKS",
+    "acres": 128,
+    "ctn": 50,
+    "est": "10/16",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Dowling",
+    "unit": "MS-MNF",
+    "acres": 138,
+    "ctn": 90,
+    "est": "10/15",
+    "own": "FS",
     "team": null
    },
    {
@@ -184,18 +193,9 @@
     "est": "UNK",
     "own": "CNTY",
     "team": null
-   },
-   {
-    "name": "Dowling",
-    "unit": "MS-MNF",
-    "acres": 107,
-    "ctn": 5,
-    "est": "10/14",
-    "own": "FS",
-    "team": null
    }
   ],
-  "discussion": "An upper-level low will slowly move eastward through the central Rockies today with widespread showers, falling as snow above 7,000 to 8,000 feet. To the east, a slow-moving cold front will continue to bring widespread showers and thunderstorms to the central Plains and Mid-Mississippi Valley today, with widespread showers and thunderstorms also expected in west Texas today as tropical moisture from Mexico and Pacific Hurricane Simon moves northward. A cold front will also move through the Northeast and Mid-Atlantic with light precipitation while the Southeast and Lower Mississippi Valley are dry. Dry weather is expected across most of the rest of the West, with above-normal temperatures expected across much of the West Coast. Light, but dry trade winds are expected in Hawai\u2019i while cool temperatures and isolated snow showers are expected in Interior Alaska."
+  "discussion": "Strong easterly winds are expected across California and the Southwest, with the greatest concern in California. Moderate Santa Ana winds are expected in southern California, with strong downslope winds for the west slope of the Sierra creating elevated conditions for these areas. However, rainfall last week from Tropical Storm Rachel will mitigate conditions across far southern California. A slow-moving cold front will bring scattered to widespread showers and thunderstorms from west Texas to the Mid-Mississippi Valley, with widespread rain expected in much of the Midwest, as well. Dry conditions will persist in the Southeast, with isolated thunderstorms in south Florida. The northern half of the West will be dry with a warming trend as temperatures rise to 10-20\u00b0F above normal. A strong storm in the Gulf of Alaska will bring heavy rain to the south coast and panhandle of Alaska, with areas of flooding possible in the southern panhandle."
  },
  "ledger": {
   "teams": [
