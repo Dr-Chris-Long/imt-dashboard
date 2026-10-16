@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-15T18:04:17.649681+00:00",
- "imsr_edition": "2026-10-15",
+ "generated_at": "2026-10-16T17:50:07.216797+00:00",
+ "imsr_edition": "2026-10-16",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 12,
     "acres": 497734,
-    "personnel": 725
+    "personnel": 712
    },
    {
     "gacc": "ONCC",
@@ -30,61 +30,55 @@
    {
     "gacc": "OSCC",
     "pl": 3,
-    "incidents": 4,
-    "acres": 33879,
-    "personnel": 737
+    "incidents": 5,
+    "acres": 34079,
+    "personnel": 886
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 1099,
-    "personnel": 14
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "GBCC",
     "pl": 2,
-    "incidents": 4,
+    "incidents": 3,
     "acres": 43898,
-    "personnel": 112
+    "personnel": 17
    },
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 542,
-    "personnel": 1
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "RMCC",
     "pl": 2,
     "incidents": 3,
     "acres": 111011,
-    "personnel": 19
+    "personnel": 18
    },
    {
     "gacc": "EACC",
     "pl": 1,
     "incidents": 4,
-    "acres": 1571,
-    "personnel": 155
+    "acres": 1605,
+    "personnel": 151
    },
    {
     "gacc": "SACC",
     "pl": 2,
     "incidents": 9,
-    "acres": 1072,
-    "personnel": 34
+    "acres": 987,
+    "personnel": 36
    }
   ],
-  "cimts_committed": 1,
-  "teams": [
-   {
-    "team": "CA 4",
-    "incident": "Dome",
-    "status": "committed"
-   }
-  ],
+  "cimts_committed": 0,
+  "teams": [],
   "fires": [
    {
     "name": "Dome",
@@ -93,7 +87,7 @@
     "ctn": 95,
     "est": "10/17",
     "own": "NPS",
-    "team": "CA 4"
+    "team": null
    },
    {
     "name": "Timber",
@@ -132,18 +126,9 @@
     "team": null
    },
    {
-    "name": "Little Giant",
-    "unit": "WA-OWF",
-    "acres": 172912,
-    "ctn": 95,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Ridge",
     "unit": "MI-MIS",
-    "acres": 434,
+    "acres": 466,
     "ctn": 30,
     "est": "10/23",
     "own": "ST",
@@ -153,7 +138,7 @@
     "name": "Black River",
     "unit": "MI-MIS",
     "acres": 382,
-    "ctn": 50,
+    "ctn": 60,
     "est": "10/24",
     "own": "ST",
     "team": null
@@ -161,8 +146,8 @@
    {
     "name": "Craig Lake 1",
     "unit": "MI-MIS",
-    "acres": 604,
-    "ctn": 50,
+    "acres": 606,
+    "ctn": 57,
     "est": "10/23",
     "own": "ST",
     "team": null
@@ -171,18 +156,9 @@
     "name": "South White Wolf",
     "unit": "OK-OKS",
     "acres": 128,
-    "ctn": 50,
+    "ctn": 75,
     "est": "10/16",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Dowling",
-    "unit": "MS-MNF",
-    "acres": 138,
-    "ctn": 90,
-    "est": "10/15",
-    "own": "FS",
     "team": null
    },
    {
@@ -195,7 +171,7 @@
     "team": null
    }
   ],
-  "discussion": "Strong easterly winds are expected across California and the Southwest, with the greatest concern in California. Moderate Santa Ana winds are expected in southern California, with strong downslope winds for the west slope of the Sierra creating elevated conditions for these areas. However, rainfall last week from Tropical Storm Rachel will mitigate conditions across far southern California. A slow-moving cold front will bring scattered to widespread showers and thunderstorms from west Texas to the Mid-Mississippi Valley, with widespread rain expected in much of the Midwest, as well. Dry conditions will persist in the Southeast, with isolated thunderstorms in south Florida. The northern half of the West will be dry with a warming trend as temperatures rise to 10-20\u00b0F above normal. A strong storm in the Gulf of Alaska will bring heavy rain to the south coast and panhandle of Alaska, with areas of flooding possible in the southern panhandle."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
@@ -257,7 +233,7 @@
    {
     "team": "NW 12",
     "assigns": 4,
-    "days": 45
+    "days": 59
    },
    {
     "team": "NW 13",
@@ -1088,12 +1064,12 @@
     "mob": "9/29",
     "team": "NW 12",
     "ga": "NW",
-    "incident": "Little Giant (WA-OWF) 4",
-    "released": null,
-    "days": null
+    "incident": "Little Giant (WA-OWF)",
+    "released": "10/14",
+    "days": 14
    }
   ],
-  "as_of": "10/2/2026",
+  "as_of": "10/15/2026",
   "total_assigns": 104,
   "total_days": 1
  },
