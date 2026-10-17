@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-16T17:50:07.216797+00:00",
- "imsr_edition": "2026-10-16",
+ "generated_at": "2026-10-17T16:52:59.451776+00:00",
+ "imsr_edition": "2026-10-17",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 12,
     "acres": 497734,
-    "personnel": 712
+    "personnel": 723
    },
    {
     "gacc": "ONCC",
@@ -30,9 +30,9 @@
    {
     "gacc": "OSCC",
     "pl": 3,
-    "incidents": 5,
-    "acres": 34079,
-    "personnel": 886
+    "incidents": 7,
+    "acres": 36569,
+    "personnel": 2611
    },
    {
     "gacc": "NRCC",
@@ -66,26 +66,35 @@
     "gacc": "EACC",
     "pl": 1,
     "incidents": 4,
-    "acres": 1605,
-    "personnel": 151
+    "acres": 1573,
+    "personnel": 139
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 9,
-    "acres": 987,
-    "personnel": 36
+    "incidents": 7,
+    "acres": 877,
+    "personnel": 28
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
+    "name": "Norte",
+    "unit": "CA-ORC",
+    "acres": 465,
+    "ctn": 0,
+    "est": "11/6",
+    "own": "CNTY",
+    "team": null
+   },
+   {
     "name": "Dome",
     "unit": "CA-YNP",
     "acres": 6788,
     "ctn": 95,
-    "est": "10/17",
+    "est": "10/20",
     "own": "NPS",
     "team": null
    },
@@ -129,7 +138,7 @@
     "name": "Ridge",
     "unit": "MI-MIS",
     "acres": 466,
-    "ctn": 30,
+    "ctn": 40,
     "est": "10/23",
     "own": "ST",
     "team": null
@@ -137,8 +146,8 @@
    {
     "name": "Black River",
     "unit": "MI-MIS",
-    "acres": 382,
-    "ctn": 60,
+    "acres": 350,
+    "ctn": 70,
     "est": "10/24",
     "own": "ST",
     "team": null
@@ -147,17 +156,8 @@
     "name": "Craig Lake 1",
     "unit": "MI-MIS",
     "acres": 606,
-    "ctn": 57,
+    "ctn": 70,
     "est": "10/23",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "South White Wolf",
-    "unit": "OK-OKS",
-    "acres": 128,
-    "ctn": 75,
-    "est": "10/16",
     "own": "ST",
     "team": null
    },
@@ -166,12 +166,30 @@
     "unit": "WY-SHX",
     "acres": 1645,
     "ctn": 85,
-    "est": "UNK",
+    "est": "10/18",
     "own": "CNTY",
+    "team": null
+   },
+   {
+    "name": "Mount Pilgrim Road",
+    "unit": "MS-MSS",
+    "acres": 150,
+    "ctn": 10,
+    "est": "UNK",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "South White Wolf",
+    "unit": "OK-OKS",
+    "acres": 128,
+    "ctn": 75,
+    "est": "UNK",
+    "own": "ST",
     "team": null
    }
   ],
-  "discussion": ""
+  "discussion": "Strong, dry easterly winds from the west slopes of the Sierra to southern California will diminish today, but dry conditions will persist with above normal temperatures. Lighter winds are also expected in the Southwest today. Breezy northerly winds will continue in the Lower Mississippi Valley with minimum relative humidity as low as 25% creating elevated conditions. Farther north, breezy and dry southwest winds will develop in the Upper Midwest, but recent rainfall will mitigate the conditions except in portions of western Minnesota. Breezy and dry northwesterly winds will develop in northern New England, as well, but the rainfall earlier this week will mitigate the conditions in drought-stricken coastal Maine. Much of the rest of the country will be dry, as well, with scattered showers and thunderstorms limited to eastern North Carolina and south Florida, isolated showers in Arizona, and light rain in western Washington. A cold front will move through the Alaska Interior today with light snowfall and mixed precipitation, while drier weather returns to south-central Alaska and showers continue in the panhandle. Breezy and moist trade winds will continue in Hawai\u2019i with occasional showers."
  },
  "ledger": {
   "teams": [
