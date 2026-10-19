@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-18T17:07:07.321028+00:00",
- "imsr_edition": "2026-10-18",
+ "generated_at": "2026-10-19T19:41:02.608502+00:00",
+ "imsr_edition": "2026-10-19",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,23 +16,23 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 12,
-    "acres": 481074,
-    "personnel": 1192
+    "incidents": 13,
+    "acres": 490651,
+    "personnel": 1223
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
-    "acres": 731,
-    "personnel": 797
+    "acres": 1037,
+    "personnel": 790
    },
    {
     "gacc": "OSCC",
     "pl": 3,
-    "incidents": 7,
-    "acres": 36707,
-    "personnel": 2188
+    "incidents": 6,
+    "acres": 36623,
+    "personnel": 1372
    },
    {
     "gacc": "NRCC",
@@ -44,9 +44,9 @@
    {
     "gacc": "GBCC",
     "pl": 2,
-    "incidents": 2,
-    "acres": 42234,
-    "personnel": 16
+    "incidents": 1,
+    "acres": 6889,
+    "personnel": 1
    },
    {
     "gacc": "SWCC",
@@ -67,14 +67,14 @@
     "pl": 1,
     "incidents": 4,
     "acres": 1573,
-    "personnel": 116
+    "personnel": 91
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 8,
-    "acres": 1164,
-    "personnel": 33
+    "incidents": 7,
+    "acres": 1162,
+    "personnel": 27
    }
   ],
   "cimts_committed": 0,
@@ -84,7 +84,7 @@
     "name": "Norte",
     "unit": "CA-ORC",
     "acres": 570,
-    "ctn": 25,
+    "ctn": 60,
     "est": "11/6",
     "own": "CNTY",
     "team": null
@@ -95,15 +95,6 @@
     "acres": 25350,
     "ctn": 97,
     "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Sisi",
-    "unit": "WA-OWF",
-    "acres": 4615,
-    "ctn": 34,
-    "est": "10/31",
     "own": "FS",
     "team": null
    },
@@ -126,10 +117,19 @@
     "team": null
    },
    {
+    "name": "Sisi",
+    "unit": "WA-OWF",
+    "acres": 4615,
+    "ctn": 34,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "Ridge",
     "unit": "MI-MIS",
     "acres": 466,
-    "ctn": 40,
+    "ctn": 50,
     "est": "10/23",
     "own": "ST",
     "team": null
@@ -144,11 +144,11 @@
     "team": null
    },
    {
-    "name": "Craig Lake 1",
-    "unit": "MI-MIS",
-    "acres": 606,
-    "ctn": 90,
-    "est": "10/23",
+    "name": "Cooley",
+    "unit": "CA-MEU",
+    "acres": 1037,
+    "ctn": 15,
+    "est": "10/24",
     "own": "ST",
     "team": null
    },
@@ -160,27 +160,9 @@
     "est": "UNK",
     "own": "ST",
     "team": null
-   },
-   {
-    "name": "Cooley",
-    "unit": "CA-MEU",
-    "acres": 731,
-    "ctn": 5,
-    "est": "10/24",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Pk",
-    "unit": "WY-SHX",
-    "acres": 1645,
-    "ctn": 90,
-    "est": "10/18",
-    "own": "CNTY",
-    "team": null
    }
   ],
-  "discussion": "Mostly dry conditions will continue across the contiguous U.S. today. Isolated showers and thunderstorms are expected in eastern North Carolina, far south Florida, and the Southwest into the Four Corners. Breezy and dry south to southwesterly winds will develop in the southern High Plains northeastward into the Midwest, with locally low relative humidity. However, rainfall over the past two weeks will mitigate conditions in most areas. Lighter winds but continued very dry conditions are expected in the Lower Mississippi Valley with minimum relative humidity as low as 20%. Above normal temperatures will persist in California, the northern half of the West, and northern Plains into the Midwest. Cooler temperatures and drier conditions are expected in Interior Alaska, with drier conditions persisting in south-central Alaska. Breezy and moist trade winds will continue in Hawai\u2019i with occasional showers."
+  "discussion": "Dry conditions will continue across the contiguous U.S. today, with the exceptions to the dry pattern isolated to scattered showers and thunderstorms in the Southwest and the Four Corners and isolated showers west of the Cascades. Winds across the country will be most light as well except for locally breezy southwest winds east of the Sierra and breezy south winds on portions of the High Plains. Breezy northeast winds are expected along the Mid-Atlantic and Northeast coast, as well. Very dry conditions with minimum relative humidity as low as 20% will persist in the Lower Mississippi Valley. Above normal temperatures will persist in the northern Rockies eastward to the Midwest, while cooler temperatures are expected in the Northwest and California as onshore flow strengthens. Cooler temperatures and dry conditions will persist in Interior Alaska, but a strong storm is expected to move into southwest and south-central Alaska with areas of heavy rain and strong winds near the coast. Breezy and moist trade winds will continue in Hawai\u2019i with occasional showers."
  },
  "ledger": {
   "teams": [
