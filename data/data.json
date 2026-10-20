@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-19T19:41:02.608502+00:00",
- "imsr_edition": "2026-10-19",
+ "generated_at": "2026-10-20T18:22:33.546466+00:00",
+ "imsr_edition": "2026-10-20",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,30 +16,30 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 13,
-    "acres": 490651,
-    "personnel": 1223
+    "incidents": 12,
+    "acres": 490474,
+    "personnel": 1183
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
-    "acres": 1037,
-    "personnel": 790
+    "acres": 1365,
+    "personnel": 869
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 6,
-    "acres": 36623,
-    "personnel": 1372
+    "acres": 36657,
+    "personnel": 1033
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 1,
+    "acres": 6005,
+    "personnel": 1
    },
    {
     "gacc": "GBCC",
@@ -58,23 +58,23 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 3,
-    "acres": 111011,
-    "personnel": 18
+    "incidents": 2,
+    "acres": 9004,
+    "personnel": 8
    },
    {
     "gacc": "EACC",
     "pl": 1,
     "incidents": 4,
     "acres": 1573,
-    "personnel": 91
+    "personnel": 86
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 7,
-    "acres": 1162,
-    "personnel": 27
+    "incidents": 6,
+    "acres": 930,
+    "personnel": 25
    }
   ],
   "cimts_committed": 0,
@@ -84,7 +84,7 @@
     "name": "Norte",
     "unit": "CA-ORC",
     "acres": 570,
-    "ctn": 60,
+    "ctn": 80,
     "est": "11/6",
     "own": "CNTY",
     "team": null
@@ -119,10 +119,19 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4615,
+    "acres": 4743,
     "ctn": 34,
     "est": "10/31",
     "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Cooley",
+    "unit": "CA-MEU",
+    "acres": 1365,
+    "ctn": 45,
+    "est": "10/24",
+    "own": "ST",
     "team": null
    },
    {
@@ -142,27 +151,9 @@
     "est": "10/24",
     "own": "ST",
     "team": null
-   },
-   {
-    "name": "Cooley",
-    "unit": "CA-MEU",
-    "acres": 1037,
-    "ctn": 15,
-    "est": "10/24",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Mount Pilgrim Road",
-    "unit": "MS-MSS",
-    "acres": 150,
-    "ctn": 10,
-    "est": "UNK",
-    "own": "ST",
-    "team": null
    }
   ],
-  "discussion": "Dry conditions will continue across the contiguous U.S. today, with the exceptions to the dry pattern isolated to scattered showers and thunderstorms in the Southwest and the Four Corners and isolated showers west of the Cascades. Winds across the country will be most light as well except for locally breezy southwest winds east of the Sierra and breezy south winds on portions of the High Plains. Breezy northeast winds are expected along the Mid-Atlantic and Northeast coast, as well. Very dry conditions with minimum relative humidity as low as 20% will persist in the Lower Mississippi Valley. Above normal temperatures will persist in the northern Rockies eastward to the Midwest, while cooler temperatures are expected in the Northwest and California as onshore flow strengthens. Cooler temperatures and dry conditions will persist in Interior Alaska, but a strong storm is expected to move into southwest and south-central Alaska with areas of heavy rain and strong winds near the coast. Breezy and moist trade winds will continue in Hawai\u2019i with occasional showers."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
