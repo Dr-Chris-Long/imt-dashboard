@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-20T18:22:33.546466+00:00",
- "imsr_edition": "2026-10-20",
+ "generated_at": "2026-10-21T18:27:04.228987+00:00",
+ "imsr_edition": "2026-10-21",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,65 +16,65 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 12,
-    "acres": 490474,
-    "personnel": 1183
+    "incidents": 11,
+    "acres": 317562,
+    "personnel": 880
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
     "acres": 1365,
-    "personnel": 869
+    "personnel": 586
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 6,
     "acres": 36657,
-    "personnel": 1033
+    "personnel": 897
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 6005,
-    "personnel": 1
+    "incidents": 2,
+    "acres": 7693,
+    "personnel": 18
    },
    {
     "gacc": "GBCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 6889,
-    "personnel": 1
+    "incidents": 2,
+    "acres": 7149,
+    "personnel": 46
    },
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 1,
+    "acres": 15956,
+    "personnel": 1
    },
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 2,
-    "acres": 9004,
-    "personnel": 8
+    "incidents": 1,
+    "acres": 1645,
+    "personnel": 6
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 4,
-    "acres": 1573,
-    "personnel": 86
+    "incidents": 3,
+    "acres": 1398,
+    "personnel": 47
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 6,
-    "acres": 930,
-    "personnel": 25
+    "incidents": 4,
+    "acres": 658,
+    "personnel": 19
    }
   ],
   "cimts_committed": 0,
@@ -84,7 +84,7 @@
     "name": "Norte",
     "unit": "CA-ORC",
     "acres": 570,
-    "ctn": 80,
+    "ctn": 92,
     "est": "11/6",
     "own": "CNTY",
     "team": null
@@ -129,7 +129,7 @@
     "name": "Cooley",
     "unit": "CA-MEU",
     "acres": 1365,
-    "ctn": 45,
+    "ctn": 67,
     "est": "10/24",
     "own": "ST",
     "team": null
@@ -146,10 +146,19 @@
    {
     "name": "Black River",
     "unit": "MI-MIS",
-    "acres": 350,
+    "acres": 326,
     "ctn": 70,
     "est": "10/24",
     "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Bras",
+    "unit": "MT-FHA",
+    "acres": 1688,
+    "ctn": 35,
+    "est": "10/25",
+    "own": "BIA",
     "team": null
    }
   ],
