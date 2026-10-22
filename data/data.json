@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T18:27:04.228987+00:00",
- "imsr_edition": "2026-10-21",
+ "generated_at": "2026-10-22T18:22:32.672637+00:00",
+ "imsr_edition": "2026-10-22",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,44 +16,44 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 11,
-    "acres": 317562,
-    "personnel": 880
+    "incidents": 10,
+    "acres": 316842,
+    "personnel": 868
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
     "acres": 1365,
-    "personnel": 586
+    "personnel": 310
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 6,
     "acres": 36657,
-    "personnel": 897
+    "personnel": 750
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 2,
     "acres": 7693,
-    "personnel": 18
+    "personnel": 9
    },
    {
     "gacc": "GBCC",
     "pl": 2,
     "incidents": 2,
-    "acres": 7149,
+    "acres": 7155,
     "personnel": 46
    },
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 15956,
-    "personnel": 1
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "RMCC",
@@ -65,30 +65,21 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 3,
+    "incidents": 4,
     "acres": 1398,
-    "personnel": 47
+    "personnel": 50
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 4,
-    "acres": 658,
-    "personnel": 19
+    "incidents": 5,
+    "acres": 3509,
+    "personnel": 20
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
-   {
-    "name": "Norte",
-    "unit": "CA-ORC",
-    "acres": 570,
-    "ctn": 92,
-    "est": "11/6",
-    "own": "CNTY",
-    "team": null
-   },
    {
     "name": "Timber",
     "unit": "CA-LPF",
@@ -96,6 +87,15 @@
     "ctn": 97,
     "est": "11/1",
     "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Norte",
+    "unit": "CA-ORC",
+    "acres": 570,
+    "ctn": 95,
+    "est": "11/6",
+    "own": "CNTY",
     "team": null
    },
    {
@@ -129,7 +129,7 @@
     "name": "Cooley",
     "unit": "CA-MEU",
     "acres": 1365,
-    "ctn": 67,
+    "ctn": 74,
     "est": "10/24",
     "own": "ST",
     "team": null
@@ -139,7 +139,7 @@
     "unit": "MI-MIS",
     "acres": 466,
     "ctn": 50,
-    "est": "10/23",
+    "est": "11/1",
     "own": "ST",
     "team": null
    },
@@ -156,7 +156,7 @@
     "name": "Bras",
     "unit": "MT-FHA",
     "acres": 1688,
-    "ctn": 35,
+    "ctn": 45,
     "est": "10/25",
     "own": "BIA",
     "team": null
