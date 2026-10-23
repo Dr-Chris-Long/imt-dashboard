@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-22T18:22:32.672637+00:00",
- "imsr_edition": "2026-10-22",
+ "generated_at": "2026-10-23T18:08:40.461707+00:00",
+ "imsr_edition": "2026-10-23",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,28 +18,28 @@
     "pl": 1,
     "incidents": 10,
     "acres": 316842,
-    "personnel": 868
+    "personnel": 640
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
     "acres": 1365,
-    "personnel": 310
+    "personnel": 123
    },
    {
     "gacc": "OSCC",
     "pl": 3,
     "incidents": 6,
     "acres": 36657,
-    "personnel": 750
+    "personnel": 689
    },
    {
     "gacc": "NRCC",
     "pl": 1,
     "incidents": 2,
-    "acres": 7693,
-    "personnel": 9
+    "acres": 37208,
+    "personnel": 4
    },
    {
     "gacc": "GBCC",
@@ -67,42 +67,51 @@
     "pl": 1,
     "incidents": 4,
     "acres": 1398,
-    "personnel": 50
+    "personnel": 27
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 5,
-    "acres": 3509,
-    "personnel": 20
+    "incidents": 8,
+    "acres": 6161,
+    "personnel": 79
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 25350,
-    "ctn": 97,
-    "est": "11/1",
-    "own": "FS",
+    "name": "Kickapoo Creek",
+    "unit": "TX-TXS",
+    "acres": 300,
+    "ctn": 50,
+    "est": "10/26",
+    "own": "ST",
     "team": null
    },
    {
-    "name": "Norte",
-    "unit": "CA-ORC",
-    "acres": 570,
-    "ctn": 95,
-    "est": "11/6",
-    "own": "CNTY",
+    "name": "Bee Haven 2 24-06",
+    "unit": "FL-FLS",
+    "acres": 2060,
+    "ctn": 80,
+    "est": "12/25",
+    "own": "ST",
     "team": null
    },
    {
-    "name": "Austin",
-    "unit": "OR-MHF",
-    "acres": 12888,
-    "ctn": 98,
+    "name": "Neshoba Rd 832",
+    "unit": "MS-MSS",
+    "acres": 150,
+    "ctn": 96,
+    "est": "UNK",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Sisi",
+    "unit": "WA-OWF",
+    "acres": 4743,
+    "ctn": 34,
     "est": "10/31",
     "own": "FS",
     "team": null
@@ -117,11 +126,20 @@
     "team": null
    },
    {
-    "name": "Sisi",
-    "unit": "WA-OWF",
-    "acres": 4743,
-    "ctn": 34,
+    "name": "Austin",
+    "unit": "OR-MHF",
+    "acres": 12888,
+    "ctn": 98,
     "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Timber",
+    "unit": "CA-LPF",
+    "acres": 25350,
+    "ctn": 97,
+    "est": "11/1",
     "own": "FS",
     "team": null
    },
@@ -129,7 +147,7 @@
     "name": "Cooley",
     "unit": "CA-MEU",
     "acres": 1365,
-    "ctn": 74,
+    "ctn": 80,
     "est": "10/24",
     "own": "ST",
     "team": null
@@ -147,18 +165,9 @@
     "name": "Black River",
     "unit": "MI-MIS",
     "acres": 326,
-    "ctn": 70,
-    "est": "10/24",
+    "ctn": 75,
+    "est": "10/27",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Bras",
-    "unit": "MT-FHA",
-    "acres": 1688,
-    "ctn": 45,
-    "est": "10/25",
-    "own": "BIA",
     "team": null
    }
   ],
