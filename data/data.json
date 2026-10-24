@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-23T18:08:40.461707+00:00",
- "imsr_edition": "2026-10-23",
+ "generated_at": "2026-10-24T17:14:49.757457+00:00",
+ "imsr_edition": "2026-10-24",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,21 +18,21 @@
     "pl": 1,
     "incidents": 10,
     "acres": 316842,
-    "personnel": 640
+    "personnel": 588
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
     "acres": 1365,
-    "personnel": 123
+    "personnel": 71
    },
    {
     "gacc": "OSCC",
-    "pl": 3,
-    "incidents": 6,
-    "acres": 36657,
-    "personnel": 689
+    "pl": 2,
+    "incidents": 5,
+    "acres": 29869,
+    "personnel": 454
    },
    {
     "gacc": "NRCC",
@@ -58,9 +58,9 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 1645,
-    "personnel": 6
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "EACC",
@@ -72,83 +72,20 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 8,
-    "acres": 6161,
-    "personnel": 79
+    "incidents": 11,
+    "acres": 6593,
+    "personnel": 84
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
-    "name": "Kickapoo Creek",
-    "unit": "TX-TXS",
-    "acres": 300,
-    "ctn": 50,
-    "est": "10/26",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Bee Haven 2 24-06",
     "unit": "FL-FLS",
     "acres": 2060,
     "ctn": 80,
     "est": "12/25",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Neshoba Rd 832",
-    "unit": "MS-MSS",
-    "acres": 150,
-    "ctn": 96,
-    "est": "UNK",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Sisi",
-    "unit": "WA-OWF",
-    "acres": 4743,
-    "ctn": 34,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Grasshopper",
-    "unit": "OR-MHF",
-    "acres": 93972,
-    "ctn": 98,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Austin",
-    "unit": "OR-MHF",
-    "acres": 12888,
-    "ctn": 98,
-    "est": "10/31",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 25350,
-    "ctn": 97,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Cooley",
-    "unit": "CA-MEU",
-    "acres": 1365,
-    "ctn": 80,
-    "est": "10/24",
     "own": "ST",
     "team": null
    },
@@ -169,9 +106,45 @@
     "est": "10/27",
     "own": "ST",
     "team": null
+   },
+   {
+    "name": "Cooley",
+    "unit": "CA-MEU",
+    "acres": 1365,
+    "ctn": 86,
+    "est": "10/24",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Austin",
+    "unit": "OR-MHF",
+    "acres": 12888,
+    "ctn": 98,
+    "est": "11/30",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Sisi",
+    "unit": "WA-OWF",
+    "acres": 4743,
+    "ctn": 34,
+    "est": "10/31",
+    "own": "FS",
+    "team": null
+   },
+   {
+    "name": "Timber",
+    "unit": "CA-LPF",
+    "acres": 25350,
+    "ctn": 97,
+    "est": "11/1",
+    "own": "FS",
+    "team": null
    }
   ],
-  "discussion": ""
+  "discussion": "Low pressure will continue to slowly move through the central and southern Rockies, with areas of heavy rainfall and very high-elevation snow. A cold front will move through the central Plains and Upper Midwest, but showers and thunderstorms along the front will be isolated. Breezy southwest winds will develop in Minnesota to northern Wisconsin and bring locally elevated conditions. Easterly winds will continue across much of the Southeast with elevated relative humidity and showers along the immediate coast. To the west, easterly winds will be lighter, but very dry conditions with minimum relative humidity of 15-30% and well above normal temperatures will persist in the Lower Mississippi Valley for locally elevated conditions and continued elevated initial attack. In most of the West, temperatures will be near to below normal with overall dry conditions outside the central/southern Rockies. Locally breezy and dry north winds will occur in northern California and dry conditions will persist in the Northeast. A strong storm in the Bering Sea will bring strong winds, heavy snow, and blizzard conditions to portions of western Alaska and the western Interior, with drier conditions to the east."
  },
  "ledger": {
   "teams": [
