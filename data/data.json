@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-24T17:14:49.757457+00:00",
- "imsr_edition": "2026-10-24",
+ "generated_at": "2026-10-25T17:27:42.281591+00:00",
+ "imsr_edition": "2026-10-25",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,21 +18,21 @@
     "pl": 1,
     "incidents": 10,
     "acres": 316842,
-    "personnel": 588
+    "personnel": 562
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
     "acres": 1365,
-    "personnel": 71
+    "personnel": 63
    },
    {
     "gacc": "OSCC",
     "pl": 2,
-    "incidents": 5,
-    "acres": 29869,
-    "personnel": 454
+    "incidents": 4,
+    "acres": 29326,
+    "personnel": 442
    },
    {
     "gacc": "NRCC",
@@ -45,7 +45,7 @@
     "gacc": "GBCC",
     "pl": 2,
     "incidents": 2,
-    "acres": 7155,
+    "acres": 5040,
     "personnel": 46
    },
    {
@@ -67,19 +67,28 @@
     "pl": 1,
     "incidents": 4,
     "acres": 1398,
-    "personnel": 27
+    "personnel": 22
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 11,
-    "acres": 6593,
-    "personnel": 84
+    "incidents": 10,
+    "acres": 6714,
+    "personnel": 86
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
+   {
+    "name": "Range 47B",
+    "unit": "MS-MNF",
+    "acres": 636,
+    "ctn": 50,
+    "est": "10/30",
+    "own": "FS",
+    "team": null
+   },
    {
     "name": "Bee Haven 2 24-06",
     "unit": "FL-FLS",
@@ -102,7 +111,7 @@
     "name": "Black River",
     "unit": "MI-MIS",
     "acres": 326,
-    "ctn": 75,
+    "ctn": 80,
     "est": "10/27",
     "own": "ST",
     "team": null
@@ -111,8 +120,8 @@
     "name": "Cooley",
     "unit": "CA-MEU",
     "acres": 1365,
-    "ctn": 86,
-    "est": "10/24",
+    "ctn": 90,
+    "est": "10/25",
     "own": "ST",
     "team": null
    },
@@ -144,7 +153,7 @@
     "team": null
    }
   ],
-  "discussion": "Low pressure will continue to slowly move through the central and southern Rockies, with areas of heavy rainfall and very high-elevation snow. A cold front will move through the central Plains and Upper Midwest, but showers and thunderstorms along the front will be isolated. Breezy southwest winds will develop in Minnesota to northern Wisconsin and bring locally elevated conditions. Easterly winds will continue across much of the Southeast with elevated relative humidity and showers along the immediate coast. To the west, easterly winds will be lighter, but very dry conditions with minimum relative humidity of 15-30% and well above normal temperatures will persist in the Lower Mississippi Valley for locally elevated conditions and continued elevated initial attack. In most of the West, temperatures will be near to below normal with overall dry conditions outside the central/southern Rockies. Locally breezy and dry north winds will occur in northern California and dry conditions will persist in the Northeast. A strong storm in the Bering Sea will bring strong winds, heavy snow, and blizzard conditions to portions of western Alaska and the western Interior, with drier conditions to the east."
+  "discussion": "Low pressure will slowly move into the central Plains, with scattered showers and thunderstorms from eastern New Mexico into much of the central and northern Plains. Showers and high-elevation snow will diminish in the central and southern Rockies through the day. A dry cold front will move through the Great Lakes, with very dry air behind it as relative humidity falls to 20-30% in the Upper Midwest, but temperatures will be much cooler behind the front and winds will be light to moderate. Dry conditions are expected elsewhere in the West with temperatures near to slightly below normal. Easterly winds will persist across much of the Southeast with elevated relative humidity and showers along the immediate coast. To the west, very dry conditions with minimum relative humidity of 15-30% and well above normal temperatures will persist in the Lower Mississippi Valley. A strong storm in the Bering Sea will continue to bring strong winds, heavy snow, and blizzard conditions to portions of western Alaska and the western Interior, and slowly push east into the center of the state."
  },
  "ledger": {
   "teams": [
