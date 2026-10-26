@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-25T17:27:42.281591+00:00",
- "imsr_edition": "2026-10-25",
+ "generated_at": "2026-10-26T19:46:04.079786+00:00",
+ "imsr_edition": "2026-10-26",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 10,
     "acres": 316842,
-    "personnel": 562
+    "personnel": 560
    },
    {
     "gacc": "ONCC",
@@ -72,14 +72,23 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 10,
-    "acres": 6714,
-    "personnel": 86
+    "incidents": 12,
+    "acres": 6832,
+    "personnel": 93
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
+   {
+    "name": "East Bailey Road",
+    "unit": "OK-OKS",
+    "acres": 104,
+    "ctn": 40,
+    "est": "10/28",
+    "own": "ST",
+    "team": null
+   },
    {
     "name": "Range 47B",
     "unit": "MS-MNF",
@@ -117,15 +126,6 @@
     "team": null
    },
    {
-    "name": "Cooley",
-    "unit": "CA-MEU",
-    "acres": 1365,
-    "ctn": 90,
-    "est": "10/25",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Austin",
     "unit": "OR-MHF",
     "acres": 12888,
@@ -153,7 +153,7 @@
     "team": null
    }
   ],
-  "discussion": "Low pressure will slowly move into the central Plains, with scattered showers and thunderstorms from eastern New Mexico into much of the central and northern Plains. Showers and high-elevation snow will diminish in the central and southern Rockies through the day. A dry cold front will move through the Great Lakes, with very dry air behind it as relative humidity falls to 20-30% in the Upper Midwest, but temperatures will be much cooler behind the front and winds will be light to moderate. Dry conditions are expected elsewhere in the West with temperatures near to slightly below normal. Easterly winds will persist across much of the Southeast with elevated relative humidity and showers along the immediate coast. To the west, very dry conditions with minimum relative humidity of 15-30% and well above normal temperatures will persist in the Lower Mississippi Valley. A strong storm in the Bering Sea will continue to bring strong winds, heavy snow, and blizzard conditions to portions of western Alaska and the western Interior, and slowly push east into the center of the state."
+  "discussion": "Low pressure weakens over the Plains with scattered showers and isolated thunderstorms, and a dry cold front will move through the Northeast. A Pacific storm will move into the Northwest and northern Rockies with a cold front producing light to moderate rain the lower elevations and snow above 5,000 to 7,000 feet. Dry air with near to below normal temperatures are expected in California and the Greater Four Corners. Gusty easterly winds will diminish in the Southeast today, but temperatures will remain above normal with minimum relative humidity of 20-30% in the Lower Mississippi Valley. A strong storm will move east through Alaska, with heavy snow and localized blizzard conditions for the central Interior, while western Alaska observes less precipitation and light rain and snow occurs in south-central Alaska. Trade winds are expected to remain light in Hawai\u2019i with isolated to scattered showers."
  },
  "ledger": {
   "teams": [
