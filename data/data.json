@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T19:46:04.079786+00:00",
- "imsr_edition": "2026-10-26",
+ "generated_at": "2026-10-27T19:15:30.347815+00:00",
+ "imsr_edition": "2026-10-27",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 10,
     "acres": 316842,
-    "personnel": 560
+    "personnel": 551
    },
    {
     "gacc": "ONCC",
@@ -30,9 +30,9 @@
    {
     "gacc": "OSCC",
     "pl": 2,
-    "incidents": 4,
-    "acres": 29326,
-    "personnel": 442
+    "incidents": 3,
+    "acres": 26066,
+    "personnel": 191
    },
    {
     "gacc": "NRCC",
@@ -67,19 +67,28 @@
     "pl": 1,
     "incidents": 4,
     "acres": 1398,
-    "personnel": 22
+    "personnel": 19
    },
    {
     "gacc": "SACC",
     "pl": 2,
     "incidents": 12,
-    "acres": 6832,
-    "personnel": 93
+    "acres": 4181,
+    "personnel": 110
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
+   {
+    "name": "Bee Haven 2 24-06",
+    "unit": "FL-FLS",
+    "acres": 2060,
+    "ctn": 80,
+    "est": "12/25",
+    "own": "ST",
+    "team": null
+   },
    {
     "name": "East Bailey Road",
     "unit": "OK-OKS",
@@ -99,15 +108,6 @@
     "team": null
    },
    {
-    "name": "Bee Haven 2 24-06",
-    "unit": "FL-FLS",
-    "acres": 2060,
-    "ctn": 80,
-    "est": "12/25",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Ridge",
     "unit": "MI-MIS",
     "acres": 466,
@@ -121,7 +121,7 @@
     "unit": "MI-MIS",
     "acres": 326,
     "ctn": 80,
-    "est": "10/27",
+    "est": "10/30",
     "own": "ST",
     "team": null
    },
@@ -153,7 +153,7 @@
     "team": null
    }
   ],
-  "discussion": "Low pressure weakens over the Plains with scattered showers and isolated thunderstorms, and a dry cold front will move through the Northeast. A Pacific storm will move into the Northwest and northern Rockies with a cold front producing light to moderate rain the lower elevations and snow above 5,000 to 7,000 feet. Dry air with near to below normal temperatures are expected in California and the Greater Four Corners. Gusty easterly winds will diminish in the Southeast today, but temperatures will remain above normal with minimum relative humidity of 20-30% in the Lower Mississippi Valley. A strong storm will move east through Alaska, with heavy snow and localized blizzard conditions for the central Interior, while western Alaska observes less precipitation and light rain and snow occurs in south-central Alaska. Trade winds are expected to remain light in Hawai\u2019i with isolated to scattered showers."
+  "discussion": "A Pacific storm will continue to move through the Northwest and northern Rockies with light to moderate rain the lower elevations and snow above 5,000 to 6,000 feet. Dry air with near-normal temperatures are expected in California and the Greater Four Corners. Rain will diminish in the Upper Midwest during the day, but temperatures will remain above normal. Temperatures will also remain above normal across the Mid and Lower Mississippi Valley, with below average minimum relative humidity of 18-35%. However, winds will continue to remain light in the region. A weakening dry cold front will move through the Mid-Atlantic, with breezy and dry northwest winds in New England diminishing during the day. Another strong storm will move into western Alaska with areas of heavy snow and strong winds, especially for the Seward Peninsula. Deep tropical moisture will move across Hawai\u2019i today and tonight with widespread showers and scattered thunderstorms, focused on the western islands."
  },
  "ledger": {
   "teams": [
