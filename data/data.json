@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-27T19:15:30.347815+00:00",
- "imsr_edition": "2026-10-27",
+ "generated_at": "2026-10-28T19:21:47.075099+00:00",
+ "imsr_edition": "2026-10-28",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 10,
     "acres": 316842,
-    "personnel": 551
+    "personnel": 504
    },
    {
     "gacc": "ONCC",
@@ -30,9 +30,9 @@
    {
     "gacc": "OSCC",
     "pl": 2,
-    "incidents": 3,
-    "acres": 26066,
-    "personnel": 191
+    "incidents": 1,
+    "acres": 570,
+    "personnel": 24
    },
    {
     "gacc": "NRCC",
@@ -43,10 +43,10 @@
    },
    {
     "gacc": "GBCC",
-    "pl": 2,
+    "pl": 1,
     "incidents": 2,
     "acres": 5040,
-    "personnel": 46
+    "personnel": 6
    },
    {
     "gacc": "SWCC",
@@ -66,25 +66,34 @@
     "gacc": "EACC",
     "pl": 1,
     "incidents": 4,
-    "acres": 1398,
-    "personnel": 19
+    "acres": 1648,
+    "personnel": 136
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 12,
-    "acres": 4181,
-    "personnel": 110
+    "incidents": 15,
+    "acres": 4269,
+    "personnel": 125
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
+    "name": "Hewitt Lane",
+    "unit": "SC-SCS",
+    "acres": 109,
+    "ctn": 60,
+    "est": "10/31",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Bee Haven 2 24-06",
     "unit": "FL-FLS",
     "acres": 2060,
-    "ctn": 80,
+    "ctn": 85,
     "est": "12/25",
     "own": "ST",
     "team": null
@@ -108,11 +117,11 @@
     "team": null
    },
    {
-    "name": "Ridge",
-    "unit": "MI-MIS",
-    "acres": 466,
-    "ctn": 50,
-    "est": "11/1",
+    "name": "Cherry Plain",
+    "unit": "NY-NYS",
+    "acres": 250,
+    "ctn": 70,
+    "est": "10/31",
     "own": "ST",
     "team": null
    },
@@ -120,8 +129,17 @@
     "name": "Black River",
     "unit": "MI-MIS",
     "acres": 326,
-    "ctn": 80,
-    "est": "10/30",
+    "ctn": 85,
+    "est": "11/4",
+    "own": "ST",
+    "team": null
+   },
+   {
+    "name": "Ridge",
+    "unit": "MI-MIS",
+    "acres": 466,
+    "ctn": 50,
+    "est": "11/1",
     "own": "ST",
     "team": null
    },
@@ -153,7 +171,7 @@
     "team": null
    }
   ],
-  "discussion": "A Pacific storm will continue to move through the Northwest and northern Rockies with light to moderate rain the lower elevations and snow above 5,000 to 6,000 feet. Dry air with near-normal temperatures are expected in California and the Greater Four Corners. Rain will diminish in the Upper Midwest during the day, but temperatures will remain above normal. Temperatures will also remain above normal across the Mid and Lower Mississippi Valley, with below average minimum relative humidity of 18-35%. However, winds will continue to remain light in the region. A weakening dry cold front will move through the Mid-Atlantic, with breezy and dry northwest winds in New England diminishing during the day. Another strong storm will move into western Alaska with areas of heavy snow and strong winds, especially for the Seward Peninsula. Deep tropical moisture will move across Hawai\u2019i today and tonight with widespread showers and scattered thunderstorms, focused on the western islands."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
