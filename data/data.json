@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-28T19:21:47.075099+00:00",
- "imsr_edition": "2026-10-28",
+ "generated_at": "2026-10-29T19:26:01.868330+00:00",
+ "imsr_edition": "2026-10-29",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 10,
-    "acres": 316842,
-    "personnel": 504
+    "incidents": 9,
+    "acres": 316559,
+    "personnel": 314
    },
    {
     "gacc": "ONCC",
@@ -30,16 +30,16 @@
    {
     "gacc": "OSCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 570,
-    "personnel": 24
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 37208,
-    "personnel": 4
+    "incidents": 1,
+    "acres": 35520,
+    "personnel": 1
    },
    {
     "gacc": "GBCC",
@@ -66,26 +66,26 @@
     "gacc": "EACC",
     "pl": 1,
     "incidents": 4,
-    "acres": 1648,
-    "personnel": 136
+    "acres": 1679,
+    "personnel": 123
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 15,
-    "acres": 4269,
-    "personnel": 125
+    "incidents": 16,
+    "acres": 4223,
+    "personnel": 130
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
-    "name": "Hewitt Lane",
-    "unit": "SC-SCS",
-    "acres": 109,
+    "name": "Redbud",
+    "unit": "OK-OKS",
+    "acres": 198,
     "ctn": 60,
-    "est": "10/31",
+    "est": "UNK",
     "own": "ST",
     "team": null
    },
@@ -99,28 +99,28 @@
     "team": null
    },
    {
-    "name": "East Bailey Road",
-    "unit": "OK-OKS",
-    "acres": 104,
-    "ctn": 40,
-    "est": "10/28",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Range 47B",
     "unit": "MS-MNF",
-    "acres": 636,
+    "acres": 392,
     "ctn": 50,
     "est": "10/30",
     "own": "FS",
     "team": null
    },
    {
+    "name": "Hewitt Lane",
+    "unit": "SC-SCS",
+    "acres": 109,
+    "ctn": 60,
+    "est": "10/31",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Cherry Plain",
     "unit": "NY-NYS",
-    "acres": 250,
-    "ctn": 70,
+    "acres": 251,
+    "ctn": 99,
     "est": "10/31",
     "own": "ST",
     "team": null
@@ -137,9 +137,9 @@
    {
     "name": "Ridge",
     "unit": "MI-MIS",
-    "acres": 466,
+    "acres": 496,
     "ctn": 50,
-    "est": "11/1",
+    "est": "11/30",
     "own": "ST",
     "team": null
    },
@@ -160,18 +160,9 @@
     "est": "10/31",
     "own": "FS",
     "team": null
-   },
-   {
-    "name": "Timber",
-    "unit": "CA-LPF",
-    "acres": 25350,
-    "ctn": 97,
-    "est": "11/1",
-    "own": "FS",
-    "team": null
    }
   ],
-  "discussion": ""
+  "discussion": "Mostly dry weather is expected in the West with near to below normal temperatures as the storm that affected the Northwest earlier this week moves into Canada. Showers and thunderstorms will develop in central and west Texas today as moisture from the remnants of Tropical Storm Vance in the eastern Pacific move in, with localized flooding possible. Warm and dry conditions will continue to the east across much of the Mississippi Valley, but relative humidity will remain near or above 40% from Missouri northward. Low minimum relative humidity of 20- 30% will persist, however, in eastern Louisiana and Mississippi amid light winds. A dry cold front will move through the Great Lakes and Northeast, with locally breezy southwest winds in the Upper Ohio Valley. Precipitation will wind down today in western Alaska while strong winds occur off the Alaska Range in portions of the central and eastern Interior, and a new storm will move into western Alaska overnight. Showers and isolated thunderstorms will continue across Hawai\u2019i today but will be less widespread than earlier in the week with a decrease in winds also expected."
  },
  "ledger": {
   "teams": [
