@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-29T19:26:01.868330+00:00",
- "imsr_edition": "2026-10-29",
+ "generated_at": "2026-10-30T19:00:26.632929+00:00",
+ "imsr_edition": "2026-10-30",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -17,15 +17,15 @@
     "gacc": "NWCC",
     "pl": 1,
     "incidents": 9,
-    "acres": 316559,
-    "personnel": 314
+    "acres": 316590,
+    "personnel": 304
    },
    {
     "gacc": "ONCC",
     "pl": 2,
     "incidents": 1,
     "acres": 1365,
-    "personnel": 63
+    "personnel": 22
    },
    {
     "gacc": "OSCC",
@@ -37,9 +37,9 @@
    {
     "gacc": "NRCC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 35520,
-    "personnel": 1
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "GBCC",
@@ -66,29 +66,20 @@
     "gacc": "EACC",
     "pl": 1,
     "incidents": 4,
-    "acres": 1679,
-    "personnel": 123
+    "acres": 1715,
+    "personnel": 113
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 16,
-    "acres": 4223,
-    "personnel": 130
+    "incidents": 15,
+    "acres": 4937,
+    "personnel": 136
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
-   {
-    "name": "Redbud",
-    "unit": "OK-OKS",
-    "acres": 198,
-    "ctn": 60,
-    "est": "UNK",
-    "own": "ST",
-    "team": null
-   },
    {
     "name": "Bee Haven 2 24-06",
     "unit": "FL-FLS",
@@ -108,6 +99,15 @@
     "team": null
    },
    {
+    "name": "Redbud",
+    "unit": "OK-OKS",
+    "acres": 198,
+    "ctn": 60,
+    "est": "UNK",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Hewitt Lane",
     "unit": "SC-SCS",
     "acres": 109,
@@ -117,29 +117,29 @@
     "team": null
    },
    {
-    "name": "Cherry Plain",
-    "unit": "NY-NYS",
-    "acres": 251,
-    "ctn": 99,
-    "est": "10/31",
+    "name": "Ridge",
+    "unit": "MI-MIS",
+    "acres": 496,
+    "ctn": 50,
+    "est": "11/30",
     "own": "ST",
     "team": null
    },
    {
     "name": "Black River",
     "unit": "MI-MIS",
-    "acres": 326,
-    "ctn": 85,
-    "est": "11/4",
+    "acres": 362,
+    "ctn": 90,
+    "est": "11/7",
     "own": "ST",
     "team": null
    },
    {
-    "name": "Ridge",
-    "unit": "MI-MIS",
-    "acres": 496,
-    "ctn": 50,
-    "est": "11/30",
+    "name": "Cherry Plain",
+    "unit": "NY-NYS",
+    "acres": 251,
+    "ctn": 99,
+    "est": "10/31",
     "own": "ST",
     "team": null
    },
@@ -155,14 +155,14 @@
    {
     "name": "Sisi",
     "unit": "WA-OWF",
-    "acres": 4743,
-    "ctn": 34,
+    "acres": 4774,
+    "ctn": 35,
     "est": "10/31",
     "own": "FS",
     "team": null
    }
   ],
-  "discussion": "Mostly dry weather is expected in the West with near to below normal temperatures as the storm that affected the Northwest earlier this week moves into Canada. Showers and thunderstorms will develop in central and west Texas today as moisture from the remnants of Tropical Storm Vance in the eastern Pacific move in, with localized flooding possible. Warm and dry conditions will continue to the east across much of the Mississippi Valley, but relative humidity will remain near or above 40% from Missouri northward. Low minimum relative humidity of 20- 30% will persist, however, in eastern Louisiana and Mississippi amid light winds. A dry cold front will move through the Great Lakes and Northeast, with locally breezy southwest winds in the Upper Ohio Valley. Precipitation will wind down today in western Alaska while strong winds occur off the Alaska Range in portions of the central and eastern Interior, and a new storm will move into western Alaska overnight. Showers and isolated thunderstorms will continue across Hawai\u2019i today but will be less widespread than earlier in the week with a decrease in winds also expected."
+  "discussion": "A dry cold front will continue to move through the Ohio Valley and Mid-Atlantic today, with breezy northwest winds in the Northeast. These winds will be accompanied by relative humidity above 40% keeping fire potential low. Dry and warm conditions will continue in the Southeast and Lower Mississippi Valley, but relative humidity will be higher than previous days and generally above 30%, except in portions of the southern Appalachians which may drop as low as 25%. Scattered showers and thunderstorms will develop on the central and southern Plains due to moisture from the remnants of Pacific Tropical Storm Vance. Farther west, moisture from Vance will also move into the Southwest and northward into the Great Basin and central Rockies, where scattered showers and isolated thunderstorms are expected. Due to the warm nature of the system, snow will be confined to the highest elevations of the central Rockies. Precipitation will wind down today in western Alaska while strong winds occur off the Alaska Range in portions of the central and eastern Interior, while heavy snow is expected in the Alaska Range and Chugach Mountains. Trade winds return to Hawai\u2019i but elevated low-level moisture will result in scattered and locally heavy windward showers."
  },
  "ledger": {
   "teams": [
