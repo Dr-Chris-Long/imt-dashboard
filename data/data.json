@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-01T18:46:27.451499+00:00",
- "imsr_edition": "2026-11-01",
+ "generated_at": "2026-11-02T22:37:04.329617+00:00",
+ "imsr_edition": "2026-11-02",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 8,
     "acres": 210778,
-    "personnel": 151
+    "personnel": 142
    },
    {
     "gacc": "ONCC",
@@ -65,9 +65,9 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 4,
+    "incidents": 5,
     "acres": 1715,
-    "personnel": 113
+    "personnel": 132
    },
    {
     "gacc": "SACC",
@@ -84,7 +84,7 @@
     "name": "BSP Cactus",
     "unit": "TN-BSP",
     "acres": 220,
-    "ctn": 50,
+    "ctn": 75,
     "est": "11/3",
     "own": "NPS",
     "team": null
@@ -117,15 +117,6 @@
     "team": null
    },
    {
-    "name": "Austin",
-    "unit": "OR-MHF",
-    "acres": 12888,
-    "ctn": 98,
-    "est": "11/30",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Ridge",
     "unit": "MI-MIS",
     "acres": 496,
@@ -144,7 +135,7 @@
     "team": null
    }
   ],
-  "discussion": "Very dry air will continue in the central and southern Appalachians with minimum relative humidity falling to 20- 30% but with light winds. Farther north, low minimum relative humidity as low as 30% will continue in the Northeast but winds will be lighter than yesterday. Above normal temperatures persist in the Plains and Mississippi Valley but relative humidity will remain elevated, while scattered showers and thunderstorms develop in the Lower Mississippi Valley and the central Plains. Deep tropical moisture will move across Florida with widespread showers and scattered thunderstorms with locally heavy rain. A Pacific storm associated with deep tropical moisture will move through the Intermountain West. Heavy rain is expected in the Four Corners states, with the heaviest rain in Arizona and southwest Colorado producing areas of flooding. Farther north, lighter precipitation is expected, which will fall as snow above 7,000 feet in the northern Rockies. Scattered light precipitation is expected across the southern half of Alaska along with temperatures that cool to near normal. Trade winds return today across Hawai\u2019i with isolated light windward showers."
+  "discussion": "Dry air will continue in the central and southern Appalachians with minimum relative humidity falling to 20-30% but with light winds. Farther north, relative humidity is expected to increase in the Northeast despite moderate westerly breezes. Above normal temperatures persist in the Plains and Mississippi Valley but deep moisture will move northward from the Gulf producing widespread showers and scattered thunderstorms bringing much needed relief to the Lower Mississippi Valley. Drier weather is expected across the West with temperatures near to below normal, with the coolest temperatures relative to normal in the Southwest. Drier weather is expected across most of Alaska except for light precipitation along the southern coast and in the panhandle amid near normal temperatures. Trade winds continue across Hawai\u2019i with isolated light windward showers."
  },
  "ledger": {
   "teams": [
