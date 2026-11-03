@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-02T22:37:04.329617+00:00",
- "imsr_edition": "2026-11-02",
+ "generated_at": "2026-11-03T20:25:55.708794+00:00",
+ "imsr_edition": "2026-11-03",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 8,
     "acres": 210778,
-    "personnel": 142
+    "personnel": 128
    },
    {
     "gacc": "ONCC",
@@ -44,9 +44,9 @@
    {
     "gacc": "GBCC",
     "pl": 1,
-    "incidents": 2,
+    "incidents": 1,
     "acres": 5040,
-    "personnel": 6
+    "personnel": 1
    },
    {
     "gacc": "SWCC",
@@ -65,16 +65,16 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 5,
-    "acres": 1715,
-    "personnel": 132
+    "incidents": 6,
+    "acres": 2003,
+    "personnel": 78
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 11,
-    "acres": 5564,
-    "personnel": 126
+    "incidents": 10,
+    "acres": 5388,
+    "personnel": 114
    }
   ],
   "cimts_committed": 0,
@@ -84,7 +84,7 @@
     "name": "BSP Cactus",
     "unit": "TN-BSP",
     "acres": 220,
-    "ctn": 75,
+    "ctn": 85,
     "est": "11/3",
     "own": "NPS",
     "team": null
@@ -99,21 +99,21 @@
     "team": null
    },
    {
-    "name": "Redbud",
-    "unit": "OK-OKS",
-    "acres": 198,
-    "ctn": 60,
-    "est": "UNK",
-    "own": "ST",
+    "name": "Wild River",
+    "unit": "NH-WMF",
+    "acres": 288,
+    "ctn": 11,
+    "est": "11/7",
+    "own": "FS",
     "team": null
    },
    {
-    "name": "Sisi",
-    "unit": "WA-OWF",
-    "acres": 4816,
-    "ctn": 40,
-    "est": "11/11",
-    "own": "FS",
+    "name": "Cherry Plain",
+    "unit": "NY-NYS",
+    "acres": 251,
+    "ctn": 99,
+    "est": "11/7",
+    "own": "ST",
     "team": null
    },
    {
@@ -126,16 +126,16 @@
     "team": null
    },
    {
-    "name": "Cherry Plain",
-    "unit": "NY-NYS",
-    "acres": 251,
-    "ctn": 99,
-    "est": "UNK",
-    "own": "ST",
+    "name": "Sisi",
+    "unit": "WA-OWF",
+    "acres": 4816,
+    "ctn": 40,
+    "est": "11/11",
+    "own": "FS",
     "team": null
    }
   ],
-  "discussion": "Dry air will continue in the central and southern Appalachians with minimum relative humidity falling to 20-30% but with light winds. Farther north, relative humidity is expected to increase in the Northeast despite moderate westerly breezes. Above normal temperatures persist in the Plains and Mississippi Valley but deep moisture will move northward from the Gulf producing widespread showers and scattered thunderstorms bringing much needed relief to the Lower Mississippi Valley. Drier weather is expected across the West with temperatures near to below normal, with the coolest temperatures relative to normal in the Southwest. Drier weather is expected across most of Alaska except for light precipitation along the southern coast and in the panhandle amid near normal temperatures. Trade winds continue across Hawai\u2019i with isolated light windward showers."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
