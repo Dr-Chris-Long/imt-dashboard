@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T20:25:55.708794+00:00",
- "imsr_edition": "2026-11-03",
+ "generated_at": "2026-11-04T20:41:10.324675+00:00",
+ "imsr_edition": "2026-11-04",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 8,
     "acres": 210778,
-    "personnel": 128
+    "personnel": 129
    },
    {
     "gacc": "ONCC",
@@ -65,9 +65,9 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 6,
-    "acres": 2003,
-    "personnel": 78
+    "incidents": 7,
+    "acres": 2004,
+    "personnel": 98
    },
    {
     "gacc": "SACC",
@@ -85,7 +85,7 @@
     "unit": "TN-BSP",
     "acres": 220,
     "ctn": 85,
-    "est": "11/3",
+    "est": "UNK",
     "own": "NPS",
     "team": null
    },
@@ -108,15 +108,6 @@
     "team": null
    },
    {
-    "name": "Cherry Plain",
-    "unit": "NY-NYS",
-    "acres": 251,
-    "ctn": 99,
-    "est": "11/7",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Ridge",
     "unit": "MI-MIS",
     "acres": 496,
@@ -129,13 +120,13 @@
     "name": "Sisi",
     "unit": "WA-OWF",
     "acres": 4816,
-    "ctn": 40,
+    "ctn": 45,
     "est": "11/11",
     "own": "FS",
     "team": null
    }
   ],
-  "discussion": ""
+  "discussion": "A storm will continue to move through the Great Lakes today, with the heaviest and most widespread rainfall in the Minnesota Arrowhead to northern Wisconsin. The associated cold front will move into Appalachians today with widespread showers and isolated to scattered thunderstorms from Lake Erie to the northeast Gulf Coast. Dry conditions will persist along the East Coast except for isolated showers and thunderstorms in Florida. A small upper-level low will bring breezy west winds to New Mexico today while scattered showers develop in the central Rockies. Most of the rest will be dry with near average temperatures except for showers moving into western Washington as a storm moves into British Columbia. Mostly dry conditions are expected across Alaska today except for showers near the south coast and in the panhandle amid slightly above normal temperatures. Breezy trade winds will continue across Hawai\u2019i with a few light windward showers."
  },
  "ledger": {
   "teams": [
