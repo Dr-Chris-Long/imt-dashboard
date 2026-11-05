@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-04T20:41:10.324675+00:00",
- "imsr_edition": "2026-11-04",
+ "generated_at": "2026-11-05T20:56:47.142890+00:00",
+ "imsr_edition": "2026-11-05",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 8,
-    "acres": 210778,
-    "personnel": 129
+    "incidents": 7,
+    "acres": 201203,
+    "personnel": 119
    },
    {
     "gacc": "ONCC",
@@ -65,16 +65,16 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 7,
-    "acres": 2004,
-    "personnel": 98
+    "incidents": 5,
+    "acres": 1951,
+    "personnel": 130
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 10,
-    "acres": 5388,
-    "personnel": 114
+    "incidents": 7,
+    "acres": 3804,
+    "personnel": 87
    }
   ],
   "cimts_committed": 0,
@@ -84,7 +84,7 @@
     "name": "BSP Cactus",
     "unit": "TN-BSP",
     "acres": 220,
-    "ctn": 85,
+    "ctn": 98,
     "est": "UNK",
     "own": "NPS",
     "team": null
@@ -101,9 +101,9 @@
    {
     "name": "Wild River",
     "unit": "NH-WMF",
-    "acres": 288,
+    "acres": 982,
     "ctn": 11,
-    "est": "11/7",
+    "est": "11/10",
     "own": "FS",
     "team": null
    },
@@ -120,13 +120,13 @@
     "name": "Sisi",
     "unit": "WA-OWF",
     "acres": 4816,
-    "ctn": 45,
-    "est": "11/11",
+    "ctn": 50,
+    "est": "11/30",
     "own": "FS",
     "team": null
    }
   ],
-  "discussion": "A storm will continue to move through the Great Lakes today, with the heaviest and most widespread rainfall in the Minnesota Arrowhead to northern Wisconsin. The associated cold front will move into Appalachians today with widespread showers and isolated to scattered thunderstorms from Lake Erie to the northeast Gulf Coast. Dry conditions will persist along the East Coast except for isolated showers and thunderstorms in Florida. A small upper-level low will bring breezy west winds to New Mexico today while scattered showers develop in the central Rockies. Most of the rest will be dry with near average temperatures except for showers moving into western Washington as a storm moves into British Columbia. Mostly dry conditions are expected across Alaska today except for showers near the south coast and in the panhandle amid slightly above normal temperatures. Breezy trade winds will continue across Hawai\u2019i with a few light windward showers."
+  "discussion": "A cold front will move through the Appalachians and to the East Coast today, with scattered showers and isolated thunderstorms, but little rain will fall south of the Appalachians and Carolinas. Another weak cold front will move through the Great Lakes with more showers. A weakening upper-level low will move through the southern Plains, with scattered showers mostly across Oklahoma. Mostly dry conditions are expected in the West as temperatures average near normal, but rain will move into western Washington with some high elevation snow into the northern Cascades. Mostly dry conditions will persist across Alaska today except for showers near the south coast and in the panhandle amid slightly above normal temperatures. Breezy trade winds will continue across Hawai\u2019i with a few light windward showers."
  },
  "ledger": {
   "teams": [
