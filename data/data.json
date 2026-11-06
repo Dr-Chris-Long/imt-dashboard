@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-05T20:56:47.142890+00:00",
- "imsr_edition": "2026-11-05",
+ "generated_at": "2026-11-06T20:15:53.278788+00:00",
+ "imsr_edition": "2026-11-06",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,16 +16,16 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 7,
-    "acres": 201203,
-    "personnel": 119
+    "incidents": 3,
+    "acres": 111676,
+    "personnel": 104
    },
    {
     "gacc": "ONCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 1365,
-    "personnel": 8
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "OSCC",
@@ -45,7 +45,7 @@
     "gacc": "GBCC",
     "pl": 1,
     "incidents": 1,
-    "acres": 5040,
+    "acres": 4774,
     "personnel": 1
    },
    {
@@ -65,45 +65,27 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 5,
-    "acres": 1951,
-    "personnel": 130
+    "incidents": 3,
+    "acres": 857,
+    "personnel": 179
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 7,
-    "acres": 3804,
-    "personnel": 87
+    "incidents": 4,
+    "acres": 2520,
+    "personnel": 58
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
-    "name": "BSP Cactus",
-    "unit": "TN-BSP",
-    "acres": 220,
-    "ctn": 98,
-    "est": "UNK",
-    "own": "NPS",
-    "team": null
-   },
-   {
-    "name": "Bee Haven 2 24-06",
-    "unit": "FL-FLS",
-    "acres": 2060,
-    "ctn": 85,
-    "est": "12/25",
-    "own": "ST",
-    "team": null
-   },
-   {
     "name": "Wild River",
     "unit": "NH-WMF",
-    "acres": 982,
-    "ctn": 11,
-    "est": "11/10",
+    "acres": 856,
+    "ctn": 20,
+    "est": "11/12",
     "own": "FS",
     "team": null
    },
@@ -111,7 +93,7 @@
     "name": "Ridge",
     "unit": "MI-MIS",
     "acres": 496,
-    "ctn": 50,
+    "ctn": 85,
     "est": "11/30",
     "own": "ST",
     "team": null
@@ -124,9 +106,18 @@
     "est": "11/30",
     "own": "FS",
     "team": null
+   },
+   {
+    "name": "Bee Haven 2 24-06",
+    "unit": "FL-FLS",
+    "acres": 2060,
+    "ctn": 85,
+    "est": "12/25",
+    "own": "ST",
+    "team": null
    }
   ],
-  "discussion": "A cold front will move through the Appalachians and to the East Coast today, with scattered showers and isolated thunderstorms, but little rain will fall south of the Appalachians and Carolinas. Another weak cold front will move through the Great Lakes with more showers. A weakening upper-level low will move through the southern Plains, with scattered showers mostly across Oklahoma. Mostly dry conditions are expected in the West as temperatures average near normal, but rain will move into western Washington with some high elevation snow into the northern Cascades. Mostly dry conditions will persist across Alaska today except for showers near the south coast and in the panhandle amid slightly above normal temperatures. Breezy trade winds will continue across Hawai\u2019i with a few light windward showers."
+  "discussion": "A cold front will slowly move off the East Coast today but will briefly stall near the New England coast as weak surface low pressure develops along it. Locally heavy rain will fall along the New England coast, with lighter rain falling from the eastern Carolinas to the Mid-Atlantic coast and eastern Great Lakes. Dry conditions are expected across much of the Plains into the Southeast and minimum relative humidity will remain well above critical thresholds amid mostly light winds. An upper-level low will move through the Southwest with scattered showers and isolated thunderstorms, while dry conditions are expected in the northern Intermountain West amid above normal temperatures. A strong Pacific storm will move into British Columbia and bring rain to western Washington with high elevation snow in the north Cascades. Areas of light snow are expected across central and eastern Interior Alaska today while relatively dry conditions are expected near the Bering Sea and showers occur in the panhandle. Breezy trade winds will continue across Hawai\u2019i, but will be locally stronger for Maui and the Big Island with an increase in showers expected for those islands, as well."
  },
  "ledger": {
   "teams": [
