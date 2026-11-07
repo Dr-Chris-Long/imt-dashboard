@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-06T20:15:53.278788+00:00",
- "imsr_edition": "2026-11-06",
+ "generated_at": "2026-11-07T18:29:45.838484+00:00",
+ "imsr_edition": "2026-11-07",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 3,
-    "acres": 111676,
-    "personnel": 104
+    "incidents": 6,
+    "acres": 196316,
+    "personnel": 98
    },
    {
     "gacc": "ONCC",
@@ -58,16 +58,16 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 1,
+    "acres": 413,
+    "personnel": 94
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 3,
-    "acres": 857,
-    "personnel": 179
+    "incidents": 2,
+    "acres": 856,
+    "personnel": 140
    },
    {
     "gacc": "SACC",
@@ -117,7 +117,7 @@
     "team": null
    }
   ],
-  "discussion": "A cold front will slowly move off the East Coast today but will briefly stall near the New England coast as weak surface low pressure develops along it. Locally heavy rain will fall along the New England coast, with lighter rain falling from the eastern Carolinas to the Mid-Atlantic coast and eastern Great Lakes. Dry conditions are expected across much of the Plains into the Southeast and minimum relative humidity will remain well above critical thresholds amid mostly light winds. An upper-level low will move through the Southwest with scattered showers and isolated thunderstorms, while dry conditions are expected in the northern Intermountain West amid above normal temperatures. A strong Pacific storm will move into British Columbia and bring rain to western Washington with high elevation snow in the north Cascades. Areas of light snow are expected across central and eastern Interior Alaska today while relatively dry conditions are expected near the Bering Sea and showers occur in the panhandle. Breezy trade winds will continue across Hawai\u2019i, but will be locally stronger for Maui and the Big Island with an increase in showers expected for those islands, as well."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
