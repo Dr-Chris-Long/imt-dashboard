@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-07T18:29:45.838484+00:00",
- "imsr_edition": "2026-11-07",
+ "generated_at": "2026-11-08T18:41:08.067398+00:00",
+ "imsr_edition": "2026-11-08",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,13 +16,13 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 6,
-    "acres": 196316,
-    "personnel": 98
+    "incidents": 2,
+    "acres": 17704,
+    "personnel": 81
    },
    {
     "gacc": "ONCC",
-    "pl": 2,
+    "pl": 1,
     "incidents": 0,
     "acres": 0,
     "personnel": 0
@@ -44,9 +44,9 @@
    {
     "gacc": "GBCC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 4774,
-    "personnel": 1
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "SWCC",
@@ -59,27 +59,36 @@
     "gacc": "RMCC",
     "pl": 2,
     "incidents": 1,
-    "acres": 413,
-    "personnel": 94
+    "acres": 532,
+    "personnel": 85
    },
    {
     "gacc": "EACC",
     "pl": 1,
     "incidents": 2,
     "acres": 856,
-    "personnel": 140
+    "personnel": 115
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 4,
-    "acres": 2520,
-    "personnel": 58
+    "incidents": 3,
+    "acres": 2389,
+    "personnel": 57
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
+   {
+    "name": "Foot Creek",
+    "unit": "WY-BHF",
+    "acres": 532,
+    "ctn": 41,
+    "est": "11/10",
+    "own": "FS",
+    "team": null
+   },
    {
     "name": "Wild River",
     "unit": "NH-WMF",
@@ -96,15 +105,6 @@
     "ctn": 85,
     "est": "11/30",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Sisi",
-    "unit": "WA-OWF",
-    "acres": 4816,
-    "ctn": 50,
-    "est": "11/30",
-    "own": "FS",
     "team": null
    },
    {
