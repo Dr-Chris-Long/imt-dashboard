@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-09T23:17:47.253713+00:00",
- "imsr_edition": "2026-11-09",
+ "generated_at": "2026-11-10T20:43:15.436523+00:00",
+ "imsr_edition": "2026-11-10",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 17704,
-    "personnel": 81
+    "incidents": 3,
+    "acres": 27279,
+    "personnel": 22
    },
    {
     "gacc": "ONCC",
@@ -67,14 +67,14 @@
     "pl": 1,
     "incidents": 1,
     "acres": 821,
-    "personnel": 95
+    "personnel": 88
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 2,
-    "acres": 2280,
-    "personnel": 50
+    "incidents": 3,
+    "acres": 2284,
+    "personnel": 63
    }
   ],
   "cimts_committed": 0,
@@ -93,7 +93,7 @@
     "name": "Wild River",
     "unit": "NH-WMF",
     "acres": 821,
-    "ctn": 29,
+    "ctn": 53,
     "est": "12/1",
     "own": "FS",
     "team": null
@@ -117,7 +117,7 @@
     "team": null
    }
   ],
-  "discussion": "Dry conditions are expected across much of the U.S. today, including the areas of the Northeast and south Texas that received precipitation over the weekend. However, a few showers may linger into the afternoon along the Texas coast. Showers are also expected to persist near and west of the Cascades and Oregon and Washington, with snow confined to the highest elevations. Temperatures will also be mostly above normal across the country today except for near normal temperatures in the Northeast and Florida, with near to below normal temperatures in central and south Texas. The greatest warm temperature anomalies will occur in the northern Plains and Midwest where temperatures may rise to 20\u00b0F above normal. Rain and snow will spread into south-central Alaska and the panhandle from a storm in the Gulf of Alaska, while seasonable temperatures and dry conditions occur in the Interior. Breezy trade winds will continue across Hawai\u2019i with isolated windward showers."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
