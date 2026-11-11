@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-10T20:43:15.436523+00:00",
- "imsr_edition": "2026-11-10",
+ "generated_at": "2026-11-11T21:05:24.770458+00:00",
+ "imsr_edition": "2026-11-11",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -18,7 +18,7 @@
     "pl": 1,
     "incidents": 3,
     "acres": 27279,
-    "personnel": 22
+    "personnel": 21
    },
    {
     "gacc": "ONCC",
@@ -66,20 +66,29 @@
     "gacc": "EACC",
     "pl": 1,
     "incidents": 1,
-    "acres": 821,
-    "personnel": 88
+    "acres": 817,
+    "personnel": 87
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 3,
-    "acres": 2284,
-    "personnel": 63
+    "incidents": 5,
+    "acres": 2680,
+    "personnel": 72
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
+   {
+    "name": "Bee Haven 2 24-06",
+    "unit": "FL-FLS",
+    "acres": 2060,
+    "ctn": 85,
+    "est": "12/25",
+    "own": "ST",
+    "team": null
+   },
    {
     "name": "Foot Creek",
     "unit": "WY-BHF",
@@ -92,8 +101,8 @@
    {
     "name": "Wild River",
     "unit": "NH-WMF",
-    "acres": 821,
-    "ctn": 53,
+    "acres": 817,
+    "ctn": 59,
     "est": "12/1",
     "own": "FS",
     "team": null
@@ -106,18 +115,9 @@
     "est": "11/30",
     "own": "ST",
     "team": null
-   },
-   {
-    "name": "Bee Haven 2 24-06",
-    "unit": "FL-FLS",
-    "acres": 2060,
-    "ctn": 85,
-    "est": "12/25",
-    "own": "ST",
-    "team": null
    }
   ],
-  "discussion": ""
+  "discussion": "Low pressure will move through the Ohio Valley today bringing widespread precipitation there and across the Great Lakes, spreading into the Northeast and Mid-Atlantic overnight. Colder air will filter in behind the storm in the Upper Great Lakes with the rain mixing with or changing to snow. Isolated showers and thunderstorms will develop along a cold front moving through Florida, while most of the rest of the Southeast remains dry. Dry conditions are also expected across the Plains, with below normal temperatures for the northern Plains behind a cold front, but temperatures will remain above normal ahead of the front for the southern Plains. Above normal temperatures will continue throughout the West, with temperatures 15-25\u00b0F above normal for the northern Intermountain West. Most areas in the West will be dry except for showers west of the Cascades. Scattered light showers will continue in the wake of a storm in the Gulf of Alaska, while seasonable temperatures and dry conditions occur in the Interior, but precipitation continues in the panhandle. Breezy to strong trade winds will continue across Hawai\u2019i with isolated windward showers."
  },
  "ledger": {
   "teams": [
