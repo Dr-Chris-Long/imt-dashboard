@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-12T21:20:16.477534+00:00",
- "imsr_edition": "2026-11-12",
+ "generated_at": "2026-11-13T20:46:57.209786+00:00",
+ "imsr_edition": "2026-11-13",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 3,
-    "acres": 27279,
-    "personnel": 20
+    "incidents": 5,
+    "acres": 28178,
+    "personnel": 48
    },
    {
     "gacc": "ONCC",
@@ -53,7 +53,7 @@
     "pl": 1,
     "incidents": 1,
     "acres": 0,
-    "personnel": 230
+    "personnel": 271
    },
    {
     "gacc": "RMCC",
@@ -72,14 +72,23 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 4,
-    "acres": 2601,
-    "personnel": 63
+    "incidents": 5,
+    "acres": 3385,
+    "personnel": 70
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
+   {
+    "name": "Red Hill",
+    "unit": "MS-MNF",
+    "acres": 519,
+    "ctn": 60,
+    "est": "11/15",
+    "own": "FS",
+    "team": null
+   },
    {
     "name": "Bee Haven 2 24-06",
     "unit": "FL-FLS",
@@ -90,15 +99,6 @@
     "team": null
    },
    {
-    "name": "Foot Creek",
-    "unit": "WY-BHF",
-    "acres": 683,
-    "ctn": 90,
-    "est": "11/20",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Wild River",
     "unit": "NH-WMF",
     "acres": 817,
@@ -106,18 +106,9 @@
     "est": "12/1",
     "own": "FS",
     "team": null
-   },
-   {
-    "name": "Ridge",
-    "unit": "MI-MIS",
-    "acres": 496,
-    "ctn": 85,
-    "est": "11/30",
-    "own": "ST",
-    "team": null
    }
   ],
-  "discussion": "Low pressure will move through the Northeast today, with widespread precipitation, falling as snow in northern New York and New England, while scattered showers occur farther south in the Mid-Atlantic and Carolinas. Rain will also change to snow in the higher elevations of the Appalachians during the day as cold air moves in. Precipitation will linger downwind of the Great Lakes through the day, while breezy northerly winds occur in the Mid to Upper Mississippi Valley but relative humidity will remain elevated. Mostly dry conditions will continue in the West amid temperatures above normal, with temperatures 15-25\u00b0F above normal for the northern Intermountain West. Scattered showers will continue west of the Cascades, as well. Scattered light showers across southwest Alaska, but drier conditions are expected for south-central Alaska as seasonable temperatures and dry conditions occur in the Interior. Breezy trade winds will continue across Hawai\u2019i with an increase in showers for the northern islands as a weakening cold front approaches."
+  "discussion": "Low pressure will move away from the New England coast, with precipitation gradually winding down in the Northeast. Lake affect showers will continue off the Great Lakes, with scattered showers into the central Appalachians due to upslope northwest flow, falling as snow above 2,500 to 3,000 feet. Dry conditions with minimum relative humidity of 20-40% will continue in the Lower Mississippi Valley and Southeast, but winds will be lighter today and mostly 7-12 mph keeping elevated conditions isolated. Mostly dry conditions will continue Intermountain West and Plains, with temperatures 15-25\u00b0F above normal for the northern Intermountain West. A Pacific storm will move into the West Coast with rain and high-elevation snow most widespread from the Sierra and Cascades westward, with light precipitation moving east of those mountain ranges overnight. Mostly dry and seasonably cold temperatures are expected in Alaska, while breezy to strong trade winds continue in Hawai\u2019i with light windward showers."
  },
  "ledger": {
   "teams": [
