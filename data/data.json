@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13T20:46:57.209786+00:00",
- "imsr_edition": "2026-11-13",
+ "generated_at": "2026-11-14T18:57:58.132741+00:00",
+ "imsr_edition": "2026-11-14",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 5,
-    "acres": 28178,
-    "personnel": 48
+    "incidents": 6,
+    "acres": 122150,
+    "personnel": 49
    },
    {
     "gacc": "ONCC",
@@ -44,9 +44,9 @@
    {
     "gacc": "GBCC",
     "pl": 1,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 1,
+    "acres": 2096,
+    "personnel": 14
    },
    {
     "gacc": "SWCC",
@@ -65,27 +65,27 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 817,
-    "personnel": 58
+    "incidents": 2,
+    "acres": 1068,
+    "personnel": 57
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 5,
-    "acres": 3385,
-    "personnel": 70
+    "incidents": 6,
+    "acres": 5763,
+    "personnel": 78
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
-    "name": "Red Hill",
+    "name": "Range 47",
     "unit": "MS-MNF",
-    "acres": 519,
+    "acres": 2378,
     "ctn": 60,
-    "est": "11/15",
+    "est": "11/20",
     "own": "FS",
     "team": null
    },
@@ -106,9 +106,18 @@
     "est": "12/1",
     "own": "FS",
     "team": null
+   },
+   {
+    "name": "Mud",
+    "unit": "ID-BOD",
+    "acres": 2096,
+    "ctn": 50,
+    "est": "UNK",
+    "own": "BLM",
+    "team": null
    }
   ],
-  "discussion": "Low pressure will move away from the New England coast, with precipitation gradually winding down in the Northeast. Lake affect showers will continue off the Great Lakes, with scattered showers into the central Appalachians due to upslope northwest flow, falling as snow above 2,500 to 3,000 feet. Dry conditions with minimum relative humidity of 20-40% will continue in the Lower Mississippi Valley and Southeast, but winds will be lighter today and mostly 7-12 mph keeping elevated conditions isolated. Mostly dry conditions will continue Intermountain West and Plains, with temperatures 15-25\u00b0F above normal for the northern Intermountain West. A Pacific storm will move into the West Coast with rain and high-elevation snow most widespread from the Sierra and Cascades westward, with light precipitation moving east of those mountain ranges overnight. Mostly dry and seasonably cold temperatures are expected in Alaska, while breezy to strong trade winds continue in Hawai\u2019i with light windward showers."
+  "discussion": "Breezy and dry northwest winds will continue across the Southeast today, with locally elevated conditions in coastal Georgia and the eastern Carolinas as minimum relative humidity falls to 25-35%. Dry conditions will also persist to the west in the Lower Mississippi Valley, but winds will be lighter than the past two days. Moist northwest flow will continue across the Great Lakes and Northeast with scattered rain and snow showers downwind of the lakes and across northern New York and New England. Dry conditions will continue in the northern Rockies to the northern Plains amid above normal temperatures. A weak upper-level low will move through the Southwest into the southern Plains with scattered showers and thunderstorms, most numerous in the southern Plains, with snow in the higher elevations of the Southwest. A brief break is expected along the West Coast before the next Pacific storm moves into the Northwest overnight, with rain and high-elevation snow near and west of the Cascades. Mostly dry and seasonably cold temperatures are expected in Alaska, while strong trade winds develop in Hawai\u2019i with light windward showers."
  },
  "ledger": {
   "teams": [
