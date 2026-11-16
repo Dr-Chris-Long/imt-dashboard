@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15T19:36:34.314238+00:00",
- "imsr_edition": "2026-11-15",
+ "generated_at": "2026-11-16T23:14:23.440925+00:00",
+ "imsr_edition": "2026-11-16",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 6,
-    "acres": 122150,
-    "personnel": 49
+    "incidents": 4,
+    "acres": 107759,
+    "personnel": 34
    },
    {
     "gacc": "ONCC",
@@ -51,9 +51,9 @@
    {
     "gacc": "SWCC",
     "pl": 1,
-    "incidents": 1,
+    "incidents": 0,
     "acres": 0,
-    "personnel": 271
+    "personnel": 0
    },
    {
     "gacc": "RMCC",
@@ -117,7 +117,7 @@
     "team": null
    }
   ],
-  "discussion": "Dry conditions will persist east of the Mississippi River to the southeast Atlantic coast with minimum relative humidity 25-40% but winds will be light. Moist northwest flow will continue across the Great Lakes and Northeast with scattered rain and snow showers downwind of the lakes in New York and in New England. Dry conditions will continue in the northern Rockies to the northern Plains amid above normal temperatures, while light showers are expected along the northwestern Gulf Coast. The next Pacific storm continues to slowly move into West, with most precipitation along the coast and near/west of the Cascades and Sierra, falling as snow above 4,000 to 7,000 feet. The associated cold front will move east of the mountains overnight and bring precipitation to the western Great Basin and eventually the northern Rockies. Mostly dry and seasonably cold temperatures are expected in Alaska aside from a few flurries, while breezy trade winds persist in Hawai\u2019i with light windward showers."
+  "discussion": "Dry conditions will persist in much of the Southeast and Lower Mississippi Valley, but relative humidity will be higher and above 30% amid light winds. Dry conditions will return to the Northeast, with temperatures below normal. Dry conditions are expected in the Plains while temperatures remain above normal across the northern Plains. A cold front will continue to slowly move through the Intermountain West with valley rain and mountain snow showers. Another brief period of drier conditions are expected along the West Coast. A storm in the Gulf of Alaska will bring more precipitation to southern Alaska and the panhandle while a few flurries are expected in southwest Alaska to the western Interior. In Hawai\u2019i, breezy trade winds will persist with an increase in windward showers overnight."
  },
  "ledger": {
   "teams": [
