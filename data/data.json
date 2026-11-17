@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-16T23:14:23.440925+00:00",
- "imsr_edition": "2026-11-16",
+ "generated_at": "2026-11-17T22:03:39.502333+00:00",
+ "imsr_edition": "2026-11-17",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 4,
-    "acres": 107759,
-    "personnel": 34
+    "incidents": 5,
+    "acres": 117334,
+    "personnel": 35
    },
    {
     "gacc": "ONCC",
@@ -72,19 +72,28 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 7,
-    "acres": 8463,
-    "personnel": 105
+    "incidents": 8,
+    "acres": 8381,
+    "personnel": 118
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
+    "name": "Walker Mt West",
+    "unit": "AR-OUF",
+    "acres": 132,
+    "ctn": 75,
+    "est": "11/19",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "201W",
     "unit": "MS-MNF",
     "acres": 2700,
-    "ctn": 60,
+    "ctn": 70,
     "est": "11/20",
     "own": "FS",
     "team": null
@@ -93,7 +102,7 @@
     "name": "Range 47",
     "unit": "MS-MNF",
     "acres": 2379,
-    "ctn": 65,
+    "ctn": 75,
     "est": "11/20",
     "own": "FS",
     "team": null
@@ -117,7 +126,7 @@
     "team": null
    }
   ],
-  "discussion": "Dry conditions will persist in much of the Southeast and Lower Mississippi Valley, but relative humidity will be higher and above 30% amid light winds. Dry conditions will return to the Northeast, with temperatures below normal. Dry conditions are expected in the Plains while temperatures remain above normal across the northern Plains. A cold front will continue to slowly move through the Intermountain West with valley rain and mountain snow showers. Another brief period of drier conditions are expected along the West Coast. A storm in the Gulf of Alaska will bring more precipitation to southern Alaska and the panhandle while a few flurries are expected in southwest Alaska to the western Interior. In Hawai\u2019i, breezy trade winds will persist with an increase in windward showers overnight."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
