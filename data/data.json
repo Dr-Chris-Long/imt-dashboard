@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T22:03:39.502333+00:00",
- "imsr_edition": "2026-11-17",
+ "generated_at": "2026-11-18T21:43:17.180178+00:00",
+ "imsr_edition": "2026-11-18",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -81,10 +81,19 @@
   "teams": [],
   "fires": [
    {
+    "name": "Bee Haven 2 24-06",
+    "unit": "FL-FLS",
+    "acres": 2060,
+    "ctn": 85,
+    "est": "12/25",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "Walker Mt West",
     "unit": "AR-OUF",
     "acres": 132,
-    "ctn": 75,
+    "ctn": 90,
     "est": "11/19",
     "own": "FS",
     "team": null
@@ -108,11 +117,11 @@
     "team": null
    },
    {
-    "name": "Bee Haven 2 24-06",
-    "unit": "FL-FLS",
-    "acres": 2060,
-    "ctn": 85,
-    "est": "12/25",
+    "name": "Kessel",
+    "unit": "WV-WVS",
+    "acres": 360,
+    "ctn": 80,
+    "est": "11/19",
     "own": "ST",
     "team": null
    },
