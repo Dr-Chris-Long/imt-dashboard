@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T21:43:17.180178+00:00",
- "imsr_edition": "2026-11-18",
+ "generated_at": "2026-11-19T21:59:09.130494+00:00",
+ "imsr_edition": "2026-11-19",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 5,
-    "acres": 117334,
-    "personnel": 35
+    "incidents": 4,
+    "acres": 116614,
+    "personnel": 33
    },
    {
     "gacc": "ONCC",
@@ -58,9 +58,9 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 683,
-    "personnel": 34
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "EACC",
@@ -73,8 +73,8 @@
     "gacc": "SACC",
     "pl": 2,
     "incidents": 8,
-    "acres": 8381,
-    "personnel": 118
+    "acres": 11068,
+    "personnel": 107
    }
   ],
   "cimts_committed": 0,
@@ -87,15 +87,6 @@
     "ctn": 85,
     "est": "12/25",
     "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Walker Mt West",
-    "unit": "AR-OUF",
-    "acres": 132,
-    "ctn": 90,
-    "est": "11/19",
-    "own": "FS",
     "team": null
    },
    {
