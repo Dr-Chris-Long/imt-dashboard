@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T21:59:09.130494+00:00",
- "imsr_edition": "2026-11-19",
+ "generated_at": "2026-11-20T21:42:05.792200+00:00",
+ "imsr_edition": "2026-11-20",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 4,
-    "acres": 116614,
-    "personnel": 33
+    "incidents": 1,
+    "acres": 9575,
+    "personnel": 1
    },
    {
     "gacc": "ONCC",
@@ -45,7 +45,7 @@
     "gacc": "GBCC",
     "pl": 1,
     "incidents": 0,
-    "acres": 2096,
+    "acres": 0,
     "personnel": 0
    },
    {
@@ -58,9 +58,9 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 1,
+    "acres": 102007,
+    "personnel": 1
    },
    {
     "gacc": "EACC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 8,
-    "acres": 11068,
-    "personnel": 107
+    "incidents": 9,
+    "acres": 10977,
+    "personnel": 111
    }
   ],
   "cimts_committed": 0,
@@ -90,29 +90,11 @@
     "team": null
    },
    {
-    "name": "201W",
-    "unit": "MS-MNF",
-    "acres": 2700,
-    "ctn": 70,
-    "est": "11/20",
-    "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Range 47",
-    "unit": "MS-MNF",
-    "acres": 2379,
-    "ctn": 75,
-    "est": "11/20",
-    "own": "FS",
-    "team": null
-   },
-   {
     "name": "Kessel",
     "unit": "WV-WVS",
     "acres": 360,
     "ctn": 80,
-    "est": "11/19",
+    "est": "UNK",
     "own": "ST",
     "team": null
    },
