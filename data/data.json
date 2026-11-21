@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T21:42:05.792200+00:00",
- "imsr_edition": "2026-11-20",
+ "generated_at": "2026-11-21T20:23:41.839878+00:00",
+ "imsr_edition": "2026-11-21",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -58,23 +58,23 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 102007,
-    "personnel": 1
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 1068,
-    "personnel": 57
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 9,
-    "acres": 10977,
-    "personnel": 111
+    "incidents": 10,
+    "acres": 11099,
+    "personnel": 152
    }
   ],
   "cimts_committed": 0,
@@ -97,18 +97,9 @@
     "est": "UNK",
     "own": "ST",
     "team": null
-   },
-   {
-    "name": "Wild River",
-    "unit": "NH-WMF",
-    "acres": 817,
-    "ctn": 59,
-    "est": "12/1",
-    "own": "FS",
-    "team": null
    }
   ],
-  "discussion": ""
+  "discussion": "Very dry conditions will persist across the central and southern Appalachians with minimum relative humidity of 15-30% but winds will be light. Farther east, a developing coastal storm will bring rain to the Piedmont and the southeast Atlantic coast with gusty northeast winds. Dry conditions with well above normal temperatures will continue in the Northeast, but with elevated relative humidity. A cold front will move through the Midwest with scattered showers and thunderstorms, focused from eastern Kansas to Upper Michigan, with scattered light showers south to Texas. A storm will continue to move through the northern Intermountain West with scattered valley rain and mountain snow showers. Another cold front will move into the Northwest overnight with rain and snow from the Cascades westward, with snow levels 3,000 to 5,000 feet. Snow will continue in the Brooks Range while Interior Alaska is drier with colder temperatures today. In Hawai\u2019i, breezy to strong trade winds will occur with scattered showers for windward areas."
  },
  "ledger": {
   "teams": [
