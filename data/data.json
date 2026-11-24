@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T01:29:59.287625+00:00",
- "imsr_edition": "2026-11-23",
+ "generated_at": "2026-11-24T23:24:28.434277+00:00",
+ "imsr_edition": "2026-11-24",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 2,
+    "acres": 38454,
+    "personnel": 3
    },
    {
     "gacc": "ONCC",
@@ -73,18 +73,27 @@
     "gacc": "SACC",
     "pl": 2,
     "incidents": 17,
-    "acres": 14880,
-    "personnel": 442
+    "acres": 16463,
+    "personnel": 395
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
+    "name": "Little Ridge",
+    "unit": "VA-VAF",
+    "acres": 900,
+    "ctn": 20,
+    "est": "12/6",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "Card Knob Road",
     "unit": "KY-KYS",
     "acres": 131,
-    "ctn": 49,
+    "ctn": 80,
     "est": "11/24",
     "own": "ST",
     "team": null
@@ -92,9 +101,9 @@
    {
     "name": "White Oak Flat",
     "unit": "VA-VAF",
-    "acres": 1577,
-    "ctn": 49,
-    "est": "12/5",
+    "acres": 2237,
+    "ctn": 53,
+    "est": "11/28",
     "own": "FS",
     "team": null
    },
@@ -108,7 +117,7 @@
     "team": null
    }
   ],
-  "discussion": "A coastal storm will move away from the Northeast into the Canadian Maritimes with rain ending during the day. Breezy northwest winds will continue, with breezy northwest winds also expected westward into the Great Lakes and Mid-Mississippi Valley. Locally breezy and dry northerly winds will occur in the Lower Mississippi Valley as minimum relative humidity falls to 20-30%. Drier conditions are expected across much of the West except for the next Pacific storm moving onto the Northwest coast overnight. Isolated showers and thunderstorms are also expected in Florida while much of the rest of the contiguous U.S. is dry. Mostly dry conditions will continue in Alaska except for light showers in southwest Alaska, with much colder temperatures for the central and eastern Interior. In Hawai\u2019i, trade winds begin to relax to moderate levels, but windward showers will remain limited."
+  "discussion": ""
  },
  "ledger": {
   "teams": [
