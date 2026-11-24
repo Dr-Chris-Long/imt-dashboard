@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T20:36:13.372902+00:00",
- "imsr_edition": "2026-11-22",
+ "generated_at": "2026-11-24T01:29:59.287625+00:00",
+ "imsr_edition": "2026-11-23",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -16,9 +16,9 @@
    {
     "gacc": "NWCC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 9575,
-    "personnel": 1
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "ONCC",
@@ -72,39 +72,30 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 12,
-    "acres": 12212,
-    "personnel": 322
+    "incidents": 17,
+    "acres": 14880,
+    "personnel": 442
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
+    "name": "Card Knob Road",
+    "unit": "KY-KYS",
+    "acres": 131,
+    "ctn": 49,
+    "est": "11/24",
+    "own": "ST",
+    "team": null
+   },
+   {
     "name": "White Oak Flat",
     "unit": "VA-VAF",
-    "acres": 1000,
-    "ctn": 0,
+    "acres": 1577,
+    "ctn": 49,
     "est": "12/5",
     "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Bee Haven 2 24-06",
-    "unit": "FL-FLS",
-    "acres": 2060,
-    "ctn": 90,
-    "est": "12/25",
-    "own": "ST",
-    "team": null
-   },
-   {
-    "name": "Elk Shoals",
-    "unit": "NC-NCS",
-    "acres": 113,
-    "ctn": 95,
-    "est": "11/22",
-    "own": "ST",
     "team": null
    },
    {
@@ -117,7 +108,7 @@
     "team": null
    }
   ],
-  "discussion": "Low relative humidity in the southern Appalachians will ease today, but some values of 20-30% will persist on the Cumberland Plateau. A coastal storm will continue to move north just off the East Coast, with heavy rain from North Carolina into New England within 150 miles of the coast. Breezy northeast winds will also occur with the storm. A cold front will slowly move east through the Mississippi Valley and Great Lakes with scattered showers and isolated thunderstorms, with most rainfall amounts light. Mostly dry conditions are expected in the Southwest and Plains, while a weakening cold front brings scattered showers and thunderstorms to California and the northern half of the West, with snow levels from 5,000 feet in the Sierra to 2,000 feet near the Canadian border. Mostly dry conditions will occur in Alaska except for light showers in southwest Alaska with colder temperatures. In Hawai\u2019i, breezy to strong trade winds will continue with more stable conditions resulting in fewer windward showers."
+  "discussion": "A coastal storm will move away from the Northeast into the Canadian Maritimes with rain ending during the day. Breezy northwest winds will continue, with breezy northwest winds also expected westward into the Great Lakes and Mid-Mississippi Valley. Locally breezy and dry northerly winds will occur in the Lower Mississippi Valley as minimum relative humidity falls to 20-30%. Drier conditions are expected across much of the West except for the next Pacific storm moving onto the Northwest coast overnight. Isolated showers and thunderstorms are also expected in Florida while much of the rest of the contiguous U.S. is dry. Mostly dry conditions will continue in Alaska except for light showers in southwest Alaska, with much colder temperatures for the central and eastern Interior. In Hawai\u2019i, trade winds begin to relax to moderate levels, but windward showers will remain limited."
  },
  "ledger": {
   "teams": [
