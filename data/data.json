@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T23:24:28.434277+00:00",
- "imsr_edition": "2026-11-24",
+ "generated_at": "2026-11-25T22:58:08.142967+00:00",
+ "imsr_edition": "2026-11-25",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -65,16 +65,16 @@
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 1,
-    "acres": 1,
-    "personnel": 27
+    "incidents": 2,
+    "acres": 822,
+    "personnel": 34
    },
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 17,
-    "acres": 16463,
-    "personnel": 395
+    "incidents": 19,
+    "acres": 18009,
+    "personnel": 426
    }
   ],
   "cimts_committed": 0,
@@ -83,37 +83,19 @@
    {
     "name": "Little Ridge",
     "unit": "VA-VAF",
-    "acres": 900,
-    "ctn": 20,
+    "acres": 1250,
+    "ctn": 40,
     "est": "12/6",
     "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Card Knob Road",
-    "unit": "KY-KYS",
-    "acres": 131,
-    "ctn": 80,
-    "est": "11/24",
-    "own": "ST",
     "team": null
    },
    {
     "name": "White Oak Flat",
     "unit": "VA-VAF",
     "acres": 2237,
-    "ctn": 53,
+    "ctn": 68,
     "est": "11/28",
     "own": "FS",
-    "team": null
-   },
-   {
-    "name": "Kessel",
-    "unit": "WV-WVS",
-    "acres": 360,
-    "ctn": 80,
-    "est": "UNK",
-    "own": "ST",
     "team": null
    }
   ],
