@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T22:58:08.142967+00:00",
- "imsr_edition": "2026-11-25",
+ "generated_at": "2026-11-26T22:51:01.450238+00:00",
+ "imsr_edition": "2026-11-26",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -58,33 +58,42 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 0,
-    "acres": 0,
-    "personnel": 0
+    "incidents": 1,
+    "acres": 7359,
+    "personnel": 1
    },
    {
     "gacc": "EACC",
     "pl": 1,
-    "incidents": 2,
-    "acres": 822,
-    "personnel": 34
+    "incidents": 1,
+    "acres": 1,
+    "personnel": 27
    },
    {
     "gacc": "SACC",
     "pl": 2,
     "incidents": 19,
-    "acres": 18009,
-    "personnel": 426
+    "acres": 15747,
+    "personnel": 382
    }
   ],
   "cimts_committed": 0,
   "teams": [],
   "fires": [
    {
+    "name": "Dugger",
+    "unit": "AL-ALF",
+    "acres": 400,
+    "ctn": 0,
+    "est": "12/4",
+    "own": "FS",
+    "team": null
+   },
+   {
     "name": "Little Ridge",
     "unit": "VA-VAF",
-    "acres": 1250,
-    "ctn": 40,
+    "acres": 1507,
+    "ctn": 47,
     "est": "12/6",
     "own": "FS",
     "team": null
@@ -93,7 +102,7 @@
     "name": "White Oak Flat",
     "unit": "VA-VAF",
     "acres": 2237,
-    "ctn": 68,
+    "ctn": 89,
     "est": "11/28",
     "own": "FS",
     "team": null
