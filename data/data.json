@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T22:51:01.450238+00:00",
- "imsr_edition": "2026-11-26",
+ "generated_at": "2026-11-27T22:31:27.101690+00:00",
+ "imsr_edition": "2026-11-27",
  "imsr_source": "https://www.nifc.gov/nicc-files/sitreprt.pdf",
  "stable_url_lagged": false,
  "imsr": {
@@ -58,9 +58,9 @@
    {
     "gacc": "RMCC",
     "pl": 2,
-    "incidents": 1,
-    "acres": 7359,
-    "personnel": 1
+    "incidents": 0,
+    "acres": 0,
+    "personnel": 0
    },
    {
     "gacc": "EACC",
@@ -72,9 +72,9 @@
    {
     "gacc": "SACC",
     "pl": 2,
-    "incidents": 19,
-    "acres": 15747,
-    "personnel": 382
+    "incidents": 15,
+    "acres": 10460,
+    "personnel": 343
    }
   ],
   "cimts_committed": 0,
@@ -83,8 +83,8 @@
    {
     "name": "Dugger",
     "unit": "AL-ALF",
-    "acres": 400,
-    "ctn": 0,
+    "acres": 500,
+    "ctn": 20,
     "est": "12/4",
     "own": "FS",
     "team": null
@@ -102,7 +102,7 @@
     "name": "White Oak Flat",
     "unit": "VA-VAF",
     "acres": 2237,
-    "ctn": 89,
+    "ctn": 95,
     "est": "11/28",
     "own": "FS",
     "team": null
